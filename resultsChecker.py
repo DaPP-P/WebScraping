@@ -31,7 +31,6 @@ def tidyOdds(strings):
     return firstItemResults
 
 
-
 for word in wordsToRemove:
     tabResults = tabResults.replace(word, "")
 tabResults = tabResults.split("NBA")
