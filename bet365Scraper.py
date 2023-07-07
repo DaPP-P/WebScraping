@@ -20,7 +20,7 @@ def get_tab_odds():
 
     # Open Tab website
     print("Opening website...")
-    url = "https://www.bet365.com/#/AS/B18/"
+    url = "https://www.bet365.com/#/AC/B18/C20896920/D48/E1453/F10/"
     browser.get(url)
 
     # Wait for the page to load
@@ -34,7 +34,7 @@ def get_tab_odds():
     # Parse the HTML content using BeautifulSoup
     soup = BeautifulSoup(page_source, "html.parser")
 
-    container = soup.find("div", class_ = "event-list event-list--vertical")
+    container = soup.find("div", class_ = "ff-MarketFixtureOdds gl-Market_General gl-Market_General-topborder gl-Market_General-pwidth100 gl-Market_General-lastinrow ")
     container2 = soup.find("div", class_ = "event-list__item-link")
 
     if container:
