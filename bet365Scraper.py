@@ -4,10 +4,13 @@ import re
 import selenium.webdriver as webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 
+# Uses python 3.9.13 64-bit
 
-def get_tab_odds():
+
+def get_bet365_odds():
     # Admin set up stuff gotten from: https://www.youtube.com/watch?v=kpONBQ3muLg
     # Not really sure how it works but it works but it sets up Selenium
     user_agent  = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0"
@@ -18,13 +21,23 @@ def get_tab_odds():
     firefox_options.set_preference('general.useragent.override', user_agent)
     browser = webdriver.Firefox(service=firefox_service, options= firefox_options)
 
-    # Open Tab website
+    # Open Bet365 website
     print("Opening website...")
-    url = "https://www.bet365.com/#/AC/B18/C20896920/D48/E1453/F10/"
+    url = "https://www.bet365.com/#/HO/"
     browser.get(url)
 
     # Wait for the page to load
     time.sleep(5)
+
+    # Accepts Cookies
+    accept_button_xpath = "/html/body/div[3]/div/div[2]/div[2]"
+    accept_button = browser.find_element(By.XPATH, accept_button_xpath)
+    accept_button.click()
+
+    # Open up the basketball page
+    basketball_button_xpath = "/html/body/div[1]/div/div[3]/div[2]/div/div/div[1]/div/div[2]/div/div[10]"
+    basketball_button = browser.find_element(By.XPATH, basketball_button_xpath)
+    basketball_button.click()
 
     # Get the page source then cloes the page
     page_source = browser.page_source
@@ -34,7 +47,7 @@ def get_tab_odds():
     # Parse the HTML content using BeautifulSoup
     soup = BeautifulSoup(page_source, "html.parser")
 
-    container = soup.find("div", class_ = "ff-MarketFixtureOdds gl-Market_General gl-Market_General-topborder gl-Market_General-pwidth100 gl-Market_General-lastinrow ")
+    container = soup.find("div", class_ = "gl-MarketGroup_Wrapper src-MarketGroup_Container ")
     container2 = soup.find("div", class_ = "event-list__item-link")
 
     if container:
@@ -54,7 +67,7 @@ def get_tab_odds():
 file_path = "bet365Results.txt"
 file = open(file_path, "w")
 
-odds = get_tab_odds()
+odds = get_bet365_odds()
 
 for odd in odds:
     file.write(str(odd))
