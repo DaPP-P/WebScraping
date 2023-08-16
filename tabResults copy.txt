@@ -1,6 +1,0 @@
-Los Angeles LakersvsMiami HeatHead to HeadHandicapTotalLos Angeles Lakers1.57Miami Heat2.30Los Angeles Lakers[ -3.5 ]1.85Miami Heat[ +3.5 ]1.87Over[ 161.5 ]1.87Under[ 161.5 ]1.87Tomorrow 10.00am
-NBA Summer League3OptionsPhiladelphia 76ersvsMemphis GrizzliesHead to HeadHandicapTotalPhiladelphia 76ers2.28Memphis Grizzlies1.57Philadelphia 76ers[ +3.5 ]1.87Memphis Grizzlies[ -3.5 ]1.87Over[ 169.5 ]1.87Under[ 169.5 ]1.87Tomorrow 11.00am
-NBA Summer League3OptionsCharlotte HornetsvsSan Antonio SpursHead to HeadHandicapTotalCharlotte Hornets1.46San Antonio Spurs2.55Charlotte Hornets[ -4.5 ]1.83San Antonio Spurs[ +4.5 ]1.90Over[ 165.5 ]1.87Under[ 165.5 ]1.87Tomorrow 12.00pm
-NBA Summer League3OptionsUtah JazzvsOklahoma City ThunderHead to HeadHandicapTotalUtah Jazz2.40Oklahoma City Thunder1.53Utah Jazz[ +4.5 ]1.80Oklahoma City Thunder[ -4.5 ]1.92Over[ 167.5 ]1.87Under[ 167.5 ]1.87Tomorrow 1.00pm
-NBA Summer League3OptionsSacramento KingsvsGolden State WarriorsHead to HeadHandicapTotalSacramento Kings1.39Golden State Warriors2.85Sacramento Kings[ -5.5 ]1.83Golden State Warriors[ +5.5 ]1.90Over[ 164.5 ]1.87Under[ 164.5 ]1.87Tomorrow 2.00pm
-NBA Summer League3Options

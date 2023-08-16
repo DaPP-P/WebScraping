@@ -1,0 +1,5 @@
+LadBrokes, New York Liberty, Chicago Sky, 1.11, 5.80
+LadBrokes, Las Vegas Aces, Washington Mystics, 1.03, 10.00
+LadBrokes, France, Lithuania, 1.50, 2.35
+LadBrokes, Spain, Slovenia, 1.36, 2.80
+LadBrokes, Cockburn Cougars Women, Willetton Tigers Women, 1.36, 2.80
