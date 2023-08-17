@@ -1,7 +1,10 @@
- New York Liberty    1.11    Chicago Sky    5.80    
+   Golden State Warriors (-1.5)   1.90      Phoenix Suns (+1.5)   1.90    
           vs
         
- Las Vegas Aces    1.03    Washington Mystics    10.00    
+   Denver Nuggets (-5)   1.90      Los Angeles Lakers (+5)   1.90    
+          vs
+        
+ Las Vegas Aces    1.36    New York Liberty    2.95    
           vs
         
  Over  49.5    1.95    Under  49.5    1.85    
@@ -19,12 +22,36 @@
  Over  45.5    1.85    Under  45.5    1.95    
           vs
         
- France    1.50    Lithuania    2.35    
+ Angola    12.00    Italy    1.02    
           vs
         
- Spain    1.36    Slovenia    2.80    
+ Finland    4.20    Australia    1.18    
           vs
         
- Cockburn Cougars Women    1.36    Willetton Tigers Women    2.80    
+ Mexico    3.75    Montenegro    1.22    
+          vs
+        
+ Latvia    1.04    Lebanon    9.50    
+          vs
+        
+ Dominican Republic    1.20    Philippines    4.00    
+          vs
+        
+ Thailand Women    1.57    Malaysia Women    2.20    
+          vs
+        
+ Chinese Taipei Blue    1.07    United Arab Emirates    7.50    
+          vs
+        
+ Australia    1.03    South Sudan    11.00    
+          vs
+        
+ Japan    17.00    France    1.01    
+          vs
+        
+ Lebanon    1.67    Egypt    2.05    
+          vs
+        
+ Spain    1.73    Canada    1.95    
           vs
         
