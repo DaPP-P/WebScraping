@@ -1,6 +1,8 @@
 # Betting Site Odds
 Author: Daniel Prvanov
 
+Using python version: python 3.9.13 64-bit
+
 The aim of these programs is to create an automatic arbitrage opportunity finder. The main steps done to complete this process are:
 1. Scrape the data from bookie websites.
 2. Process the scraped data from bookie websites into a compatible format.

@@ -18,7 +18,7 @@ def get_odds(url, containerName):
     firefox_driver = os.path.join(os.getcwd(), 'Drivers', 'geckodriver.exe')
     firefox_service = Service(firefox_driver)
     firefox_options = Options()
-    firefox_options.headless = True
+    #firefox_options.headless = True
     
     # For Windows:
     if system_name == "Windows":
@@ -27,6 +27,10 @@ def get_odds(url, containerName):
     # For Mac:
     if system_name == "MacOS":
         firefox_options.binary_location = "/Applications/Firefox.app/Contents/MacOS/firefox"
+
+    # For Linux:
+    if system_name == "Linux":
+        firefox_options.binary_location = "/usr/bin/firefox"
     
     firefox_options.set_preference('general.useragent.override', user_agent)
     browser = webdriver.Firefox(service=firefox_service, options= firefox_options)
