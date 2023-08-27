@@ -137,29 +137,40 @@ def ladbrokes_upload_odds(odds1, odds2, odds3):
 i = 0
 while True:
 
-    print("We are here")
+    print("Start of loop")
     # Generate a random time interval between 1 and 2 minutes
-    interval = random.randint(2, 5) # seconds random.randint(60, 120)  
+    interval = random.randint(60, 120) # seconds random.randint(60, 120)  
 
     # Wait for the random interval
     time.sleep(interval)
 
     # Perform the task
     i += 1
-    if i <= 5:
+    if i <= 3:
         print("starting task")
         perform_task()
         print("finished task", i)
 
-        # Run the resultChecer
+        # Run the result checker script
         process = subprocess.Popen([python_interpreter, resultchecker_script], stdout = subprocess.PIPE, stderr = subprocess.PIPE)
         process.wait()
         
         return_code = process.returncode
         if return_code == 0:
-            print("Script ran successfully")
+            print("Result checker script ran successfully")
         else:
-            print(f"Script failed to run, error code {return_code}")
+            print(f"Result checker Script failed to run, error code {return_code}")
+
+
+        # Run the arbitrage script
+        process2 = subprocess.Popen([python_interpreter, arbitrage_script], stdout = subprocess.PIPE, stderr = subprocess.PIPE)
+        process2.wait()
+        
+        return_code = process2.returncode
+        if return_code == 0:
+            print("Arbitrage script ran successfully")
+        else:
+            print(f"Arbitrage script failed to run, error code {return_code}")
     
     else:
         tab_browser.quit()

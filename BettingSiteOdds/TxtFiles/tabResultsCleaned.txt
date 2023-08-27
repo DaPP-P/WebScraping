@@ -1,13 +1,11 @@
-TAB, Australia, Germany, 2.55, 1.45
-TAB, Montenegro, Egypt, 1.001, 34.00
 TAB, Lebanon, Canada, 34.00, 1.001
-TAB, Perth Wildcats, NBL1 West All Stars, 1.13, 5.00
+TAB, Perth Wildcats, NBL1 West All Stars, 1.01, 11.00
 TAB, Philippines, Angola, 1.30, 3.20
-TAB, Japan, Finland, 4.40, 1.17
+TAB, Japan, Finland, 4.45, 1.17
 TAB, Lithuania, Mexico, 1.04, 9.00
 TAB, France, Latvia, 1.10, 5.90
 TAB, China, South Sudan, 3.70, 1.23
-TAB, Venezuela, Cape Verde, 1.29, 3.20
+TAB, Venezuela, Cape Verde, 1.30, 3.20
 TAB, New Zealand, Jordan, 1.28, 3.30
 TAB, Indiana Fever, Atlanta Dream, 1.77, 1.97
 TAB, Phoenix Mercury, Dallas Wings, 4.05, 1.21
