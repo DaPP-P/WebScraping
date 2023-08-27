@@ -149,6 +149,7 @@ def tidyOdds(results, siteName, wordToSplit):
 # Upload clean values for the TAB
 tab_file_path = "TxtFiles/tabResultsCleaned.txt"
 tab_file = open(tab_file_path, "w")
+tab_file.truncate(0)
 
 # The phrase used for splitting
 target = "HandicapTotal"
@@ -165,6 +166,7 @@ print("_________________")
 # Upload clean values for pointsbet
 pointsbet_file_path = "TxtFiles/pointsbetResultsCleaned.txt"
 pointsbet_file = open(pointsbet_file_path, "w")
+pointsbet_file.truncate(0)
 
 # The phrase used for splitting
 
@@ -211,6 +213,7 @@ print("_________________")
 # Upload clean values for unibet
 unibet_file_path = "TxtFiles/unibetResultsCleaned.txt"
 unibet_file = open(unibet_file_path, "w")
+unibet_file.truncate(0)
 
 target = "Handicap"
 all_results = []

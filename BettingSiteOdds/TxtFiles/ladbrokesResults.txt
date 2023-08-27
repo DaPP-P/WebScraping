@@ -1,57 +1,60 @@
-   Golden State Warriors (-1.5)   1.90      Phoenix Suns (+1.5)   1.90    
+   Denver Nuggets (-5)   1.94       Los Angeles Lakers (+5)   1.87     
           vs
         
-   Denver Nuggets (-5)   1.90      Los Angeles Lakers (+5)   1.90    
+   Golden State Warriors (-1.5)   1.90       Phoenix Suns (+1.5)   1.90     
           vs
         
- Las Vegas Aces    1.36    New York Liberty    2.95    
+ Indiana Fever    1.80     Atlanta Dream    1.95     
           vs
         
- Over  49.5    1.95    Under  49.5    1.85    
+ Seattle Storm    1.90     Chicago Sky    1.83     
           vs
         
- Over  43.5    1.85    Under  43.5    1.95    
+ Phoenix Mercury    4.40     Dallas Wings    1.19     
           vs
         
- Over  36.5    1.80    Under  36.5    2.00    
+ Over  49.5    1.95     Under  49.5    1.85     
           vs
         
- Over  26.5    1.80    Under  26.5    2.00    
+ Over  43.5    1.85     Under  43.5    1.95     
           vs
         
- Over  45.5    1.85    Under  45.5    1.95    
+ Over  36.5    1.80     Under  36.5    2.00     
           vs
         
- Angola    12.00    Italy    1.02    
+ Over  26.5    1.80     Under  26.5    2.00     
           vs
         
- Finland    4.20    Australia    1.18    
+ Over  45.5    1.85     Under  45.5    1.95     
           vs
         
- Mexico    3.75    Montenegro    1.22    
+   Philippines    1.36       Angola    3.15     
           vs
         
- Latvia    1.04    Lebanon    9.50    
+   Japan    4.60       Finland    1.20     
           vs
         
- Dominican Republic    1.20    Philippines    4.00    
+   Lithuania    1.07       Mexico    9.00     
           vs
         
- Thailand Women    1.57    Malaysia Women    2.20    
+   France    1.16       Latvia    5.40     
           vs
         
- Chinese Taipei Blue    1.07    United Arab Emirates    7.50    
+   China    3.75       South Sudan    1.28     
           vs
         
- Australia    1.03    South Sudan    11.00    
+ Belfius Mons-Hainaut    1.11     Landstede Hammers    5.50     
           vs
         
- Japan    17.00    France    1.01    
+ Hubo Limburg United    3.50     Telekom Baskets Bonn    1.25     
           vs
         
- Lebanon    1.67    Egypt    2.05    
+ CS Rapid Bucuresti    1.35     CSM Ploiesti    2.88     
           vs
         
- Spain    1.73    Canada    1.95    
+ Borac Banja Luka    1.62     KK Dynamic    2.10     
+          vs
+        
+ Club Joventut Badalona    3.10     Valencia Basket    1.30     
           vs
         

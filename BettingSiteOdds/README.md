@@ -16,6 +16,7 @@ The aim of these programs is to create an automatic arbitrage opportunity finder
     * Potential solutions: have the websites already open so they don't need to be loaded or/and run all loadings of websites at the same time. [done]
     * NOTE: This needs to be quick for linux, it can be slow for windows. [done]
     * Currently working for TAB, pointsbet, and unibet. Need to add ladbokes now.
+3. ResultChecker when doing pointsbet it needs to fitler out lines, atm does not.
 
 ## 1. Scraping the Data
 

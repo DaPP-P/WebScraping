@@ -1,10 +1,15 @@
 import os
+import subprocess
 import time
 import random
 import selenium.webdriver as webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 from bs4 import BeautifulSoup
+
+# Inital admin for subprocess.
+python_interpreter = 'python3'
+resultchecker_script = 'resultChecker.py'
 
 # Initial admin. Set up with help from: https://www.youtube.com/watch?v=kpONBQ3muLg
 user_agent = 'Mozilla/5.0 (X11; Linux aarch64; rv:109.0) Gecko/20100101 Firefox/116.0'
@@ -14,6 +19,9 @@ firefox_driver = os.path.join(os.getcwd(), 'Drivers', 'geckodriver')
 tab_service = Service(firefox_driver, log_output=None)
 pointsbet_service = Service(firefox_driver, log_output=None)
 unibet_service = Service(firefox_driver, log_output=None)
+ladbrokes_service1 = Service(firefox_driver, log_output=None)
+ladbrokes_service2 = Service(firefox_driver, log_output=None)
+ladbrokes_service3 = Service(firefox_driver, log_output=None)
 
 firefox_options = Options()
 firefox_options.set_preference('general.useragent.override', user_agent)
@@ -23,10 +31,13 @@ firefox_options.add_argument('-headless')
 tab_browser = webdriver.Firefox(service=tab_service, options=firefox_options)
 pointsbet_browser = webdriver.Firefox(service=pointsbet_service, options=firefox_options)
 unibet_browser = webdriver.Firefox(service=unibet_service, options=firefox_options)
+ladbrokes_browser1 = webdriver.Firefox(service=ladbrokes_service1, options=firefox_options)
+ladbrokes_browser2 = webdriver.Firefox(service=ladbrokes_service2, options=firefox_options)
+ladbrokes_browser3 = webdriver.Firefox(service=ladbrokes_service3, options=firefox_options)
 
 # Set up paths for the TxtFiles
 script_dir = os.path.dirname(os.path.abspath(__file__))
-txt_files_folder = os.path.join(script_dir, "..", "TxtFiles")
+txt_files_folder = os.path.join(script_dir, "TxtFiles")
 
 # Set up path for the tab
 tab_file_name = "tabResults.txt"
@@ -40,6 +51,9 @@ pointsbet_file_path = os.path.join(txt_files_folder, pointsbet_file_name)
 unibet_file_name = "unibetResults.txt"
 unibet_file_path = os.path.join(txt_files_folder, unibet_file_name)
 
+# Set up path for ladbrokes
+ladbrokes_file_name = "ladbrokesResults.txt"
+ladbrokes_file_path = os.path.join(txt_files_folder, ladbrokes_file_name)
 
 # Load TAB website
 tab_browser.get("https://www.tab.co.nz/sport/8/basketball/matches")
@@ -50,14 +64,16 @@ pointsbet_browser.get("https://pointsbet.com.au/sports/basketball")
 # Load Unibet website
 unibet_browser.get("https://www.unibet.com/betting/sports/filter/basketball/all/matches")
 
+# Load Labrokes website
+ladbrokes_browser1.get("https://www.ladbrokes.com.au/sports/basketball/usa")
+ladbrokes_browser2.get("https://www.ladbrokes.com.au/sports/basketball/international")
+ladbrokes_browser3.get("https://www.ladbrokes.com.au/sports/basketball/australia")
+
 time.sleep(20)
 
 def get_odds(url, container_name, browser):
     print("Opeing", url)
-    #browser.get(url)
-    #time.sleep(10)
     page_source = browser.page_source
-    #browser.quit()
     print("Closing", url)
 
     soup = BeautifulSoup(page_source, "html.parser")
@@ -87,10 +103,16 @@ def perform_task():
     unibet_odds = get_odds("https://www.unibet.com/betting/sports/filter/basketball/all/matches", "_28843", unibet_browser)
     print(unibet_odds)
     upload_odds("unibet", unibet_odds)
+    print("---------")
+    ladbrokes_odds1 = get_odds("https://www.ladbrokes.com.au/sports/basketball/usa", "sports-market-primary__prices-inner", ladbrokes_browser1)
+    ladbrokes_odds2 = get_odds("https://www.ladbrokes.com.au/sports/basketball/international", "sports-market-primary__prices-inner", ladbrokes_browser2)
+    ladbrokes_odds3 = get_odds("https://www.ladbrokes.com.au/sports/basketball/australia", "sports-market-primary__prices-inner", ladbrokes_browser3)
+    ladbrokes_upload_odds(ladbrokes_odds1, ladbrokes_odds2, ladbrokes_odds3)
 
 def upload_odds(website, odds):
     file_path = tab_file_path if website == "tab" else pointsbet_file_path if website == "pointsbet" else unibet_file_path
     with open(file_path, "a") as file:
+        file.truncate(0)
         if odds:
             for odd in odds:
                 file.write(str(odd))
@@ -98,7 +120,21 @@ def upload_odds(website, odds):
         else:
             print("raw", website, "have NOT been scraped")
 
+def ladbrokes_upload_odds(odds1, odds2, odds3):
+    with open (ladbrokes_file_path, "a") as file:
+        file.truncate(0)
+        if odds1:
+            for odd in odds1:
+                file.write(str(odd))
+        if odds2:
+            for odd in odds2:
+                file.write(str(odd))
+        if odds3:
+            for odd in odds3:
+                file.write(str(odd))
+
 i = 0
+
 while True:
 
     print("We are here")
@@ -114,7 +150,19 @@ while True:
         print("starting task")
         perform_task()
         print("finished task", i)
+
+        # Run the resultChecer
+        process = subprocess.Popen([python_interpreter, resultchecker_script], stdout = subprocess.PIPE, stderr = subprocess.PIPE)
+        process.wait()
+        
+        return_code = process.returncode
+        if return_code == 0:
+            print("Script ran successfully")
+        else:
+            print(f"Script failed to run, error code {return_code}")
+    
     else:
         tab_browser.quit()
         pointsbet_browser.quit()
+        unibet_browser.quit()
         break
