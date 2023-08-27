@@ -55,11 +55,11 @@ def find_same_games(bigList):
     findList = []
     result_dict = {}
 
-    # Find items in list[1] that occur more than once
+    # Find items in list[1] and list[2] that occur more than once
     for lst in bigList:
-        if lst[1] in seenList:
-            findList.append(lst[1])
-        seenList.append(lst[1])
+        if (lst[1], lst[2]) in seenList:
+            findList.append((lst[1], lst[2]))
+        seenList.append((lst[1], lst[2]))
 
     # Initialize empty lists in the result_dict for each item in findList
     for item in findList:
@@ -67,8 +67,8 @@ def find_same_games(bigList):
 
     # Populate the result_dict with the lists containing the items from findList
     for lst in bigList:
-        if lst[1] in findList:
-            result_dict[lst[1]].append(lst)
+        if (lst[1], lst[2]) in findList:
+            result_dict[(lst[1], lst[2])].append(lst)
 
     return result_dict
 

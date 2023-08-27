@@ -11,10 +11,11 @@ The aim of these programs is to create an automatic arbitrage opportunity finder
 
 ## Critical items of To-Do List
 
-1. Set up Raspberry Pi and check how it runs with the program
+1. Set up Raspberry Pi and check how it runs with the program [done]
 2. REDO: CHOOSE A METHOD THAT GETS THE DATA QUICKER AT THE MOMENT TAKES A WHILE TO GET ALL THE DATA.
-    * Potential solutions: have the websites already open so they don't need to be loaded or/and run all loadings of websites at the same time.
-    * NOTE: This needs to be quick for linux, it can be slow for windows.
+    * Potential solutions: have the websites already open so they don't need to be loaded or/and run all loadings of websites at the same time. [done]
+    * NOTE: This needs to be quick for linux, it can be slow for windows. [done]
+    * Currently working for TAB, pointsbet, and unibet. Need to add ladbokes now.
 
 ## 1. Scraping the Data
 
@@ -44,13 +45,13 @@ import platform
 
 * Need to set up the correct driver for my desktop. At the moment get output:
 ```
-The version of firefox cannot be detected. Trying with latest driver version
+The version of firefox cannot be detected. Trying with latest driver version [done, not going to do doesn't matter works for pi]
 ```
 * Remove bet365.
 * Automatically close cookies button if detected.
 * For either pointsbet or unibet if no information can be scraped scrape from a different location.
 * Get rid of 'time.sleep' and use a more efficient method.
-* Find out why TAB doesn't work on the first go.
+* Find out why TAB doesn't work on the first go. [done, works in the new version]
 * REDO: CHOOSE A METHOD THAT GETS THE DATA QUICKER AT THE MOMENT TAKES A WHILE TO GET ALL THE DATA.
     * Potential solutions: have the websites already open so they don't need to be loaded or/and run all loadings of websites at the same time.
     * NOTE: This needs to be quick for linux, it can be slow for windows.
@@ -90,7 +91,7 @@ None
 **To Do:**
 * Make sure that both teams match not just one. Can bug out if the same team has several games avaible. Update following method:
 ```
-# Method for finding matching games and adding them to a dictionary 
+# Method for finding matching games and adding them to a dictionary [done]
 def find_same_games(bigList):
     seenList = []
     findList = []
@@ -118,10 +119,10 @@ def find_same_games(bigList):
 
 ### Raspberry Pi
 
-* Set up Raspberry Pi and check how it runs with the program
+* Set up Raspberry Pi and check how it runs with the program [done]
 
 ### Brain
 
 **brain.py**
 
-* Find out why never works with TAB
+* Find out why never works with TAB [done, not going to have a brain, no need get each program to call the next]
