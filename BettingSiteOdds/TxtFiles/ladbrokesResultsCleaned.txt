@@ -1,12 +1,13 @@
-LadBrokes, Las Vegas Aces, New York Liberty, 1.36, 2.95
-LadBrokes, Angola, Italy, 12.00, 1.02
-LadBrokes, Finland, Australia, 4.20, 1.18
-LadBrokes, Mexico, Montenegro, 3.75, 1.22
-LadBrokes, Latvia, Lebanon, 1.04, 9.50
-LadBrokes, Dominican Republic, Philippines, 1.20, 4.00
-LadBrokes, Thailand Women, Malaysia Women, 1.57, 2.20
-LadBrokes, Chinese Taipei Blue, United Arab Emirates, 1.07, 7.50
-LadBrokes, Australia, South Sudan, 1.03, 11.00
-LadBrokes, Japan, France, 17.00, 1.01
-LadBrokes, Lebanon, Egypt, 1.67, 2.05
-LadBrokes, Spain, Canada, 1.73, 1.95
+LadBrokes, Indiana Fever, Atlanta Dream, 1.80, 1.95
+LadBrokes, Seattle Storm, Chicago Sky, 1.90, 1.83
+LadBrokes, Phoenix Mercury, Dallas Wings, 4.40, 1.19
+LadBrokes, Philippines, Angola, 1.36, 3.15
+LadBrokes, Japan, Finland, 4.60, 1.20
+LadBrokes, Lithuania, Mexico, 1.07, 9.00
+LadBrokes, France, Latvia, 1.16, 5.40
+LadBrokes, China, South Sudan, 3.75, 1.28
+LadBrokes, Hainaut, Landstede Hammers, 1.11, 5.50
+LadBrokes, Hubo Limburg United, Telekom Baskets Bonn, 3.50, 1.25
+LadBrokes, CS Rapid Bucuresti, CSM Ploiesti, 1.35, 2.88
+LadBrokes, Borac Banja Luka, KK Dynamic, 1.62, 2.10
+LadBrokes, Club Joventut Badalona, Valencia Basket, 3.10, 1.30

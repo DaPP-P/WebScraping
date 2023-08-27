@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 # Inital admin for subprocess.
 python_interpreter = 'python3'
 resultchecker_script = 'resultChecker.py'
+arbitrage_script = 'arbitrage.py'
 
 # Initial admin. Set up with help from: https://www.youtube.com/watch?v=kpONBQ3muLg
 user_agent = 'Mozilla/5.0 (X11; Linux aarch64; rv:109.0) Gecko/20100101 Firefox/116.0'
@@ -134,7 +135,6 @@ def ladbrokes_upload_odds(odds1, odds2, odds3):
                 file.write(str(odd))
 
 i = 0
-
 while True:
 
     print("We are here")
@@ -146,7 +146,7 @@ while True:
 
     # Perform the task
     i += 1
-    if i < 2:
+    if i <= 5:
         print("starting task")
         perform_task()
         print("finished task", i)
@@ -165,4 +165,7 @@ while True:
         tab_browser.quit()
         pointsbet_browser.quit()
         unibet_browser.quit()
+        ladbrokes_browser1.quit()
+        ladbrokes_browser2.quit()
+        ladbrokes_browser3.quit()
         break

@@ -1,3 +1,4 @@
+import datetime
 
 # Master team name list
 masterTeamList_file_path = "masterTeamList.txt"
@@ -101,6 +102,8 @@ def getBestOdds(matchingGames):
 
 # Method for completing the arbitrage using the best odds
 def arbitrage(list):
+    current_time = datetime.datetime.now().time()
+    current_time = current_time.strftime("%H:%M")
     outputResults = []
     for line in list:
         teamOneArbitrage = 100/float(line[4])
@@ -112,7 +115,7 @@ def arbitrage(list):
         else:
             profitable = "NO"
             profit = 0
-        outputResults.append([line[0], line[1], line[2], line[3], line[4], line[5], round(teamOneArbitrage,2), round(teamTwoArbitrage,2), round(cost,2), profitable, round(profit,2)])
+        outputResults.append([line[0], line[1], line[2], line[3], line[4], line[5], round(teamOneArbitrage,2), round(teamTwoArbitrage,2), round(cost,2), profitable, round(profit,2), current_time])
     return outputResults
 
 
@@ -147,10 +150,22 @@ masterTeamList_file.close()
 matchingGames = find_same_games(allResults)
 listToArbitrage = (getBestOdds(matchingGames))
 
+arbitrageResults = "TxtFiles/arbitrageResults.txt"
+arbitrageResults_file = open(arbitrageResults, "a")
+
+profitableArbitrageResults = "TxtFiles/profitableArbitrageResults.txt"
+profitableArbitrageResults_file = open(profitableArbitrageResults, "a")
+
 results = arbitrage(listToArbitrage)
+for result in results:
+    arbitrageResults_file.write(str(result) + '\n')
 print(results)
 print("----")
 print("Profitable: ")
 for result in results:
-    if result[9] == "YES":  
+    if result[9] == "YES":
+        profitableArbitrageResults_file.write(str(result) + '\n')
         print(result)
+
+arbitrageResults_file.close()
+profitableArbitrageResults_file.close()

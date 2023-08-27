@@ -15,11 +15,11 @@ pointsbetResults = pointsbetFileIn.split("\n")
 pointsbet_file.close()
 
 # Upload LadBrokes Odds
-# ladbrokes_file_path = "TxtFiles/ladbrokesResults.txt"
-# ladbrokes_file = open(ladbrokes_file_path, "r")
-# ladbrokesFileIn = ladbrokes_file.read()
-# ladbrokesResults = ladbrokesFileIn.split("\n")
-# ladbrokes_file.close()
+ladbrokes_file_path = "TxtFiles/ladbrokesResults.txt"
+ladbrokes_file = open(ladbrokes_file_path, "r")
+ladbrokesFileIn = ladbrokes_file.read()
+ladbrokesResults = ladbrokesFileIn.split("\n")
+ladbrokes_file.close()
 
 # Upload UniBet Odds
 unibet_file_path = "TxtFiles/unibetResults.txt"
@@ -113,25 +113,25 @@ def tidyOdds(results, siteName, wordToSplit):
             except:
                 teamOne, teamOneOdds, teamTwo, teamTwoOdds = "N/A", 0.00, "N/A", 0.00
 
-        # elif odds and siteName == "LadBrokes":
+        elif odds and siteName == "LadBrokes":
 
-        #     # If The Game is not a head to head and instead points line sets to N/A
-        #     pattern = r'\([^)]*\)'
+            # If The Game is not a head to head and instead points line sets to N/A
+            pattern = r'\([^)]*\)'
             
-        #     if "Over" in string or "Under" in string:
-        #         teamOne, teamOneOdds, teamTwo, teamTwoOdds = "N/A", 0.00, "N/A", 0.00
-        #     elif re.search(pattern, string):
-        #         teamOne, teamOneOdds, teamTwo, teamTwoOdds = "N/A", 0.00, "N/A", 0.00
+            if "Over" in string or "Under" in string:
+                teamOne, teamOneOdds, teamTwo, teamTwoOdds = "N/A", 0.00, "N/A", 0.00
+            elif re.search(pattern, string):
+                teamOne, teamOneOdds, teamTwo, teamTwoOdds = "N/A", 0.00, "N/A", 0.00
             
-        #     # Uses regex to find team names and odds
-        #     else:
-        #         try:
-        #             pattern = r'([A-Za-z0-9 ]+)[\t ]+([0-9.]+)'
-        #             matches = re.findall(pattern, string)
-        #             teamOne, teamOneOdds, teamTwo, teamTwoOdds = [item for match in matches for item in match]
-        #             teamOne, teamOneOdds, teamTwo, teamTwoOdds = teamOne.strip(), teamOneOdds.strip(), teamTwo.strip(), teamTwoOdds.strip()
-        #         except:
-        #             teamOne, teamTwo, teamOneOdds, teamTwoOdds = "N/A", "N/A", 0.00, 0.00
+            # Uses regex to find team names and odds
+            else:
+                try:
+                    pattern = r'([A-Za-z0-9 ]+)[\t ]+([0-9.]+)'
+                    matches = re.findall(pattern, string)
+                    teamOne, teamOneOdds, teamTwo, teamTwoOdds = [item for match in matches for item in match]
+                    teamOne, teamOneOdds, teamTwo, teamTwoOdds = teamOne.strip(), teamOneOdds.strip(), teamTwo.strip(), teamTwoOdds.strip()
+                except:
+                    teamOne, teamTwo, teamOneOdds, teamTwoOdds = "N/A", "N/A", 0.00, 0.00
         elif odds and siteName == "Unibet":
             string = string.replace("(W)", "Women ")
         else:
@@ -160,6 +160,7 @@ for result in tabResults:
         odds = tidyOdds(result, "TAB", target)
         cleanUpload(tab_file, odds)
 
+tab_file.close()
 print("TAB odds uploaded")
 print("_________________")
 
@@ -184,29 +185,31 @@ for result in pointsbetResults:
         odds = tidyOdds(result, "Pointsbet", target)
         cleanUpload(pointsbet_file, odds)
 
+pointsbet_file.close()
 print("Pointsbet odds uploaded")
 print("_________________")
 
 
 # # Upload clean values for ladbrokes
-# ladbrokes_file_path = "TxtFiles/ladbrokesResultsCleaned.txt"
-# ladbrokes_file = open(ladbrokes_file_path, "w")
+ladbrokes_file_path = "TxtFiles/ladbrokesResultsCleaned.txt"
+ladbrokes_file = open(ladbrokes_file_path, "w")
 
 # # The phrase used for splitting
 
 # # Remove Line and total
 
-# target = "NOSPLIT"
+target = "NOSPLIT"
 
-# all_results = []
+all_results = []
 # #print(ladbrokesResults)
 # # Odds for teams for ladbrokes
-# for result in ladbrokesResults:
-#     odds = tidyOdds(result, "LadBrokes", target)
-#     cleanUpload(ladbrokes_file, odds)
+for result in ladbrokesResults:
+    odds = tidyOdds(result, "LadBrokes", target)
+    cleanUpload(ladbrokes_file, odds)
 
-# print("ladbrokes odds uploaded")
-# print("_________________")
+ladbrokes_file.close()
+print("ladbrokes odds uploaded")
+print("_________________")
 
 # For tonybet, unibet and pinnacle I could save the info and check if those things are in a already saved team.
 
@@ -222,5 +225,6 @@ for result in unibetResults:
     odds = tidyOdds(result, "Unibet", target)
     cleanUpload(unibet_file, odds)
 
+unibet_file.close()
 print("Unibet odds uploaded")
 print("_________________")
