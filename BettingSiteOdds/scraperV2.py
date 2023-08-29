@@ -139,14 +139,17 @@ while True:
 
     print("Start of loop")
     # Generate a random time interval between 1 and 2 minutes
-    interval = random.randint(60, 120) # seconds random.randint(60, 120)  
+    interval = random.randint(600, 900) # seconds random.randint(60, 120)  
 
-    # Wait for the random interval
-    time.sleep(interval)
 
     # Perform the task
     i += 1
-    if i <= 3:
+    if i <= 8:
+
+        # Wait for the random interval
+        time.sleep(interval)
+        print(interval)
+        
         print("starting task")
         perform_task()
         print("finished task", i)

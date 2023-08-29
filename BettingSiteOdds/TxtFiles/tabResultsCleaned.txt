@@ -1,19 +1,18 @@
-TAB, Lebanon, Canada, 34.00, 1.001
-TAB, Perth Wildcats, NBL1 West All Stars, 1.01, 11.00
-TAB, Philippines, Angola, 1.30, 3.20
-TAB, Japan, Finland, 4.45, 1.17
-TAB, Lithuania, Mexico, 1.04, 9.00
-TAB, France, Latvia, 1.10, 5.90
-TAB, China, South Sudan, 3.70, 1.23
-TAB, Venezuela, Cape Verde, 1.30, 3.20
-TAB, New Zealand, Jordan, 1.28, 3.30
-TAB, Indiana Fever, Atlanta Dream, 1.77, 1.97
-TAB, Phoenix Mercury, Dallas Wings, 4.05, 1.21
-TAB, Seattle Storm, , 1.92, 1.80
-TAB, Astros de Jalisco, Fuerza Regia de Monterrey, 1.28, 3.25
-TAB, Puerto Rico, Serbia, 11.00, 1.01
-TAB, Greece, USA, 13.00, 1.001
-TAB, Brazil, Spain, 4.45, 1.17
+TAB, Germany, Finland, 1.20, 4.25
+TAB, Angola, Dominican Republic, 4.60, 1.16
+TAB, Angola, Dominican Republic, 4.60, 1.16
+TAB, Egypt, Mexico, 2.85, 1.36
+TAB, Lebanon, France, 34.00, 1.001
+TAB, Australia, Japan, 1.001, 13.00
+TAB, Philippines, Italy, 6.70, 1.07
+TAB, Montenegro, Lithuania, 2.60, 1.43
+TAB, Canada, Latvia, 1.02, 10.00
+TAB, Georgia, Venezuela, 1.09, 6.10
+TAB, South Sudan, Serbia, 10.00, 1.02
+TAB, Ivory Coast, Brazil, 13.00, 1.001
+TAB, Atlanta Dream, Phoenix Mercury, 1.22, 3.95
+TAB, China, Puerto Rico, 5.50, 1.11
+TAB, Greece, New Zealand, 1.13, 5.05
 TAB, Denver Nuggets, Los Angeles Lakers, 1.42, 2.80
 TAB, Golden State Warriors, Phoenix Suns, 1.79, 1.97
 TAB, Charlotte Hornets, Atlanta Hawks, 1.97, 1.80

@@ -4,15 +4,6 @@
    Golden State Warriors (-1.5)   1.90       Phoenix Suns (+1.5)   1.90     
           vs
         
- Indiana Fever    1.77     Atlanta Dream    1.98     
-          vs
-        
- Seattle Storm    1.90     Chicago Sky    1.83     
-          vs
-        
- Phoenix Mercury    4.25     Dallas Wings    1.20     
-          vs
-        
  Over  49.5    1.95     Under  49.5    1.85     
           vs
         
@@ -28,33 +19,33 @@
  Over  45.5    1.85     Under  45.5    1.95     
           vs
         
-   Philippines    1.36       Angola    3.15     
+   Germany    1.10       Finland    7.25     
           vs
         
-   Japan    4.60       Finland    1.20     
+   Angola    5.40       Dominican Republic    1.16     
           vs
         
-   Lithuania    1.07       Mexico    9.00     
+   Egypt    3.00       Mexico    1.40     
           vs
         
-   France    1.16       Latvia    5.40     
+   Lebanon    17.00       France    1.01     
           vs
         
-   China    3.75       South Sudan    1.28     
+   Australia    1.02       Japan    15.00     
           vs
         
- Belfius Mons-Hainaut    1.11     Landstede Hammers    5.50     
+ Harem Spor    1.80     Balikesir BLD    1.85     
           vs
         
- Hubo Limburg United    3.50     Telekom Baskets Bonn    1.25     
+ Final Genclik    1.62     Mersin BSB    2.10     
           vs
         
- CS Rapid Bucuresti    1.35     CSM Ploiesti    2.88     
+ Mitteldeutscher BC    1.95     Brose Bamberg    1.73     
           vs
         
- Borac Banja Luka    1.62     KK Dynamic    2.10     
+ GTK Gliwice    1.70     BK Opava    2.00     
           vs
         
- Club Joventut Badalona    3.10     Valencia Basket    1.30     
+ Leuven Bears    1.04     Basketball Academie Limburg    10.00     
           vs
         
