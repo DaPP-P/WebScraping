@@ -1,5 +1,11 @@
 import re
 
+# Upload Master Team List. This is needed for Unibet Results
+master_team_list_file = open("masterTeamList.txt", "r")
+masterTeamListIn = master_team_list_file.read()
+master_team_list = masterTeamListIn.split("\n")
+master_team_list_file.close()
+
 # Upload TAB Odds
 tab_file_path = "TxtFiles/tabResults.txt"
 tab_file = open(tab_file_path,"r")
@@ -134,6 +140,28 @@ def tidyOdds(results, siteName, wordToSplit):
                     teamOne, teamTwo, teamOneOdds, teamTwoOdds = "N/A", "N/A", 0.00, 0.00
         elif odds and siteName == "Unibet":
             string = string.replace("(W)", "Women ")
+
+            # Regex for finding teams that are in the master team list.
+            consecutive_pattern = r'({})({})'.format('|'.join(master_team_list), '|'.join(master_team_list))
+            consecutive_teams = re.findall(consecutive_pattern, string)
+
+            # Finds team names
+            if consecutive_teams:
+                for team_pair in consecutive_teams:
+                    if team_pair[0] and team_pair[1]:
+                        teamOne = team_pair[0]
+                        teamTwo = team_pair[1]
+
+            # Finds odds for the teams
+            end_of_teamTwo = string.find(teamTwo) + len(teamTwo)
+            next_eight_items = string[end_of_teamTwo:end_of_teamTwo + 8]
+            if next_eight_items[1] == ".":
+                teamOneOdds = next_eight_items[0:4]
+                teamTwoOdds = next_eight_items[4:8]
+            else:
+                teamOneOdds = 0.00
+                teamTwoOdds = 0.00
+
         else:
             teamOne = "N/A"
             teamTwo = "N/A"
@@ -213,12 +241,14 @@ print("_________________")
 
 # For tonybet, unibet and pinnacle I could save the info and check if those things are in a already saved team.
 
+# Starting on testing this for Unibet.
+
 # Upload clean values for unibet
 unibet_file_path = "TxtFiles/unibetResultsCleaned.txt"
 unibet_file = open(unibet_file_path, "w")
 unibet_file.truncate(0)
 
-target = "Handicap"
+target = ":"
 all_results = []
 
 for result in unibetResults:

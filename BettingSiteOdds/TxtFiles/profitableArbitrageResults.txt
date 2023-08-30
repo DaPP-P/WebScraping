@@ -1,1 +1,8 @@
 [' Germany', ' Finland', 'TAB', 'LadBrokes', 1.2, 7.25, 83.33, 13.79, 97.13, 'YES', 2.87, '19:54']
+[' Germany', ' Finland', 'TAB', 'LadBrokes', 1.2, 7.25, 83.33, 13.79, 97.13, 'YES', 2.87, '17:49']
+[' Germany', ' Finland', 'TAB', 'LadBrokes', 1.2, 7.25, 83.33, 13.79, 97.13, 'YES', 2.87, '17:52']
+[' Germany', ' Finland', 'TAB', 'LadBrokes', 1.2, 7.25, 83.33, 13.79, 97.13, 'YES', 2.87, '17:53']
+[' Lebanon', ' France', 'TAB', 'Unibet', 34.0, 1.37, 2.94, 72.99, 75.93, 'YES', 24.07, '17:53']
+[' South Sudan', ' Serbia', 'TAB', 'Unibet', 10.0, 6.0, 10.0, 16.67, 26.67, 'YES', 73.33, '17:53']
+[' Ivory Coast', ' Brazil', 'TAB', 'Unibet', 13.0, 6.0, 7.69, 16.67, 24.36, 'YES', 75.64, '17:53']
+[' Germany', ' Finland', 'TAB', 'LadBrokes', 1.2, 7.25, 83.33, 13.79, 97.13, 'YES', 2.87, '17:56']
