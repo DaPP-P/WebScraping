@@ -19,3 +19,5 @@ Team 1, Team 2, Betting Site 1, Betting Site 2,
 [' New York Liberty', ' Los Angeles Sparks', 'TAB', 'LadBrokes', 1.75, 10.0, 57.14, 10.0, 67.14, 'YES', 32.86, '19:58']
 [' New York Liberty', ' Los Angeles Sparks', 'TAB', 'LadBrokes', 1.75, 10.0, 57.14, 10.0, 67.14, 'YES', 32.86, '19:59']
 [' Melbourne United', ' South East Melbourne Phoenix', 'LadBrokes', 'TAB', 1.57, 3.75, 63.69, 26.67, 90.36, 'YES', 9.64, '21:15']
+[' Italy', ' Slovenia', 'TAB', 'LadBrokes', 3.75, 1.62, 26.67, 61.73, 88.4, 'YES', 11.6, '21:50']
+[' Melbourne United', ' South East Melbourne Phoenix', 'LadBrokes', 'TAB', 1.57, 4.25, 63.69, 23.53, 87.22, 'YES', 12.78, '21:50']
