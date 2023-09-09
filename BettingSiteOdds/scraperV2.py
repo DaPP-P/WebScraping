@@ -77,7 +77,7 @@ def get_odds(url, container_name, browser):
     page_source = browser.page_source
     print("Closing", url)
 
-    soup = BeautifulSoup(page_source, "html.parser")
+    soup = BeautifulSoup(page_source, "lxml")
     container = soup.find_all("div", class_ = container_name)
     container_contents = []
 

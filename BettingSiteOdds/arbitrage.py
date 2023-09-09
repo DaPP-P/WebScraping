@@ -1,4 +1,8 @@
 import datetime
+import git
+import platform
+
+system_name = platform.system()
 
 # Master team name list
 masterTeamList_file_path = "masterTeamList.txt"
@@ -172,6 +176,12 @@ print("Profitable: ")
 for result in results:
     if result[9] == "YES":
         profitableArbitrageResults_file.write(str(result) + '\n')
+        if system_name == "Linux":
+            repo = git.Repo("/WebScraping")
+            repo.index.add(['profitableArbitrageResults.txt'])
+            repo.index.commit("AUTOMATIC: Profitable Arbitrage Found")
+            origin = repo.remote('origin')
+            origin.push()
         print(result)
 
 arbitrageResults_file.close()
