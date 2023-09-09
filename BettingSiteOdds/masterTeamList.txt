@@ -165,3 +165,33 @@ GTK Gliwice
 BK Opava
 Leuven Bears
 Basketball Academie Limburg
+Buducnost Podgorica
+KK Split
+Darussafaka
+Bursaspor
+Yesil Mavi Yalovaspor
+Esenler Erokspor
+CSM Galati
+Bnei Herzliya
+Hapoel Eilat
+Thang Long Warriors
+Maccabi Rishon Lezion
+Maccabi Ramat Gan
+Hapoel Jerusalem
+Turk Telekom
+Correcaminos UAT Victoria
+Halcones Xalapa
+Libertadores de Queretaro
+Abejas de Leon
+Santos del Potosi
+Panteras de Aguascalientes
+Freseros de Irapuato
+Halcones Rojos de Veracruz
+Dorados de Chihuahua
+Soles de Mexicali
+CA Welcome
+Capitol Montevideo
+Olimpia
+Larranaga
+Olimpia
+Larranaga

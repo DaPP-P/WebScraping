@@ -1,16 +1,4 @@
-Unibet, Germany, Finland, 0.0, 0.0
-Unibet, Angola, Dominican Republic, 5.60, 1.14
-Unibet, Egypt, Mexico, 3.10, 1.37
-Unibet, Lebanon, France, 0.0, 0.0
-Unibet, Australia, Japan, 1.04, 11.0
-Unibet, Philippines, Italy, 6.25, 1.12
-Unibet, Montenegro, Lithuania, 2.80, 1.44
-Unibet, Canada, Latvia, 1.06, 9.00
-Unibet, Georgia, Venezuela, 1.13, 6.00
-Unibet, South Sudan, Serbia, 0.0, 0.0
-Unibet, USA, Jordan, 0.0, 0.0
-Unibet, Ivory Coast, Brazil, 0.0, 0.0
-Unibet, Slovenia, Cape Verde, 0.0, 0.0
-Unibet, China, Puerto Rico, 5.60, 1.14
-Unibet, Greece, New Zealand, 1.14, 5.60
-Unibet, Iran, Spain, 0.0, 0.0
+Unibet, Serbia, Canada, 2.50, 1.53
+Unibet, USA, Germany, 1.18, 4.90
+Unibet, Italy, Slovenia, 2.33, 1.60
+Unibet, Latvia, Lithuania, 3.20, 1.35

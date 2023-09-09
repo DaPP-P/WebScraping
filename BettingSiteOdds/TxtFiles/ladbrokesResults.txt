@@ -1,7 +1,22 @@
-   Denver Nuggets (-5)   1.94       Los Angeles Lakers (+5)   1.87     
+   Denver Nuggets    1.44       Los Angeles Lakers    2.80     
           vs
         
-   Golden State Warriors (-1.5)   1.90       Phoenix Suns (+1.5)   1.90     
+   Golden State Warriors    1.82       Phoenix Suns    2.00     
+          vs
+        
+ New York Liberty    1.03     Los Angeles Sparks    10.00     
+          vs
+        
+ Washington Mystics    1.48     Atlanta Dream    2.50     
+          vs
+        
+ Connecticut Sun    1.18     Indiana Fever    4.50     
+          vs
+        
+ Dallas Wings    1.18     Seattle Storm    4.50     
+          vs
+        
+ Chicago Sky    1.48     Minnesota Lynx    2.50     
           vs
         
  Over  49.5    1.95     Under  49.5    1.85     
@@ -19,33 +34,33 @@
  Over  45.5    1.85     Under  45.5    1.95     
           vs
         
-   Germany    1.10       Finland    7.25     
+   Lithuania    1.45       Slovenia    2.80     
           vs
         
-   Angola    5.40       Dominican Republic    1.16     
+   Serbia    2.85       Canada    1.44     
           vs
         
-   Egypt    3.00       Mexico    1.40     
+   USA    1.16       Germany    5.40     
           vs
         
-   Lebanon    17.00       France    1.01     
+   Italy    2.20       Slovenia    1.68     
           vs
         
-   Australia    1.02       Japan    15.00     
+   Latvia    3.00       Lithuania    1.40     
           vs
         
- Harem Spor    1.80     Balikesir BLD    1.85     
+ Maccabi Rishon Lezion    3.60     Maccabi Ramat Gan    1.25     
           vs
         
- Final Genclik    1.62     Mersin BSB    2.10     
+ Hapoel Jerusalem    1.85     Turk Telekom    1.80     
           vs
         
- Mitteldeutscher BC    1.95     Brose Bamberg    1.73     
+ Buducnost Podgorica    1.08     KK Split    7.00     
           vs
         
- GTK Gliwice    1.70     BK Opava    2.00     
+ Darussafaka    1.35     Bursaspor    2.88     
           vs
         
- Leuven Bears    1.04     Basketball Academie Limburg    10.00     
+ Yesil Mavi Yalovaspor    1.50     Esenler Erokspor    2.38     
           vs
         
