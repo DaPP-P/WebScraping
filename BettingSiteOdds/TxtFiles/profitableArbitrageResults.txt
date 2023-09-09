@@ -13,3 +13,6 @@ Team 1, Team 2, Betting Site 1, Betting Site 2,
 [' New York Liberty', ' Los Angeles Sparks', 'TAB', 'LadBrokes', 1.75, 10.0, 57.14, 10.0, 67.14, 'YES', 32.86, '17:24']
 [' New York Liberty', ' Los Angeles Sparks', 'TAB', 'LadBrokes', 1.75, 10.0, 57.14, 10.0, 67.14, 'YES', 32.86, '17:26']
 [' New York Liberty', ' Los Angeles Sparks', 'TAB', 'LadBrokes', 1.75, 10.0, 57.14, 10.0, 67.14, 'YES', 32.86, '17:27']
+[' New York Liberty', ' Los Angeles Sparks', 'TAB', 'LadBrokes', 1.75, 10.0, 57.14, 10.0, 67.14, 'YES', 32.86, '17:31']
+[' New York Liberty', ' Los Angeles Sparks', 'TAB', 'LadBrokes', 1.75, 10.0, 57.14, 10.0, 67.14, 'YES', 32.86, '17:32']
+[' New York Liberty', ' Los Angeles Sparks', 'TAB', 'LadBrokes', 1.75, 10.0, 57.14, 10.0, 67.14, 'YES', 32.86, '19:55']
