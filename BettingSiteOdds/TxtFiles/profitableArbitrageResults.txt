@@ -22,3 +22,4 @@ Team 1, Team 2, Betting Site 1, Betting Site 2,
 [' Italy', ' Slovenia', 'TAB', 'LadBrokes', 3.75, 1.62, 26.67, 61.73, 88.4, 'YES', 11.6, '21:50']
 [' Melbourne United', ' South East Melbourne Phoenix', 'LadBrokes', 'TAB', 1.57, 4.25, 63.69, 23.53, 87.22, 'YES', 12.78, '21:50']
 [' Latvia', ' Lithuania', 'LadBrokes', 'TAB', 3.15, 1.57, 31.75, 63.69, 95.44, 'YES', 4.56, '00:49']
+[' Latvia', ' Lithuania', 'LadBrokes', 'TAB', 3.15, 2.5, 31.75, 40.0, 71.75, 'YES', 28.25, '01:20']
