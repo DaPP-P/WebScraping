@@ -1,8 +1,11 @@
 import datetime
 import git
 import platform
+import os
 
 system_name = platform.system()
+current_dir = os.path.abspath(os.path.dirname(__file__))
+repo_path = '/home/daniel/WebScraping'
 
 # Master team name list
 masterTeamList_file_path = "masterTeamList.txt"
@@ -89,7 +92,7 @@ def getBestOdds(matchingGames):
     outputResults = []
     for games in matchingGames.values():
         
-        # Sets variables to nothing 
+        # Sets variables to nothing TxtFiles
         teamOne = ""
         teamTwo = ""
         highestTeamOneOdds = 0.00
@@ -177,8 +180,8 @@ for result in results:
     if result[9] == "YES":
         profitableArbitrageResults_file.write(str(result) + '\n')
         if system_name == "Linux":
-            repo = git.Repo("~/WebScraping")
-            profitable_file_path = 'TxtFiles/profitableArbitrageResults.txt'
+            repo = git.Repo(repo_path)
+            profitable_file_path = 'BettingSiteOdds/TxtFiles/profitableArbitrageResults.txt'
             repo.index.add([profitable_file_path])
             repo.index.commit("AUTOMATIC: Profitable Arbitrage Found")
             origin = repo.remote('origin')
