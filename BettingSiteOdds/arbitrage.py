@@ -177,8 +177,9 @@ for result in results:
     if result[9] == "YES":
         profitableArbitrageResults_file.write(str(result) + '\n')
         if system_name == "Linux":
-            repo = git.Repo("/WebScraping")
-            repo.index.add(['profitableArbitrageResults.txt'])
+            repo = git.Repo("~/WebScraping")
+            profitable_file_path = 'TxtFiles/profitableArbitrageResults.txt'
+            repo.index.add([profitable_file_path])
             repo.index.commit("AUTOMATIC: Profitable Arbitrage Found")
             origin = repo.remote('origin')
             origin.push()
