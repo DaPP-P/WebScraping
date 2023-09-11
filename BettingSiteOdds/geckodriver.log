@@ -1752,3 +1752,273 @@ console.error: "Error during quit-application-granted: [Exception... \"File erro
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1694246461272	geckodriver	INFO	Listening on 127.0.0.1:50691
+1694246462505	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "55753" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFG8Ymd"
+*** You are running in headless mode.
+1694246465466	Marionette	INFO	Marionette enabled
+1694246465492	Marionette	INFO	Listening on port 45977
+Read port: 45977
+WebDriver BiDi listening on ws://localhost:55753
+1694246466457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFG8Ymd/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:55753/devtools/browser/545bba37-b9cc-4c4c-994d-d6b7b420ff8f
+1694246473026	geckodriver	INFO	Listening on 127.0.0.1:42405
+1694246473135	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "54799" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQwJPnM"
+*** You are running in headless mode.
+1694246474940	Marionette	INFO	Marionette enabled
+1694246474961	Marionette	INFO	Listening on port 42493
+WebDriver BiDi listening on ws://localhost:54799
+Read port: 42493
+1694246475463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQwJPnM/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:54799/devtools/browser/e15f97bc-c8be-43e2-be50-423b5dbbe38a
+1694246481893	geckodriver	INFO	Listening on 127.0.0.1:60861
+1694246482487	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "39839" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXnbtgy"
+*** You are running in headless mode.
+1694246484369	Marionette	INFO	Marionette enabled
+1694246484388	Marionette	INFO	Listening on port 33113
+Read port: 33113
+WebDriver BiDi listening on ws://localhost:39839
+1694246484859	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXnbtgy/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39839/devtools/browser/23371e39-c545-4188-a70b-a5cf6b113661
+1694246490835	geckodriver	INFO	Listening on 127.0.0.1:53467
+1694246490958	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "46225" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileo51UBA"
+*** You are running in headless mode.
+1694246492926	Marionette	INFO	Marionette enabled
+1694246492950	Marionette	INFO	Listening on port 43549
+Read port: 43549
+WebDriver BiDi listening on ws://localhost:46225
+1694246493520	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileo51UBA/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:46225/devtools/browser/cd2d5c22-e81c-4e0f-8f4f-fa15d8c21c48
+1694246500144	geckodriver	INFO	Listening on 127.0.0.1:42187
+1694246500264	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "51943" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSExZlh"
+*** You are running in headless mode.
+1694246502040	Marionette	INFO	Marionette enabled
+1694246502067	Marionette	INFO	Listening on port 45383
+Read port: 45383
+WebDriver BiDi listening on ws://localhost:51943
+1694246502585	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSExZlh/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:51943/devtools/browser/f971fef4-436e-476f-9b1c-b0d2f780ee22
+1694246508940	geckodriver	INFO	Listening on 127.0.0.1:52845
+1694246509055	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "57439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezQT5l9"
+*** You are running in headless mode.
+1694246510995	Marionette	INFO	Marionette enabled
+1694246511019	Marionette	INFO	Listening on port 41049
+WebDriver BiDi listening on ws://localhost:57439
+Read port: 41049
+1694246511573	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezQT5l9/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:57439/devtools/browser/d595a737-cab9-4a0b-ba8b-5c571037763a
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://pointsbet.com.au/braze-worker.js for scope https://pointsbet.com.au/ threw an exception during script evaluation.
+JavaScript error: https://www.unibet.com/sportsbook-frontend-api/static/js/chunks/core-1716d442225eaed022e5.js, line 1: TypeError: t.subscribe is not a function
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-000932-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: V3D 4.2
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-000932-001, line 1: WebGL context was lost.
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-000932-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: V3D 4.2
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-000932-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-000932-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: V3D 4.2
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-000932-001, line 1: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1694248613420	geckodriver	INFO	Listening on 127.0.0.1:60417
+1694248613545	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "47873" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepNtLR3"
+*** You are running in headless mode.
+1694248615362	Marionette	INFO	Marionette enabled
+1694248615382	Marionette	INFO	Listening on port 42841
+WebDriver BiDi listening on ws://localhost:47873
+Read port: 42841
+1694248615863	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepNtLR3/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47873/devtools/browser/913b97c4-110c-4eae-82bb-59d95dcf2eb7
+1694248621611	geckodriver	INFO	Listening on 127.0.0.1:50561
+1694248621719	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "55283" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7ZIMKP"
+*** You are running in headless mode.
+1694248623383	Marionette	INFO	Marionette enabled
+1694248623404	Marionette	INFO	Listening on port 44715
+Read port: 44715
+WebDriver BiDi listening on ws://localhost:55283
+1694248623893	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7ZIMKP/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:55283/devtools/browser/9d460b06-d1e3-45a1-a452-26c9892cf8dc
+1694248630016	geckodriver	INFO	Listening on 127.0.0.1:45243
+1694248630618	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "49249" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezsi025"
+*** You are running in headless mode.
+1694248632480	Marionette	INFO	Marionette enabled
+1694248632505	Marionette	INFO	Listening on port 42471
+Read port: 42471
+WebDriver BiDi listening on ws://localhost:49249
+1694248633034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezsi025/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:49249/devtools/browser/006e9b83-4461-4bfd-93be-c426a447d63c
+1694248639431	geckodriver	INFO	Listening on 127.0.0.1:39625
+1694248640030	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "38877" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8b4b3S"
+*** You are running in headless mode.
+1694248642107	Marionette	INFO	Marionette enabled
+1694248642127	Marionette	INFO	Listening on port 34637
+Read port: 34637
+WebDriver BiDi listening on ws://localhost:38877
+1694248642619	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8b4b3S/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:38877/devtools/browser/7f4241d7-2880-4fd8-b0d9-e2f65de238e5
+1694248648939	geckodriver	INFO	Listening on 127.0.0.1:60317
+1694248649537	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "44691" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileK1Ag2j"
+*** You are running in headless mode.
+1694248651528	Marionette	INFO	Marionette enabled
+1694248651548	Marionette	INFO	Listening on port 46469
+WebDriver BiDi listening on ws://localhost:44691
+Read port: 46469
+1694248652103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileK1Ag2j/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:44691/devtools/browser/daa4d29a-0371-4495-a633-b080f0202898
+1694248658587	geckodriver	INFO	Listening on 127.0.0.1:58201
+1694248659193	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "57795" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile35Egzl"
+*** You are running in headless mode.
+1694248661044	Marionette	INFO	Marionette enabled
+1694248661075	Marionette	INFO	Listening on port 36271
+Read port: 36271
+WebDriver BiDi listening on ws://localhost:57795
+1694248661678	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile35Egzl/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:57795/devtools/browser/e7462bd9-33e6-42d9-b85d-56ca2bfe02b9
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://pointsbet.com.au/braze-worker.js for scope https://pointsbet.com.au/ threw an exception during script evaluation.
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-000932-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: V3D 4.2
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-000932-001, line 1: WebGL context was lost.
+JavaScript error: https://apps.rokt.com/wsdk/controller/index.3cb08e149c87a333ab82.js, line 1: Error: Request timed out for [L] CONTROLLER_SETUP_COMPLETE
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-000932-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: V3D 4.2
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-000932-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-000932-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: V3D 4.2
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-g-000932-001, line 1: WebGL context was lost.
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+JavaScript error: https://www.ladbrokes.com.au/es6/js/90417.00f507ac.js, line 1: Error: Unexpected API Error. Please see cause
+JavaScript error: https://www.ladbrokes.com.au/es6/js/90417.00f507ac.js, line 1: Error: Unexpected API Error. Please see cause
+JavaScript error: https://www.ladbrokes.com.au/es6/js/90417.00f507ac.js, line 1: Error: Unexpected API Error. Please see cause
+JavaScript error: https://www.ladbrokes.com.au/es6/js/90417.00f507ac.js, line 1: Error: Unexpected API Error. Please see cause
+JavaScript error: https://www.ladbrokes.com.au/es6/js/90417.00f507ac.js, line 1: Error: Unexpected API Error. Please see cause
+JavaScript error: https://www.ladbrokes.com.au/es6/js/90417.00f507ac.js, line 1: Error: Unexpected API Error. Please see cause
+JavaScript error: https://www.ladbrokes.com.au/es6/js/90417.00f507ac.js, line 1: Error: Unexpected API Error. Please see cause
+JavaScript error: https://www.ladbrokes.com.au/es6/js/90417.00f507ac.js, line 1: Error: Unexpected API Error. Please see cause
+JavaScript error: https://www.ladbrokes.com.au/es6/js/90417.00f507ac.js, line 1: Error: Unexpected API Error. Please see cause
+1694301674292	Marionette	INFO	Stopped listening on port 42841
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1694301677118	Marionette	INFO	Stopped listening on port 44715
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile7ZIMKP/protections.sqlite
+1694301680769	Marionette	INFO	Stopped listening on port 42471
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1694301683444	Marionette	INFO	Stopped listening on port 34637
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"SessionStore: flushing all windows","state":{"total":1,"current":0},"filename":"resource:///modules/sessionstore/SessionStore.jsm","lineNumber":2111,"stack":["resource:///modules/sessionstore/SessionStore.jsm:ssi_onQuitApplicationGranted:2111","resource:///modules/sessionstore/SessionStore.jsm:ssi_observe:1023","chrome://remote/content/marionette/driver.js:GeckoDriver.prototype.quit:2727","chrome://remote/content/marionette/server.js:despatch:306","chrome://remote/content/marionette/server.js:execute:279","chrome://remote/content/marionette/server.js:onPacket/<:252","chrome://remote/content/marionette/server.js:onPacket:253","chrome://remote/content/marionette/transport.js:_onJSONObjectReady/<:500"]}] Barrier: quit-application-granted
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1694301705445	Marionette	INFO	Stopped listening on port 46469
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1694301714542	Marionette	INFO	Stopped listening on port 36271
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"

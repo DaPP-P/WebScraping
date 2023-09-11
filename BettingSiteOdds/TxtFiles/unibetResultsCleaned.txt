@@ -1,4 +1,2 @@
-Unibet, Serbia, Canada, 2.50, 1.53
-Unibet, USA, Germany, 1.18, 4.90
-Unibet, Italy, Slovenia, 2.33, 1.60
-Unibet, Latvia, Lithuania, 3.20, 1.35
+Unibet, USA, Canada, 1.33, 3.30
+Unibet, Germany, Serbia, 1.92, 1.88

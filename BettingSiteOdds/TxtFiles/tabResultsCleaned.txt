@@ -1,20 +1,10 @@
-TAB, New York Liberty, Los Angeles Sparks, 1.75, 1.95
-TAB, Olimpia, Larranaga, 1.01, 12.00
-TAB, Serbia, Canada, 2.60, 1.43
-TAB, Correcaminos UAT Victoria, Halcones Xalapa, 2.50, 1.45
-TAB, Libertadores de Queretaro, Abejas de Leon, 1.54, 2.30
-TAB, Santos del Potosi, Panteras de Aguascalientes, 1.37, 2.80
-TAB, Astros de Jalisco, Freseros de Irapuato, 1.13, 5.10
-TAB, Halcones Rojos de Veracruz, Dorados de Chihuahua, 1.45, 2.50
-TAB, Soles de Mexicali, Fuerza Regia de Monterrey, 2.20, 1.58
-TAB, USA, Germany, 1.13, 5.05
-TAB, Italy, Slovenia, 2.20, 1.59
-TAB, Connecticut Sun, Indiana Fever, 1.16, 4.75
-TAB, Washington Mystics, Atlanta Dream, 1.49, 2.50
-TAB, Chicago Sky, Minnesota Lynx, 1.46, 2.55
-TAB, Dallas Wings, Seattle Storm, 1.14, 5.10
-TAB, Phoenix Mercury, Las Vegas Aces, 11.00, 1.02
-TAB, Latvia, Lithuania, 3.05, 1.32
+TAB, USA, Canada, 1.30, 3.20
+TAB, Whai, Southern Hoiho, 1.30, 3.20
+TAB, Northern Kahu, Tokomanawa Queens, 1.16, 4.50
+TAB, Plateros de Fresnillo, , 1.87, 1.80
+TAB, Germany, Serbia, 1.83, 1.85
+TAB, Atlanta Dream, Dallas Wings, 1.80, 1.92
+TAB, Connecticut Sun, Chicago Sky, 1.16, 4.75
 TAB, Denver Nuggets, Los Angeles Lakers, 1.42, 2.80
 TAB, Golden State Warriors, Phoenix Suns, 1.79, 1.97
 TAB, Charlotte Hornets, Atlanta Hawks, 1.97, 1.80

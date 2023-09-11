@@ -1,17 +1,12 @@
 LadBrokes, Denver Nuggets, Los Angeles Lakers, 1.44, 2.80
 LadBrokes, Golden State Warriors, Phoenix Suns, 1.82, 2.00
-LadBrokes, New York Liberty, Los Angeles Sparks, 1.03, 10.00
-LadBrokes, Washington Mystics, Atlanta Dream, 1.48, 2.50
-LadBrokes, Connecticut Sun, Indiana Fever, 1.18, 4.50
-LadBrokes, Dallas Wings, Seattle Storm, 1.18, 4.50
-LadBrokes, Chicago Sky, Minnesota Lynx, 1.48, 2.50
-LadBrokes, Lithuania, Slovenia, 1.45, 2.80
-LadBrokes, Serbia, Canada, 2.85, 1.44
-LadBrokes, USA, Germany, 1.16, 5.40
-LadBrokes, Italy, Slovenia, 2.20, 1.68
-LadBrokes, Latvia, Lithuania, 3.00, 1.40
-LadBrokes, Maccabi Rishon Lezion, Maccabi Ramat Gan, 3.60, 1.25
-LadBrokes, Hapoel Jerusalem, Turk Telekom, 1.85, 1.80
-LadBrokes, Buducnost Podgorica, KK Split, 1.08, 7.00
-LadBrokes, Darussafaka, Bursaspor, 1.35, 2.88
-LadBrokes, Yesil Mavi Yalovaspor, Esenler Erokspor, 1.50, 2.38
+LadBrokes, Italy, Slovenia, 2.30, 1.62
+LadBrokes, Latvia, Lithuania, 3.15, 1.36
+LadBrokes, USA, Canada, 1.33, 3.30
+LadBrokes, Germany, Serbia, 1.90, 1.90
+LadBrokes, Bahcesehir Koleji, Darussafaka, 1.57, 2.20
+LadBrokes, Semt77 Yalova Acarspor, Cayirova Belediyesi, 1.29, 3.25
+LadBrokes, Darussafaka, Bahcesehir Koleji, 2.10, 1.62
+LadBrokes, Peristeri, AEK Athens, 1.75, 1.91
+LadBrokes, Kapfenberg Bulls, Redwell Gunners Oberwart, 2.40, 1.48
+LadBrokes, Melbourne United, South East Melbourne Phoenix, 1.57, 2.20
