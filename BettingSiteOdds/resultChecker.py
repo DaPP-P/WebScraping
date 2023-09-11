@@ -1,6 +1,6 @@
 import re
 
-# Upload Master Team List. This is needed for Unibet Results
+# Upload Master Team List. This is needed for Unibet, Tonybets and Pinnacle
 master_team_list_file = open("masterTeamList.txt", "r")
 masterTeamListIn = master_team_list_file.read()
 master_team_list = masterTeamListIn.split("\n")
@@ -34,6 +34,12 @@ unibetFileIn = unibet_file.read()
 unibetResults = unibetFileIn.split("\n")
 unibet_file.close()
 
+# Upload Tonybet Odds
+tonybet_file_path = "TxtFiles/tonybetResults.txt"
+tonybet_file = open(tonybet_file_path, "r", encoding="iso-8859-1")
+tonybetFileIn = tonybet_file.read()
+tonybetResults = tonybetFileIn.split("\n")
+tonybet_file.close()
 
 # Method for a clean upload
 def cleanUpload(file, odds):
@@ -162,6 +168,37 @@ def tidyOdds(results, siteName, wordToSplit):
                 teamOneOdds = 0.00
                 teamTwoOdds = 0.00
 
+        elif odds and siteName == "Tonybet":
+            # Regex for finding teams that are in the master team list.
+            consecutive_pattern = r'({})({})'.format('|'.join(master_team_list), '|'.join(master_team_list))
+            consecutive_teams = re.findall(consecutive_pattern, string)
+
+            teamOne = "N/A"
+            teamTwo = "N/A"
+            teamOneOdds = 0.00
+            teamTwoOdds = 0.00
+
+            # Finds team names
+            if consecutive_teams:
+                for team_pair in consecutive_teams:
+                    if team_pair[0] and team_pair[1]:
+                        teamOne = team_pair[0]
+                        teamTwo = team_pair[1]
+            
+            # Finds the positions of '.' which can be used for odds
+            positions = []
+            for i in range(len(string)):
+                if string[i] == '.':
+                    positions.append(i)
+            
+            # Odds positions
+            position1 = positions[0]
+            position2 = positions[1]
+            
+            # Sets the teamOne and teamTwo odds
+            teamOneOdds = string[position1-1:position1+3]
+            teamTwoOdds = string[position2-1:position2+3]
+
         else:
             teamOne = "N/A"
             teamTwo = "N/A"
@@ -241,8 +278,6 @@ print("_________________")
 
 # For tonybet, unibet and pinnacle I could save the info and check if those things are in a already saved team.
 
-# Starting on testing this for Unibet.
-
 # Upload clean values for unibet
 unibet_file_path = "TxtFiles/unibetResultsCleaned.txt"
 unibet_file = open(unibet_file_path, "w")
@@ -258,3 +293,15 @@ for result in unibetResults:
 unibet_file.close()
 print("Unibet odds uploaded")
 print("_________________")
+
+# Upload clean values for tonybet
+tonybet_file_path = "TxtFiles/tonybetResultsCleaned.txt"
+tonybet_file = open(tonybet_file_path, "w")
+tonybet_file.truncate(0)
+
+target = ":"
+all_results = []
+
+for result in tonybetResults:
+    odds = tidyOdds(result, "Tonybet", target)
+    cleanUpload(tonybet_file, odds)

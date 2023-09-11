@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 TAB, USA, Canada, 1.30, 3.20
 TAB, Whai, Southern Hoiho, 1.30, 3.20
 TAB, Northern Kahu, Tokomanawa Queens, 1.16, 4.50
@@ -12,3 +13,5 @@ TAB, Orlando Magic, Houston Rockets, 1.65, 2.20
 TAB, Brooklyn Nets, Cleveland Cavaliers, 1.92, 1.83
 TAB, Miami Heat, Detroit Pistons, 1.17, 4.75
 TAB, Toronto Raptors, Minnesota Timberwolves, 1.80, 1.95
+=======
+>>>>>>> 2277de71024e62ae4ec3b6809b07a198c5ca6cd8

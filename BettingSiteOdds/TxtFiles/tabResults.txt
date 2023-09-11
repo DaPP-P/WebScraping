@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 USAvsCanadaHead to HeadHandicapTotalUSA1.30Canada3.20USA[ -6.5 ]1.80Canada[ +6.5 ]1.92Over[ 190.5 ]1.87Under[ 190.5 ]1.85Today 8.30pmFIBA World Cup23Options
 WhaivsSouthern HoihoHead to HeadHandicapTotalWhai1.30Southern Hoiho3.20Whai[ -7.5 ]1.85Southern Hoiho[ +7.5 ]1.85Over[ 162.5 ]1.85Under[ 162.5 ]1.85Today 3.30pmTauihi Basketball Aotearoa13OptionsNorthern KahuvsTokomanawa QueensHead to HeadHandicapTotalNorthern Kahu1.16Tokomanawa Queens4.50Northern Kahu[ -10.5 ]1.85Tokomanawa Queens[ +10.5 ]1.85Over[ 166.5 ]1.85Under[ 166.5 ]1.85Today 6.00pmTauihi Basketball Aotearoa13Options
 Plateros de FresnillovsMineros de ZacatecasHead to HeadHandicapTotalPlateros de Fresnillo1.87Mineros de Zacatecas1.80Plateros de Fresnillo[ +1.5 ]1.80Mineros de Zacatecas[ -1.5 ]1.87Over[ 169.5 ]1.80Under[ 169.5 ]1.872h 39mMexican LNBP9Options
@@ -7,3 +8,5 @@ Denver NuggetsvsLos Angeles LakersHead to HeadHandicapTotalDenver Nuggets1.42Los
 Atlanta Hawks Regular Season Wins 2023-24Atlantic Division WinnerBoston Celtics Regular Season Wins 2023-24Brooklyn Nets Regular Season Wins 2023-24Central Division Winner89Options
 Australian NBL 2023-24NBL Most Valuable Player 2023-242Options
 NCAA Men's Basketball Championship 20241Options
+=======
+>>>>>>> 2277de71024e62ae4ec3b6809b07a198c5ca6cd8
