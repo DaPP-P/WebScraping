@@ -56,6 +56,13 @@ unibetFileIn = unibet_file.read()
 unibetResults = unibetFileIn.split("\n")
 unibet_file.close()
 
+# Tonybet cleaned odds
+tonybet_file_path = "TxtFiles/tonybetResultsCleaned.txt"
+tonybet_file = open(tonybet_file_path,"r")
+tonybetFileIn = tonybet_file.read()
+tonybetResults = tonybetFileIn.split("\n")
+tonybet_file.close()
+
 # Method for removing empty lists in a list of lists
 def remove_empty_lists(list_of_lists):
     result = []
@@ -134,7 +141,7 @@ def arbitrage(list):
 
 
 # Combining lists together
-allResults = tabResults + bet365Results + pinnacleResults + pointsbetResults + ladbrokesResults + unibetResults
+allResults = tabResults + bet365Results + pinnacleResults + pointsbetResults + ladbrokesResults + unibetResults + tonybetResults
 
 #Splits via ","
 newAllResults = []
