@@ -40,24 +40,8 @@ def get_odds(url, containerName):
     browser.get(url)
 
     # Wait for the page to load FIX: MAKE IT NOT WORK OFF SLEEP
-    time.sleep(2)
+    time.sleep(10)
 
-    # NEED TO ADD:
-        # if no data to take do the following:
-    #if url == "https://pointsbet.com.au/sports/basketball":
-    #    l = browser.find_element(By.XPATH, "/html/body/div[2]/div/div/div[1]/div/div/div/div/div[2]/div[4]/div[1]/div/div[2]/div/div/div/div[1]/div/div/div/button[2]")
-    #    l.click()
-
-    #if url == "https://www.unibet.com/betting/sports/filter/basketball/all/matches":
-    #    l = browser.find_element(By.XPATH, "/html/body/div[3]/div[3]/div[3]/div/div/div/div[3]/div/div/div[2]/div[3]/div/div/div/div/div/div/div[2]/div[1]/div/div[4]/div[2]/div/div/h3" )
-    #    l.click()
-
-    # Accepts Cookies
-    #accept_button_xpath = "/html/body/div[3]/div/div[2]/div[2]"
-    #accept_button = browser.find_element(By.XPATH, accept_button_xpath)
-    #if accept_button.is_displayed():
-    #    accept_button.click()
-    #    print("Accepted Cookies")
 
     # Get the page source then cloes the page
     page_source = browser.page_source
@@ -119,9 +103,18 @@ unibet_file_path = os.path.join(txt_files_folder, unibet_file_name)
 ladbrokes_file_name = "ladbrokesResults.txt"
 ladbrokes_file_path = os.path.join(txt_files_folder, ladbrokes_file_name)
 
+# Set up path for Tonybet
+tonybet_file_name = "tonybetResults.txt"
+tonybet_file_path = os.path.join(txt_files_folder, tonybet_file_name)
+
 # Getting odds from the TAB
-tab_file = open(tab_file_path, "w")
-tab_odds = get_odds("https://www.tab.co.nz/sport/8/basketball/matches", "event-list event-list--vertical")
+tab_file = open(tonybet_file_path, "w")
+tab_odds = get_odds("https://tonybet.com/nz/prematch/basketball", "event-table__row")
+
+# FOR FUTURE BETTING SITES
+# Pinnacle
+# "https://www.pinnacle.com/en/basketball/matchups/", "style_row__3CKCJ style_row__3xXUg"
+# Looks like a bitch to do.
 
 if tab_odds:
     for odd in tab_odds:
@@ -156,65 +149,3 @@ print("raw bet365 odds have NOT been scraped")
 #     print("raw Tonybet odds have NOT been scraped")
 
 # pinnacle_file.close
-
-
-# Getting odds from pointsBet
-pointsbet_file = open(pointsbet_file_path, "w")
-pointsbet_odds = get_odds("https://pointsbet.com.au/sports/basketball", "f3wis39")
-
-if pointsbet_odds:
-    for odd in pointsbet_odds:
-        pointsbet_file.write(str(odd))
-    print("raw Pointsbet odds have been scraped")
-else:
-    print("raw Pointsbet odds have NOT been scraped")
-
-pointsbet_file.close
-
-
-# Getting odds for unibet
-unibet_file = open(unibet_file_path, "w")
-unibet_odds = get_odds("https://www.unibet.com/betting/sports/filter/basketball/all/matches", "_28843")
-
-if unibet_odds:
-    for odd in unibet_odds:
-        unibet_file.write(str(odd))
-    print("raw Unibet odds have been scraped")
-else:
-    print("raw Unibet odds have NOT been scraped")
-
-#unibet_odds2 = get_odds("https://www.unibet.com/betting/sports/filter/basketball/all/matches", "f97c9")
-#for odd in unibet_odds2:
-#    unibet_file.write(str(odd))
-
-unibet_file.close
-
-# Gettings odds for LadBrokes
-ladbrokes_file = open(ladbrokes_file_path, "w")
-ladbrokes_odds = get_odds("https://www.ladbrokes.com.au/sports/basketball/usa", "sports-market-primary__prices-inner")
-ladbrokes_oddsTwo = get_odds("https://www.ladbrokes.com.au/sports/basketball/international", "sports-market-primary__prices-inner")
-ladbrokes_oddsThree = get_odds("https://www.ladbrokes.com.au/sports/basketball/australia", "sports-market-primary__prices-inner")
-
-if ladbrokes_odds:
-    for odd in ladbrokes_odds:
-        ladbrokes_file.write(str(odd))
-    print("raw ladbrokes odds have been scraped")
-else:
-    print("raw ladbrokes odds have NOT been scraped")
-
-if ladbrokes_oddsTwo:
-    for odd in ladbrokes_oddsTwo:
-        ladbrokes_file.write(str(odd))
-    print("raw ladbrokesTwo odds have been scraped")
-else:
-    print("raw ladbrokesTwo odds have NOT been scraped")
-
-if ladbrokes_oddsThree:
-    for odd in ladbrokes_oddsThree:
-        ladbrokes_file.write(str(odd))
-    print("raw ladbrokesThree odds have been scraped")
-else:
-    print("raw ladbrokesThree odds have NOT been scraped")
-
-
-ladbrokes_file.close()
