@@ -187,13 +187,19 @@ for result in results:
     if result[9] == "YES":
         profitableArbitrageResults_file.write(str(result) + '\n')
         if system_name == "Linux":
-            repo = git.Repo(repo_path)
-            profitable_file_path = 'BettingSiteOdds/TxtFiles/profitableArbitrageResults.txt'
-            repo.index.add([profitable_file_path])
-            repo.index.commit("AUTOMATIC: Profitable Arbitrage Found")
-            origin = repo.remote('origin')
-            origin.push()
+            has_profitable_result = True
+        
         print(result)
+
+if has_profitable_result and system_name == "Linux":
+    repo = git.Repo(repo_path)
+    profitable_file_path = 'BettingSiteOdds/TxtFiles/profitableArbitrageResults.txt'
+    repo.index.add([profitable_file_path])
+    repo.index.commit("AUTOMATIC: Profitable Arbitrage Found")
+    origin = repo.remote('origin')
+    origin.push()
+    
+    has_profitable_result == False
 
 arbitrageResults_file.close()
 profitableArbitrageResults_file.close()
