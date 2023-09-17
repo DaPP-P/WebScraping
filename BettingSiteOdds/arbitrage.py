@@ -177,6 +177,8 @@ arbitrageResults_file = open(arbitrageResults, "a")
 profitableArbitrageResults = "TxtFiles/profitableArbitrageResults.txt"
 profitableArbitrageResults_file = open(profitableArbitrageResults, "a")
 
+has_profitable_result = False
+
 results = arbitrage(listToArbitrage)
 for result in results:
     arbitrageResults_file.write(str(result) + '\n')

@@ -23,7 +23,7 @@ unibet_service = Service(firefox_driver, log_output=None)
 ladbrokes_service1 = Service(firefox_driver, log_output=None)
 ladbrokes_service2 = Service(firefox_driver, log_output=None)
 ladbrokes_service3 = Service(firefox_driver, log_output=None)
-tonybet_service = Service(firefox_driver, log_output= None)
+#tonybet_service = Service(firefox_driver, log_output= None)
 
 firefox_options = Options()
 firefox_options.set_preference('general.useragent.override', user_agent)
@@ -36,7 +36,7 @@ unibet_browser = webdriver.Firefox(service=unibet_service, options=firefox_optio
 ladbrokes_browser1 = webdriver.Firefox(service=ladbrokes_service1, options=firefox_options)
 ladbrokes_browser2 = webdriver.Firefox(service=ladbrokes_service2, options=firefox_options)
 ladbrokes_browser3 = webdriver.Firefox(service=ladbrokes_service3, options=firefox_options)
-tonybet_browser = webdriver.Firefox(service=tonybet_service, options=firefox_options)
+#tonybet_browser = webdriver.Firefox(service=tonybet_service, options=firefox_options)
 
 # Set up paths for the TxtFiles
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -77,7 +77,7 @@ ladbrokes_browser2.get("https://www.ladbrokes.com.au/sports/basketball/internati
 ladbrokes_browser3.get("https://www.ladbrokes.com.au/sports/basketball/australia")
 
 # Load TonyBet website
-tonybet_browser.get("https://tonybet.com/nz/prematch/basketball")
+#tonybet_browser.get("https://tonybet.com/nz/prematch/basketball")
 
 time.sleep(20)
 
@@ -119,8 +119,8 @@ def perform_task():
     ladbrokes_odds3 = get_odds("https://www.ladbrokes.com.au/sports/basketball/australia", "sports-market-primary__prices-inner", ladbrokes_browser3)
     ladbrokes_upload_odds(ladbrokes_odds1, ladbrokes_odds2, ladbrokes_odds3)
     print("---------")
-    tonybet_odds = get_odds("https://tonybet.com/nz/prematch/basketball", "event-table__row", tonybet_browser)
-    upload_odds("tonybet", tonybet_odds)
+    #tonybet_odds = get_odds("https://tonybet.com/nz/prematch/basketball", "event-table__row", tonybet_browser)
+    #upload_odds("tonybet", tonybet_odds)
 
 def upload_odds(website, odds):
     file_path = tab_file_path if website == "tab" else pointsbet_file_path if website == "pointsbet" else unibet_file_path
@@ -156,7 +156,7 @@ while True:
 
     # Perform the task
     i += 1
-    if i <= 28:
+    if i <= 36:
 
         # Wait for the random interval
         time.sleep(interval)
@@ -167,6 +167,7 @@ while True:
         print("finished task", i)
 
         # Run the result checker script
+        
         process = subprocess.Popen([python_interpreter, resultchecker_script], stdout = subprocess.PIPE, stderr = subprocess.PIPE)
         process.wait()
         
@@ -194,5 +195,5 @@ while True:
         ladbrokes_browser1.quit()
         ladbrokes_browser2.quit()
         ladbrokes_browser3.quit()
-        tonybet_browser.quit()
+        #tonybet_browser.quit()
         break

@@ -4,6 +4,18 @@
    Golden State Warriors    1.82       Phoenix Suns    2.00     
           vs
         
+ Connecticut Sun    1.22     Minnesota Lynx    4.10     
+          vs
+        
+ Las Vegas Aces    1.05     Chicago Sky    8.50     
+          vs
+        
+ New York Liberty    1.20     Washington Mystics    4.20     
+          vs
+        
+ Dallas Wings    1.33     Atlanta Dream    3.10     
+          vs
+        
  Over  49.5    1.95     Under  49.5    1.85     
           vs
         
@@ -19,33 +31,18 @@
  Over  45.5    1.85     Under  45.5    1.95     
           vs
         
-   Italy    2.30       Slovenia    1.62     
+ Shimane Susanoo Magic    1.08     Shiga Lake Stars    7.00     
           vs
         
-   Latvia    3.15       Lithuania    1.36     
+ BAL Weert    5.50     Leuven Bears    1.11     
           vs
         
-   USA    1.33       Canada    3.30     
+ King Wilki Morskie Szczecin    2.50     Hapoel Tel Aviv    1.44     
           vs
         
-   Germany    1.90       Serbia    1.90     
+ BC Kalev/Cramo    1.48     Helsinki Seagulls    2.40     
           vs
         
- Bahcesehir Koleji    1.57     Darussafaka    2.20     
-          vs
-        
- Semt77 Yalova Acarspor    1.29     Cayirova Belediyesi    3.25     
-          vs
-        
- Darussafaka    2.10     Bahcesehir Koleji    1.62     
-          vs
-        
- Peristeri    1.75     AEK Athens    1.91     
-          vs
-        
- Kapfenberg Bulls    2.40     Redwell Gunners Oberwart    1.48     
-          vs
-        
- Melbourne United    1.57     South East Melbourne Phoenix    2.20     
+ KK Polonia Bytom    2.05     AZS AWF Mickiewicz Romus Katowice    1.67     
           vs
         
