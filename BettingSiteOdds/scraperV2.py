@@ -79,17 +79,25 @@ ladbrokes_browser3.get("https://www.ladbrokes.com.au/sports/basketball/australia
 # Load TonyBet website
 #tonybet_browser.get("https://tonybet.com/nz/prematch/basketball")
 
+# Gives time for the browsers to be loaded
 time.sleep(20)
 
+
+# Method for scraping the odds from the website. @input: url, the websites url; container_name, the name of the container
+# that needs to be scraped; browser, the name of the browser that was set up above.
 def get_odds(url, container_name, browser):
-    print("Opeing", url)
-    page_source = browser.page_source
+    
+    # Opens and close the browser
+    print("Opening", url)
+    page_source = browser.page_source # Update so only gets the needs page_source.
     print("Closing", url)
 
+    # Uses BeautifulSoup to get the content of the page_source.
     soup = BeautifulSoup(page_source, "lxml")
     container = soup.find_all("div", class_ = container_name)
     container_contents = []
 
+    # Checks if the container can be found and return results.
     if container:
         for container in container:
             # Extract the content of the container
@@ -100,28 +108,39 @@ def get_odds(url, container_name, browser):
     else:
         print("Container not found")
 
+# Method for getting odds from the websites. Calls 'get_odds'.
 def perform_task():
-    # Get odds for the TAB
+    
+    # Gets odds for the TAB
     tab_odds = get_odds("https://www.tab.co.nz/sport/8/basketball/matches", "event-list event-list--vertical", tab_browser)
     print(tab_odds)
     upload_odds("tab", tab_odds)
     print("---------")
+
+    # Gets odds for Pointsbet
     pointsbet_odds = get_odds("https://pointsbet.com.au/sports/basketball", "f3wis39", pointsbet_browser)
     print(pointsbet_odds)
     upload_odds("pointsbet", pointsbet_odds)
     print("---------")
+
+    # Gets odds for Unibet.
     unibet_odds = get_odds("https://www.unibet.com/betting/sports/filter/basketball/all/matches", "_28843", unibet_browser)
     print(unibet_odds)
     upload_odds("unibet", unibet_odds)
     print("---------")
+
+    # Gets odds for ladbrokes.
     ladbrokes_odds1 = get_odds("https://www.ladbrokes.com.au/sports/basketball/usa", "sports-market-primary__prices-inner", ladbrokes_browser1)
     ladbrokes_odds2 = get_odds("https://www.ladbrokes.com.au/sports/basketball/international", "sports-market-primary__prices-inner", ladbrokes_browser2)
     ladbrokes_odds3 = get_odds("https://www.ladbrokes.com.au/sports/basketball/australia", "sports-market-primary__prices-inner", ladbrokes_browser3)
     ladbrokes_upload_odds(ladbrokes_odds1, ladbrokes_odds2, ladbrokes_odds3)
     print("---------")
+
+    # Gets odds for Tonybets.
     #tonybet_odds = get_odds("https://tonybet.com/nz/prematch/basketball", "event-table__row", tonybet_browser)
     #upload_odds("tonybet", tonybet_odds)
 
+# Method for importing the scraped odds to the desired txt file.
 def upload_odds(website, odds):
     file_path = tab_file_path if website == "tab" else pointsbet_file_path if website == "pointsbet" else unibet_file_path
     with open(file_path, "a") as file:
@@ -133,6 +152,7 @@ def upload_odds(website, odds):
         else:
             print("raw", website, "have NOT been scraped")
 
+# Method for importing the scarped odds for ladbrokes.
 def ladbrokes_upload_odds(odds1, odds2, odds3):
     with open (ladbrokes_file_path, "a") as file:
         file.truncate(0)
@@ -146,54 +166,51 @@ def ladbrokes_upload_odds(odds1, odds2, odds3):
             for odd in odds3:
                 file.write(str(odd))
 
+
+# Start of the program.
+
 i = 0
-while True:
+while i < 36 :
 
     print("Start of loop")
-    # Generate a random time interval between 1 and 2 minutes
+    # Generate a random time interval between two intervals.
     interval = random.randint(1500, 2100) # seconds random.randint(60, 120)  
 
-
-    # Perform the task
     i += 1
-    if i <= 36:
 
-        # Wait for the random interval
-        time.sleep(interval)
-        print(interval)
+    # Wait for the random interval before running the rest of the code.
+    time.sleep(interval)
+    print(interval)
         
-        print("starting task")
-        perform_task()
-        print("finished task", i)
+    print("starting task")
+    perform_task()
+    print("finished task, number:", i)
 
-        # Run the result checker script
-        
-        process = subprocess.Popen([python_interpreter, resultchecker_script], stdout = subprocess.PIPE, stderr = subprocess.PIPE)
-        process.wait()
-        
-        return_code = process.returncode
-        if return_code == 0:
-            print("Result checker script ran successfully")
-        else:
-            print(f"Result checker Script failed to run, error code {return_code}")
-
-
-        # Run the arbitrage script
-        process2 = subprocess.Popen([python_interpreter, arbitrage_script], stdout = subprocess.PIPE, stderr = subprocess.PIPE)
-        process2.wait()
-        
-        return_code = process2.returncode
-        if return_code == 0:
-            print("Arbitrage script ran successfully")
-        else:
-            print(f"Arbitrage script failed to run, error code {return_code}")
-    
+    # Run the result checker script
+    process = subprocess.Popen([python_interpreter, resultchecker_script], stdout = subprocess.PIPE, stderr = subprocess.PIPE)
+    process.wait()
+    return_code = process.returncode
+    if return_code == 0:
+        print("Result checker script ran successfully")
     else:
-        tab_browser.quit()
-        pointsbet_browser.quit()
-        unibet_browser.quit()
-        ladbrokes_browser1.quit()
-        ladbrokes_browser2.quit()
-        ladbrokes_browser3.quit()
-        #tonybet_browser.quit()
-        break
+        print(f"Result checker Script failed to run, error code {return_code}")
+
+
+    # Run the arbitrage script
+    process2 = subprocess.Popen([python_interpreter, arbitrage_script], stdout = subprocess.PIPE, stderr = subprocess.PIPE)
+    process2.wait()
+    return_code = process2.returncode
+    if return_code == 0:
+        print("Arbitrage script ran successfully")
+    else:
+        print(f"Arbitrage script failed to run, error code {return_code}")
+    
+# Once the program has been run i amount of times it must close the browsers.
+else:
+    tab_browser.quit()
+    pointsbet_browser.quit()
+    unibet_browser.quit()
+    ladbrokes_browser1.quit()
+    ladbrokes_browser2.quit()
+    ladbrokes_browser3.quit()
+    #tonybet_browser.quit()
