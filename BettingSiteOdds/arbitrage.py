@@ -8,11 +8,11 @@ current_dir = os.path.abspath(os.path.dirname(__file__))
 repo_path = '/home/daniel/WebScraping'
 
 # Master team name list
-masterTeamList_file_path = "masterTeamList.txt"
-masterTeamList_file = open(masterTeamList_file_path, "r")
-masterTeamListFileIn = masterTeamList_file.read()
-masterTeamList = masterTeamListFileIn.split("\n")
-masterTeamList_file.close()
+master_team_list_file_path = "masterTeamList.txt"
+master_team_list_file = open(master_team_list_file_path, "r")
+master_team_listFileIn = master_team_list_file.read()
+master_team_list = master_team_listFileIn.split("\n")
+master_team_list_file.close()
 
 # TAB cleaned odds
 tab_file_path = "TxtFiles/tabResultsCleaned.txt"
@@ -72,104 +72,104 @@ def remove_empty_lists(list_of_lists):
     return result
 
 # Method for finding matching games and adding them to a dictionary 
-def find_same_games(bigList):
-    seenList = []
-    findList = []
+def find_same_games(big_list):
+    seen_list = []
+    find_list = []
     result_dict = {}
 
     # Find items in list[1] and list[2] that occur more than once
-    for lst in bigList:
-        if (lst[1], lst[2]) in seenList:
-            findList.append((lst[1], lst[2]))
-        seenList.append((lst[1], lst[2]))
+    for lst in big_list:
+        if (lst[1], lst[2]) in seen_list:
+            find_list.append((lst[1], lst[2]))
+        seen_list.append((lst[1], lst[2]))
 
-    # Initialize empty lists in the result_dict for each item in findList
-    for item in findList:
+    # Initialize empty lists in the result_dict for each item in find_list
+    for item in find_list:
         result_dict[item] = []
 
-    # Populate the result_dict with the lists containing the items from findList
-    for lst in bigList:
-        if (lst[1], lst[2]) in findList:
+    # Populate the result_dict with the lists containing the items from find_list
+    for lst in big_list:
+        if (lst[1], lst[2]) in find_list:
             result_dict[(lst[1], lst[2])].append(lst)
 
     return result_dict
 
 # Method that returns the best odds that can be used for arbitrage
-def getBestOdds(matchingGames):
-    outputResults = []
-    for games in matchingGames.values():
+def get_best_odds(matching_games):
+    output_results = []
+    for games in matching_games.values():
         
         # Sets variables to nothing TxtFiles
-        teamOne = ""
-        teamTwo = ""
-        highestTeamOneOdds = 0.00
-        highestTeamOneSite = ""
-        highestTeamTwoOdds = 0.00
-        highestTeamTwoSite = ""
+        team_one = ""
+        team_two = ""
+        highest_team_one_odds = 0.00
+        highest_team_one_site = ""
+        highest_team_two_odds = 0.00
+        highest_team_two_site = ""
 
         for game in games:
-            teamOne = game[1]
-            teamTwo = game[2]
-            if float(game[3]) > highestTeamOneOdds:
-                highestTeamOneOdds = float(game[3])
-                highestTeamOneSite = game[0]
-            if float(game[4]) > highestTeamTwoOdds:
-                highestTeamTwoOdds = float(game[4])
-                highestTeamTwoSite = game[0]
+            team_one = game[1]
+            team_two = game[2]
+            if float(game[3]) > highest_team_one_odds:
+                highest_team_one_odds = float(game[3])
+                highest_team_one_site = game[0]
+            if float(game[4]) > highest_team_two_odds:
+                highest_team_two_odds = float(game[4])
+                highest_team_two_site = game[0]
 
-        outputResults.append([teamOne, teamTwo, highestTeamOneSite, highestTeamTwoSite, highestTeamOneOdds, highestTeamTwoOdds])
-    return outputResults
+        output_results.append([team_one, team_two, highest_team_one_site, highest_team_two_site, highest_team_one_odds, highest_team_two_odds])
+    return output_results
 
 
 # Method for completing the arbitrage using the best odds
 def arbitrage(list):
     current_time = datetime.datetime.now().time()
     current_time = current_time.strftime("%H:%M")
-    outputResults = []
+    output_results = []
     for line in list:
-        teamOneArbitrage = 100/float(line[4])
-        teamTwoArbitrage = 100/float(line[5])
-        cost = (teamOneArbitrage + teamTwoArbitrage)
+        team_one_arbitrage = 100/float(line[4])
+        team_two_arbitrage = 100/float(line[5])
+        cost = (team_one_arbitrage + team_two_arbitrage)
         if cost < 100:
             profitable = "YES"
             profit = 100 - cost
         else:
             profitable = "NO"
             profit = 0
-        outputResults.append([line[0], line[1], line[2], line[3], line[4], line[5], round(teamOneArbitrage,2), round(teamTwoArbitrage,2), round(cost,2), profitable, round(profit,2), current_time])
-    return outputResults
+        output_results.append([line[0], line[1], line[2], line[3], line[4], line[5], round(team_one_arbitrage,2), round(team_two_arbitrage,2), round(cost,2), profitable, round(profit,2), current_time])
+    return output_results
 
 
 # Combining lists together
-allResults = tabResults + bet365Results + pinnacleResults + pointsbetResults + ladbrokesResults + unibetResults + tonybetResults
+all_results = tabResults + bet365Results + pinnacleResults + pointsbetResults + ladbrokesResults + unibetResults + tonybetResults
 
 #Splits via ","
-newAllResults = []
-for item in allResults:
-    newAllResults.append(item.split(","))
+new_all_results = []
+for item in all_results:
+    new_all_results.append(item.split(","))
 
-allResults = remove_empty_lists(newAllResults)
+all_results = remove_empty_lists(new_all_results)
 
 # Find all teams that have been found in easily splittable sites and check if they
 # are in the not easily splittable sites.
-listOfAllTeams = []
-for team in allResults:
-    listOfAllTeams.append(team[1].strip())
-    listOfAllTeams.append(team[2].strip())
+list_of_all_teams = []
+for team in all_results:
+    list_of_all_teams.append(team[1].strip())
+    list_of_all_teams.append(team[2].strip())
 
 # This updates the master team lists so that I can save all teams that are ever on
 # Tab, pointsbet or Ladbrokes.
-masterTeamList_file = open(masterTeamList_file_path, "a")
-if listOfAllTeams:
-    for team in listOfAllTeams:
-        if team not in masterTeamList:
-            masterTeamList_file.write(str(team))
-            masterTeamList_file.write(str("\n"))
-masterTeamList_file.close()
+master_team_list_file = open(master_team_list_file_path, "a")
+if list_of_all_teams:
+    for team in list_of_all_teams:
+        if team not in master_team_list:
+            master_team_list_file.write(str(team))
+            master_team_list_file.write(str("\n"))
+master_team_list_file.close()
 
 
-matchingGames = find_same_games(allResults)
-listToArbitrage = (getBestOdds(matchingGames))
+matching_games = find_same_games(all_results)
+list_to_arbitrage = (get_best_odds(matching_games))
 
 arbitrageResults = "TxtFiles/arbitrageResults.txt"
 arbitrageResults_file = open(arbitrageResults, "a")
@@ -179,7 +179,7 @@ profitableArbitrageResults_file = open(profitableArbitrageResults, "a")
 
 has_profitable_result = False
 
-results = arbitrage(listToArbitrage)
+results = arbitrage(list_to_arbitrage)
 for result in results:
     arbitrageResults_file.write(str(result) + '\n')
 print(results)
