@@ -11,16 +11,13 @@ The aim of these programs is to create an automatic arbitrage opportunity finder
 
 ## Critical items of To-Do List
 
-1. Set up Raspberry Pi and check how it runs with the program [done]
-2. REDO: CHOOSE A METHOD THAT GETS THE DATA QUICKER AT THE MOMENT TAKES A WHILE TO GET ALL THE DATA.
-    * Potential solutions: have the websites already open so they don't need to be loaded or/and run all loadings of websites at the same time. [done]
-    * NOTE: This needs to be quick for linux, it can be slow for windows. [done]
-    * Currently working for TAB, pointsbet, and unibet. Need to add ladbokes now.
-3. ResultChecker when doing pointsbet it needs to fitler out lines, atm does not.
+1. Set up script so that it auto runs when Pi is started.
+2. Figure out how to process Pinnacle odds and maybe figure out why tony bet doesn't load properly (i'm assuming its got anti-scraping features).
+3. Add Tennis odds, double the pool of odds available.
 
 ## 1. Scraping the Data
 
-done using the file **Scraper.py**
+done using the file **scraperV2.py**
 
 **Initial Setup:**
 
@@ -40,22 +37,30 @@ import platform
 
 **How it works:**
 
+1. First loads all the browser instances. 
+2. Then on a loop calls perform_task which calls get_odds and upload_odds.
+3. get_odds works by using BeautifulSoup to scrape the raw odds.
+4. Then uploads the odds to the desired file using upload_odds.
+5. Calls resultChecker.py
+6. Calls arbitrage.py
+
 **What Websites are Scraped:**
+
+* TAB
+* PointsBet
+* UniBet
+* LadBrokes
+* TonyBet (if it wasn't a cunt)
 
 **To Do:**
 
-* Need to set up the correct driver for my desktop. At the moment get output:
+* Update:
 ```
-The version of firefox cannot be detected. Trying with latest driver version [done, not going to do doesn't matter works for pi]
+  page_source = browser.page_source 
 ```
-* Remove bet365.
-* Automatically close cookies button if detected.
-* For either pointsbet or unibet if no information can be scraped scrape from a different location.
-* Get rid of 'time.sleep' and use a more efficient method.
-* Find out why TAB doesn't work on the first go. [done, works in the new version]
-* REDO: CHOOSE A METHOD THAT GETS THE DATA QUICKER AT THE MOMENT TAKES A WHILE TO GET ALL THE DATA.
-    * Potential solutions: have the websites already open so they don't need to be loaded or/and run all loadings of websites at the same time.
-    * NOTE: This needs to be quick for linux, it can be slow for windows.
+so that it only gets the part of page_source that is necessary.
+* See if I can get TonyBet to work.
+* Do it for tennis odds as well.
 
 ## 2. Process the scraped data
 
@@ -70,9 +75,12 @@ import re
 
 **How it works:**
 
-**What Websites are Scraped:**
+Most of the heavy lifting done in the tiny_odds method.
+* For each different website it formats the odds in to a readable and uniform format so that it can be processed in arbitrage.py.
 
 **To Do:**
+
+* Figure out how to process Pinnacle.
 
 ## 3. Compare data
 
@@ -87,43 +95,15 @@ None
 
 **How it works:**
 
-**What Websites are Scraped:**
+* Checks the odds against each other websites odds and returns the best opportunity for each matchup and if the odds are profitable. 
 
 **To Do:**
-* Make sure that both teams match not just one. Can bug out if the same team has several games avaible. Update following method:
-```
-# Method for finding matching games and adding them to a dictionary [done]
-def find_same_games(bigList):
-    seenList = []
-    findList = []
-    result_dict = {}
 
-    # Find items in list[1] that occur more than once
-    for lst in bigList:
-        if lst[1] in seenList:
-            findList.append(lst[1])
-        seenList.append(lst[1])
+* Add Pinnacle or any other site if they added.
+* Otherwise seems to be done for now.
+* Note: not sure if master list is being updated, will need to keep an eye on.
 
-    # Initialize empty lists in the result_dict for each item in findList
-    for item in findList:
-        result_dict[item] = []
 
-    # Populate the result_dict with the lists containing the items from findList
-    for lst in bigList:
-        if lst[1] in findList:
-            result_dict[lst[1]].append(lst)
+# Raspberry Pi
 
-    return result_dict
-```
-
-## Other Things:
-
-### Raspberry Pi
-
-* Set up Raspberry Pi and check how it runs with the program [done]
-
-### Brain
-
-**brain.py**
-
-* Find out why never works with TAB [done, not going to have a brain, no need get each program to call the next]
+* Set up so that ScraperV2 auto runs on boot.
