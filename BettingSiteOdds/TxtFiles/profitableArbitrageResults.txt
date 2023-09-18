@@ -1,1 +1,1 @@
-Team 1, Team 2, Betting Site 1, Betting Site 2, 
+[' team_one',' team_two', ' site_one', ' site_two', ' amount_on_site_one', ' amount_one_site_two', 'cost', 'is_profitable']
