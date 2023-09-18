@@ -42,13 +42,12 @@ tonybetResults = tonybetFileIn.split("\n")
 tonybet_file.close()
 
 # Method for a clean upload
-def cleanUpload(file, odds):
+def clean_upload(file, odds):
     for odd in odds:
         odd = str(odd).replace('[', '').replace(']', '').replace("'", "")
         if "N/A" not in odd:
             file.write(odd+"\n")
     file.close
-
 
 # Method for finding where the betting odds are located
 def find_word_positions(text, word):
@@ -64,10 +63,10 @@ def find_word_positions(text, word):
 
 
 # Method for tidying the odds
-def tidyOdds(results, siteName, wordToSplit):
+def tidy_odds(results, site_name, wordToSplit):
     
     # Output list
-    firstItemResults = []
+    first_item_results = []
 
     # Splits Text Via wordToSplit
     results = results.replace("U19","U19 ")
@@ -78,34 +77,34 @@ def tidyOdds(results, siteName, wordToSplit):
     for string in results:
 
         # Finds odds As The First Two Decimal Formats
-        findDecimalNumbers = re.findall(r'[0-9]*\.[0-9]+', string)
-        odds = findDecimalNumbers[:2]
+        find_decimal_numbers = re.findall(r'[0-9]*\.[0-9]+', string)
+        odds = find_decimal_numbers[:2]
         
         # Checks if odds have been found. If they have not set the names to N/A
-        if odds and siteName == "TAB":
-            # Gets TeamOne
+        if odds and site_name == "TAB":
+            # Gets team_one
             positions = find_word_positions(string, odds[0])
-            teamOneIsBefore = positions[0][0]
-            teamOne = string[:teamOneIsBefore]
-            # Gets TeamTwo
+            team_one_is_before = positions[0][0]
+            team_one = string[:team_one_is_before]
+            # Gets team_two
             positions = find_word_positions(string, odds[0])
-            teamTwoIsAfter = positions[-1][1] + 1
+            team_two_is_after = positions[-1][1] + 1
             
             if len(odds) >= 2:
                 positions2 = find_word_positions(string, odds[1])
-                teamTwoIsBefore = positions2[0][0]
-                teamTwo = string[teamTwoIsAfter:teamTwoIsBefore]
-                # Gets TeamOne and TeamTwo Odds
-                teamOneOdds, teamTwoOdds = odds
+                team_two_is_before = positions2[0][0]
+                team_two = string[team_two_is_after:team_two_is_before]
+                # Gets team_one and team_two Odds
+                team_one_odds, team_two_odds = odds
             else:
-                teamTwo = "N/A"
-                teamTwoOdds = 0.00
+                team_two = "N/A"
+                team_two_odds = 0.00
 
             # Checks if the odds are money lines and not head to head
-            if teamOne[-1] == "-" or teamOne[-1] == "+":
-                teamOne, teamTwo, teamOneOdds, teamTwoOdds = "N/A", "N/A", 0.00, 0.00
+            if team_one[-1] == "-" or team_one[-1] == "+":
+                team_one, team_two, team_one_odds, team_two_odds = "N/A", "N/A", 0.00, 0.00
                 
-        elif odds and siteName == "Pointsbet": 
+        elif odds and site_name == "Pointsbet": 
             # Removes words that may mess up the regex
             string = string.replace("Line", "")
             string = string.replace("total", "")
@@ -117,34 +116,34 @@ def tidyOdds(results, siteName, wordToSplit):
             matches = re.findall(pattern, string)
             try:
                 # Checks for live matches that mess up the odds. And Removes the live scores
-                teamOne, teamOneOdds, teamTwo, teamTwoOdds = [item for match in matches for item in match]
-                while len(teamOneOdds) > 4 and teamOneOdds[0].isnumeric():
-                    teamOneOdds = teamOneOdds[1:]
-                while len(teamTwoOdds) > 4 and teamTwoOdds[0].isnumeric():
-                    teamTwoOdds = teamTwoOdds[1:]
+                team_one, team_one_odds, team_two, team_two_odds = [item for match in matches for item in match]
+                while len(team_one_odds) > 4 and team_one_odds[0].isnumeric():
+                    team_one_odds = team_one_odds[1:]
+                while len(team_two_odds) > 4 and team_two_odds[0].isnumeric():
+                    team_two_odds = team_two_odds[1:]
             except:
-                teamOne, teamOneOdds, teamTwo, teamTwoOdds = "N/A", 0.00, "N/A", 0.00
+                team_one, team_one_odds, team_two, team_two_odds = "N/A", 0.00, "N/A", 0.00
 
-        elif odds and siteName == "LadBrokes":
+        elif odds and site_name == "LadBrokes":
 
             # If The Game is not a head to head and instead points line sets to N/A
             pattern = r'\([^)]*\)'
             
             if "Over" in string or "Under" in string:
-                teamOne, teamOneOdds, teamTwo, teamTwoOdds = "N/A", 0.00, "N/A", 0.00
+                team_one, team_one_odds, team_two, team_two_odds = "N/A", 0.00, "N/A", 0.00
             elif re.search(pattern, string):
-                teamOne, teamOneOdds, teamTwo, teamTwoOdds = "N/A", 0.00, "N/A", 0.00
+                team_one, team_one_odds, team_two, team_two_odds = "N/A", 0.00, "N/A", 0.00
             
             # Uses regex to find team names and odds
             else:
                 try:
                     pattern = r'([A-Za-z0-9 ]+)[\t ]+([0-9.]+)'
                     matches = re.findall(pattern, string)
-                    teamOne, teamOneOdds, teamTwo, teamTwoOdds = [item for match in matches for item in match]
-                    teamOne, teamOneOdds, teamTwo, teamTwoOdds = teamOne.strip(), teamOneOdds.strip(), teamTwo.strip(), teamTwoOdds.strip()
+                    team_one, team_one_odds, team_two, team_two_odds = [item for match in matches for item in match]
+                    team_one, team_one_odds, team_two, team_two_odds = team_one.strip(), team_one_odds.strip(), team_two.strip(), team_two_odds.strip()
                 except:
-                    teamOne, teamTwo, teamOneOdds, teamTwoOdds = "N/A", "N/A", 0.00, 0.00
-        elif odds and siteName == "Unibet":
+                    team_one, team_two, team_one_odds, team_two_odds = "N/A", "N/A", 0.00, 0.00
+        elif odds and site_name == "Unibet":
             string = string.replace("(W)", "Women ")
 
             # Regex for finding teams that are in the master team list.
@@ -155,35 +154,35 @@ def tidyOdds(results, siteName, wordToSplit):
             if consecutive_teams:
                 for team_pair in consecutive_teams:
                     if team_pair[0] and team_pair[1]:
-                        teamOne = team_pair[0]
-                        teamTwo = team_pair[1]
+                        team_one = team_pair[0]
+                        team_two = team_pair[1]
 
             # Finds odds for the teams
-            end_of_teamTwo = string.find(teamTwo) + len(teamTwo)
-            next_eight_items = string[end_of_teamTwo:end_of_teamTwo + 8]
+            end_of_team_two = string.find(team_two) + len(team_two)
+            next_eight_items = string[end_of_team_two:end_of_team_two + 8]
             if next_eight_items[1] == ".":
-                teamOneOdds = next_eight_items[0:4]
-                teamTwoOdds = next_eight_items[4:8]
+                team_one_odds = next_eight_items[0:4]
+                team_two_odds = next_eight_items[4:8]
             else:
-                teamOneOdds = 0.00
-                teamTwoOdds = 0.00
+                team_one_odds = 0.00
+                team_two_odds = 0.00
 
-        elif odds and siteName == "Tonybet":
+        elif odds and site_name == "Tonybet":
             # Regex for finding teams that are in the master team list.
             consecutive_pattern = r'({})({})'.format('|'.join(master_team_list), '|'.join(master_team_list))
             consecutive_teams = re.findall(consecutive_pattern, string)
 
-            teamOne = "N/A"
-            teamTwo = "N/A"
-            teamOneOdds = 0.00
-            teamTwoOdds = 0.00
+            team_one = "N/A"
+            team_two = "N/A"
+            team_one_odds = 0.00
+            team_two_odds = 0.00
 
             # Finds team names
             if consecutive_teams:
                 for team_pair in consecutive_teams:
                     if team_pair[0] and team_pair[1]:
-                        teamOne = team_pair[0]
-                        teamTwo = team_pair[1]
+                        team_one = team_pair[0]
+                        team_two = team_pair[1]
             
             # Finds the positions of '.' which can be used for odds
             positions = []
@@ -195,20 +194,20 @@ def tidyOdds(results, siteName, wordToSplit):
             position1 = positions[0]
             position2 = positions[1]
             
-            # Sets the teamOne and teamTwo odds
-            teamOneOdds = string[position1-1:position1+3]
-            teamTwoOdds = string[position2-1:position2+3]
+            # Sets the team_one and team_two odds
+            team_one_odds = string[position1-1:position1+3]
+            team_two_odds = string[position2-1:position2+3]
 
         else:
-            teamOne = "N/A"
-            teamTwo = "N/A"
-            teamOneOdds = 0.00
-            teamTwoOdds = 0.00
+            team_one = "N/A"
+            team_two = "N/A"
+            team_one_odds = 0.00
+            team_two_odds = 0.00
 
         # Appends and returns the tidy odds.
-        firstItemResults.append([siteName, teamOne, teamTwo, teamOneOdds, teamTwoOdds])
+        first_item_results.append([site_name, team_one, team_two, team_one_odds, team_two_odds])
 
-    return firstItemResults
+    return first_item_results
 
 
 # Upload clean values for the TAB
@@ -222,8 +221,8 @@ target = "HandicapTotal"
 # Odds for teams for TAB
 for result in tabResults:
     if target in result:
-        odds = tidyOdds(result, "TAB", target)
-        cleanUpload(tab_file, odds)
+        odds = tidy_odds(result, "TAB", target)
+        clean_upload(tab_file, odds)
 
 tab_file.close()
 print("TAB odds uploaded")
@@ -247,8 +246,8 @@ for result in pointsbetResults:
     #result = result.replace("Line", "")
     #result = result.replace("total", "")
     if target in result:
-        odds = tidyOdds(result, "Pointsbet", target)
-        cleanUpload(pointsbet_file, odds)
+        odds = tidy_odds(result, "Pointsbet", target)
+        clean_upload(pointsbet_file, odds)
 
 pointsbet_file.close()
 print("Pointsbet odds uploaded")
@@ -269,8 +268,8 @@ all_results = []
 # #print(ladbrokesResults)
 # # Odds for teams for ladbrokes
 for result in ladbrokesResults:
-    odds = tidyOdds(result, "LadBrokes", target)
-    cleanUpload(ladbrokes_file, odds)
+    odds = tidy_odds(result, "LadBrokes", target)
+    clean_upload(ladbrokes_file, odds)
 
 ladbrokes_file.close()
 print("ladbrokes odds uploaded")
@@ -287,8 +286,8 @@ target = ":"
 all_results = []
 
 for result in unibetResults:
-    odds = tidyOdds(result, "Unibet", target)
-    cleanUpload(unibet_file, odds)
+    odds = tidy_odds(result, "Unibet", target)
+    clean_upload(unibet_file, odds)
 
 unibet_file.close()
 print("Unibet odds uploaded")
@@ -303,5 +302,5 @@ target = ":"
 all_results = []
 
 for result in tonybetResults:
-    odds = tidyOdds(result, "Tonybet", target)
-    cleanUpload(tonybet_file, odds)
+    odds = tidy_odds(result, "Tonybet", target)
+    clean_upload(tonybet_file, odds)
