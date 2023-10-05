@@ -2,3 +2,4 @@
 [' Minnesota Timberwolves', ' Dallas Mavericks', 'LadBrokes', 'TAB', 1.9, 2.6, 52.63, 38.46, 91.09, 'YES', 8.91, '05:15']
 [' Minnesota Timberwolves', ' Dallas Mavericks', 'LadBrokes', 'TAB', 1.9, 4.25, 52.63, 23.53, 76.16, 'YES', 23.84, '05:39']
 [' Minnesota Timberwolves', ' Dallas Mavericks', 'LadBrokes', 'TAB', 1.9, 11.0, 52.63, 9.09, 61.72, 'YES', 38.28, '06:08']
+[' Minnesota Timberwolves', ' Dallas Mavericks', 'LadBrokes', 'TAB', 1.9, 11.0, 52.63, 9.09, 61.72, 'YES', 38.28, '06:36']
