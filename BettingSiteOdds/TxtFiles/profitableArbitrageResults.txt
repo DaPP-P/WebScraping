@@ -4,3 +4,4 @@
 [' Minnesota Timberwolves', ' Dallas Mavericks', 'LadBrokes', 'TAB', 1.9, 11.0, 52.63, 9.09, 61.72, 'YES', 38.28, '06:08']
 [' Minnesota Timberwolves', ' Dallas Mavericks', 'LadBrokes', 'TAB', 1.9, 11.0, 52.63, 9.09, 61.72, 'YES', 38.28, '06:36']
 [' Minnesota Timberwolves', ' Dallas Mavericks', 'LadBrokes', 'TAB', 1.9, 14.0, 52.63, 7.14, 59.77, 'YES', 40.23, '07:07']
+[' New York Liberty', ' Las Vegas Aces', 'LadBrokes', 'LadBrokes', 2.05, 2.02, 48.78, 49.5, 98.29, 'YES', 1.71, '11:18']
