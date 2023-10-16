@@ -11,3 +11,4 @@
 [' New York Liberty', ' Las Vegas Aces', 'LadBrokes', 'LadBrokes', 2.05, 2.02, 48.78, 49.5, 98.29, 'YES', 1.71, '12:57']
 [' New York Liberty', ' Las Vegas Aces', 'LadBrokes', 'LadBrokes', 2.05, 2.02, 48.78, 49.5, 98.29, 'YES', 1.71, '13:20']
 [' New York Liberty', ' Las Vegas Aces', 'LadBrokes', 'LadBrokes', 2.05, 2.02, 48.78, 49.5, 98.29, 'YES', 1.71, '13:44']
+[' New York Liberty', ' Las Vegas Aces', 'LadBrokes', 'LadBrokes', 2.05, 2.02, 48.78, 49.5, 98.29, 'YES', 1.71, '14:08']
