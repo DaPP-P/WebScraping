@@ -49,7 +49,7 @@ def get_odds(url, containerName):
     print("Closing", url)
 
     # Parse the HTML content using BeautifulSoup
-    soup = BeautifulSoup(page_source, "html.parser")
+    soup = BeautifulSoup(page_source, "lxml")
 
     container = soup.find_all("div", class_ = containerName)
     
@@ -108,8 +108,8 @@ tonybet_file_name = "tonybetResults.txt"
 tonybet_file_path = os.path.join(txt_files_folder, tonybet_file_name)
 
 # Getting odds from the TAB
-tab_file = open(tonybet_file_path, "w")
-tab_odds = get_odds("https://tonybet.com/nz/prematch/basketball", "event-table__row")
+tab_file = open(tab_file_path, "w")
+tab_odds = get_odds("https://www.tab.co.nz/sport/8/basketball/matches", "event-list event-list--vertical")
 
 # FOR FUTURE BETTING SITES
 # Pinnacle
