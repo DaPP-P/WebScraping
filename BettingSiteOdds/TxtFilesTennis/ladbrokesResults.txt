@@ -1,0 +1,48 @@
+   Denver Nuggets    1.44       Los Angeles Lakers    2.80     
+          vs
+        
+   Golden State Warriors    1.82       Phoenix Suns    2.00     
+          vs
+        
+ Connecticut Sun    1.22     Minnesota Lynx    4.10     
+          vs
+        
+ Las Vegas Aces    1.05     Chicago Sky    8.50     
+          vs
+        
+ New York Liberty    1.20     Washington Mystics    4.20     
+          vs
+        
+ Dallas Wings    1.33     Atlanta Dream    3.10     
+          vs
+        
+ Over  49.5    1.95     Under  49.5    1.85     
+          vs
+        
+ Over  43.5    1.85     Under  43.5    1.95     
+          vs
+        
+ Over  36.5    1.80     Under  36.5    2.00     
+          vs
+        
+ Over  26.5    1.80     Under  26.5    2.00     
+          vs
+        
+ Over  45.5    1.85     Under  45.5    1.95     
+          vs
+        
+ Shimane Susanoo Magic    1.08     Shiga Lake Stars    7.00     
+          vs
+        
+ BAL Weert    5.50     Leuven Bears    1.11     
+          vs
+        
+ King Wilki Morskie Szczecin    2.50     Hapoel Tel Aviv    1.44     
+          vs
+        
+ BC Kalev/Cramo    1.48     Helsinki Seagulls    2.40     
+          vs
+        
+ KK Polonia Bytom    2.05     AZS AWF Mickiewicz Romus Katowice    1.67     
+          vs
+        
