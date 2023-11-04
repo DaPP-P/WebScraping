@@ -14,6 +14,7 @@ The aim of these programs is to create an automatic arbitrage opportunity finder
 1. Set up script so that it auto runs when Pi is started.
 2. Figure out how to process Pinnacle odds and maybe figure out why tony bet doesn't load properly (i'm assuming its got anti-scraping features).
 3. Add Tennis odds, double the pool of odds available.
+4. Pointsbet, change it to the up next tab.
 
 ## 1. Scraping the Data
 
