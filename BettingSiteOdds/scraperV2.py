@@ -138,48 +138,97 @@ def get_odds(url, container_name, browser):
         print("Container not found")
 
 # Method for getting odds from the websites. Calls 'get_odds'.
+choice = True
 def perform_task():
+
+    global choice
     
-    # Gets odds for the TAB
-    tab_odds = get_odds("https://www.tab.co.nz/sport/8/basketball/matches", "event-list event-list--vertical", tab_browser)
-    print(tab_odds)
-    upload_odds("tab", tab_odds)
-    print("---------")
+    if choice == True:
+        choice = False
 
-    # Gets odds for Pointsbet
-    pointsbet_odds = get_odds("https://pointsbet.com.au/sports/basketball", "f3wis39", pointsbet_browser)
-    print(pointsbet_odds)
-    upload_odds("pointsbet", pointsbet_odds)
-    print("---------")
+        # Gets odds for basketball scores from the TAB
+        tab_odds = get_odds("https://www.tab.co.nz/sport/8/basketball/matches", "event-list event-list--vertical", tab_browser)
+        print(tab_odds)
+        upload_odds("tab", tab_odds, "Basketball")
+        print("---------")
 
-    # Gets odds for Unibet.
-    unibet_odds = get_odds("https://www.unibet.com/betting/sports/filter/basketball/all/matches", "_28843", unibet_browser)
-    print(unibet_odds)
-    upload_odds("unibet", unibet_odds)
-    print("---------")
+        # Gets odds for basketball scores from Pointsbet
+        pointsbet_odds = get_odds("https://pointsbet.com.au/sports/basketball", "f3wis39", pointsbet_browser)
+        print(pointsbet_odds)
+        upload_odds("pointsbet", pointsbet_odds, "Basketball")
+        print("---------")
 
-    # Gets odds for ladbrokes.
-    ladbrokes_odds1 = get_odds("https://www.ladbrokes.com.au/sports/basketball/usa", "sports-market-primary__prices-inner", ladbrokes_browser1)
-    ladbrokes_odds2 = get_odds("https://www.ladbrokes.com.au/sports/basketball/international", "sports-market-primary__prices-inner", ladbrokes_browser2)
-    ladbrokes_odds3 = get_odds("https://www.ladbrokes.com.au/sports/basketball/australia", "sports-market-primary__prices-inner", ladbrokes_browser3)
-    ladbrokes_upload_odds(ladbrokes_odds1, ladbrokes_odds2, ladbrokes_odds3)
-    print("---------")
+        # Gets odds for basetball scores from Unibet
+        unibet_odds = get_odds("https://www.unibet.com/betting/sports/filter/basketball/all/matches", "_28843", unibet_browser)
+        print(unibet_odds)
+        upload_odds("unibet", unibet_odds, "Basketball")
+        print("---------")
 
-    # Gets odds for Tonybets.
-    #tonybet_odds = get_odds("https://tonybet.com/nz/prematch/basketball", "event-table__row", tonybet_browser)
-    #upload_odds("tonybet", tonybet_odds)
+        # Gets odds for basketball scores from Ladbrokes
+        ladbrokes_odds1 = get_odds("https://www.ladbrokes.com.au/sports/basketball/usa", "sports-market-primary__prices-inner", ladbrokes_browser1)
+        ladbrokes_odds2 = get_odds("https://www.ladbrokes.com.au/sports/basketball/international", "sports-market-primary__prices-inner", ladbrokes_browser2)
+        ladbrokes_odds3 = get_odds("https://www.ladbrokes.com.au/sports/basketball/australia", "sports-market-primary__prices-inner", ladbrokes_browser3)
+        ladbrokes_upload_odds(ladbrokes_odds1, ladbrokes_odds2, ladbrokes_odds3)
+        print("---------")
+
+        # Gets odds for basketball scores from Tonybets.
+        #tonybet_odds = get_odds("https://tonybet.com/nz/prematch/basketball", "event-table__row", tonybet_browser)
+        #upload_odds("tonybet", tonybet_odds)
+    
+    if choice == False:
+        choice = True
+
+        # Gets odds for tennis scores from the TAB
+        tab_odds = get_odds("https://www.tab.co.nz/sport/37/tennis/matches", "event-list event-list--vertical", tab_tennis_browser)
+        print(tab_odds)
+        upload_odds("tab", tab_odds, "Tennis")
+        print("---------")
+
+        # Gets odds for tennis scores from Pointsbet
+        #print(pointsbet_odds)
+        #upload_odds("pointsbet", pointsbet_odds, "Tennis")
+        #print("---------")
+
+        # Gets odds for tennis scores from Unibet
+        unibet_odds = get_odds("https://www.unibet.com/betting/sports/filter/tennis/all/matches", "c21a2", unibet_tennis_browser)
+        print(unibet_odds)
+        upload_odds("unibet", unibet_odds, "Tennis")
+        print("---------")
+
+        # Gets odds for tennis scores from Ladbrokes
+        ladbrokes_odds = get_odds("https://www.ladbrokes.com.au/sports/tennis", "sports-market-primary__prices-inner", ladbrokes_tennis_browser)
+        print(ladbrokes_odds)
+        upload_odds("ladbrokes", ladbrokes_odds, "Tennis")
+
+
 
 # Method for importing the scraped odds to the desired txt file.
-def upload_odds(website, odds):
-    file_path = tab_file_path if website == "tab" else pointsbet_file_path if website == "pointsbet" else unibet_file_path
-    with open(file_path, "a") as file:
-        file.truncate(0)
-        if odds:
-            for odd in odds:
-                file.write(str(odd))
-            print("raw", website, "have been scraped")
-        else:
-            print("raw", website, "have NOT been scraped")
+def upload_odds(website, odds, sport):
+    
+    # Upload Basketball odds
+    if sport == "Basketball":
+        file_path = tab_file_path if website == "tab" else pointsbet_file_path if website == "pointsbet" else unibet_file_path
+        with open(file_path, "a") as file:
+            file.truncate(0)
+            if odds:
+                for odd in odds:
+                    file.write(str(odd))
+                print("raw", website, "BASKETBALL stats have been scraped")
+            else:
+                print("raw", website, "BASKETBALL stats have NOT been scraped")
+    
+    # Upload Tennis odds
+    if sport == "Tennis":
+        file_path = tab_tennis_file_path if website == "tab" else pointsbet_tennis_file_path if website == "pointsbet" else unibet_tennis_file_path if website == "unibet" else ladbrokes_tennis_file_path
+        with open(file_path, "a") as file:
+            file.truncate(0)
+            if odds:
+                for odd in odds:
+                    file.write(str(odd))
+                print("raw", website, "TENNIS stats have been scraped")
+            else:
+                print("raw", website, "TENNIS stats have NOT been scraped")
+
 
 # Method for importing the scarped odds for ladbrokes.
 def ladbrokes_upload_odds(odds1, odds2, odds3):
