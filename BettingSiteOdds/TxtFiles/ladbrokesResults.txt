@@ -1,25 +1,34 @@
+ Charlotte Hornets    1.57     Oklahoma City Thunder    2.40     
+          vs
+        
+ Toronto Raptors    1.01     Cairns Taipans    26.00     
+          vs
+        
+ Miami Heat    2.02     Memphis Grizzlies    1.80     
+          vs
+        
+ Los Angeles Lakers    2.80     Milwaukee Bucks    1.44     
+          vs
+        
+ Denver Nuggets    1.40     Chicago Bulls    2.95     
+          vs
+        
    Denver Nuggets    1.44       Los Angeles Lakers    2.80     
           vs
         
    Golden State Warriors    1.82       Phoenix Suns    2.00     
           vs
         
- Connecticut Sun    1.22     Minnesota Lynx    4.10     
+ New York Liberty    2.05     Las Vegas Aces    1.70     
           vs
         
- Las Vegas Aces    1.05     Chicago Sky    8.50     
-          vs
-        
- New York Liberty    1.20     Washington Mystics    4.20     
-          vs
-        
- Dallas Wings    1.33     Atlanta Dream    3.10     
+ New York Liberty    1.70     Las Vegas Aces    2.05     
           vs
         
  Over  49.5    1.95     Under  49.5    1.85     
           vs
         
- Over  43.5    1.85     Under  43.5    1.95     
+ Over  43.5    1.75     Under  43.5    2.05     
           vs
         
  Over  36.5    1.80     Under  36.5    2.00     
@@ -28,21 +37,12 @@
  Over  26.5    1.80     Under  26.5    2.00     
           vs
         
- Over  45.5    1.85     Under  45.5    1.95     
+ Over  46.5    1.95     Under  46.5    1.85     
           vs
         
- Shimane Susanoo Magic    1.08     Shiga Lake Stars    7.00     
+ Deportivo San Jose    1.22     Malvin    3.90     
           vs
         
- BAL Weert    5.50     Leuven Bears    1.11     
-          vs
-        
- King Wilki Morskie Szczecin    2.50     Hapoel Tel Aviv    1.44     
-          vs
-        
- BC Kalev/Cramo    1.48     Helsinki Seagulls    2.40     
-          vs
-        
- KK Polonia Bytom    2.05     AZS AWF Mickiewicz Romus Katowice    1.67     
+ Obera T.C.    1.95     Instituto Atletico Central Cordoba    1.75     
           vs
         

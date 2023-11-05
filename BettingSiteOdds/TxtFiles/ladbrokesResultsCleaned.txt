@@ -1,11 +1,11 @@
+LadBrokes, Charlotte Hornets, Oklahoma City Thunder, 1.57, 2.40
+LadBrokes, Toronto Raptors, Cairns Taipans, 1.01, 26.00
+LadBrokes, Miami Heat, Memphis Grizzlies, 2.02, 1.80
+LadBrokes, Los Angeles Lakers, Milwaukee Bucks, 2.80, 1.44
+LadBrokes, Denver Nuggets, Chicago Bulls, 1.40, 2.95
 LadBrokes, Denver Nuggets, Los Angeles Lakers, 1.44, 2.80
 LadBrokes, Golden State Warriors, Phoenix Suns, 1.82, 2.00
-LadBrokes, Connecticut Sun, Minnesota Lynx, 1.22, 4.10
-LadBrokes, Las Vegas Aces, Chicago Sky, 1.05, 8.50
-LadBrokes, New York Liberty, Washington Mystics, 1.20, 4.20
-LadBrokes, Dallas Wings, Atlanta Dream, 1.33, 3.10
-LadBrokes, Shimane Susanoo Magic, Shiga Lake Stars, 1.08, 7.00
-LadBrokes, BAL Weert, Leuven Bears, 5.50, 1.11
-LadBrokes, King Wilki Morskie Szczecin, Hapoel Tel Aviv, 2.50, 1.44
-LadBrokes, Cramo, Helsinki Seagulls, 1.48, 2.40
-LadBrokes, KK Polonia Bytom, AZS AWF Mickiewicz Romus Katowice, 2.05, 1.67
+LadBrokes, New York Liberty, Las Vegas Aces, 2.05, 1.70
+LadBrokes, New York Liberty, Las Vegas Aces, 1.70, 2.05
+LadBrokes, Deportivo San Jose, Malvin, 1.22, 3.90
+LadBrokes, , Instituto Atletico Central Cordoba, 1.95, 1.75
