@@ -1,2 +1,33 @@
-
+   Detroit Pistons    2.95       Phoenix Suns    1.40     
+          vs
+        
+   San Antonio Spurs    2.30       Toronto Raptors    1.64     
+          vs
+        
+   Cleveland Cavaliers    1.83       Golden State Warriors    2.00     
+          vs
+        
+   Dallas Mavericks    1.15       Charlotte Hornets    5.75     
+          vs
+        
+   Portland Trail Blazers    2.20       Memphis Grizzlies    1.70     
+          vs
+        
+ Oregon (-4.5)   1.87     Georgia (+4.5)   1.94     
+          vs
+        
+ Tennessee (-26.5)   1.87     Tennessee Tech (+26.5)   1.94     
+          vs
+        
+ Connecticut (-24)   1.90     Northern Arizona (+24)   1.90     
+          vs
+        
+ Purdue (-19.5)   1.90     Samford (+19.5)   1.90     
+          vs
+        
+ Duquesne (-9.5)   1.87     Cleveland State (+9.5)   1.94     
+          vs
+        
+   Melbourne United    1.45       Perth Wildcats    2.70     
+          vs
         

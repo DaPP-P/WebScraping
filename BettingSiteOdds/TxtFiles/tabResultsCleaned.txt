@@ -1,1 +1,18 @@
-
+TAB, Chong Ghee, Tagawa Basketball Club, 1.57, 2.20
+TAB, Pinar Karsiyaka, Bursaspor, 1.29, 3.20
+TAB, Detroit Pistons, Phoenix Suns, 2.90, 1.39
+TAB, San Antonio Spurs, Toronto Raptors, 2.20, 1.65
+TAB, Cleveland Cavaliers, Golden State Warriors, 1.80, 1.95
+TAB, Dallas Mavericks, Charlotte Hornets, 1.15, 5.15
+TAB, Portland Trail Blazers, Memphis Grizzlies, 2.11, 1.70
+TAB, Melbourne United, Perth Wildcats, 1.44, 2.65
+TAB, KK Mega Basket, Zadar, 1.40, 2.65
+TAB, KK Split, Partizan NIS, 6.60, 1.07
+TAB, Crvena Zvezda MTS Belgrade, Buducnost VOLI, 1.07, 6.40
+TAB, Igokea, KK FMP, 1.41, 2.60
+TAB, CA Paulistano, Unifacisa, 2.05, 1.67
+TAB, Sao Jose Basketball, Pato, 1.40, 2.70
+TAB, Sao Paulo, Fortaleza Basquete Cearense, 1.21, 3.90
+TAB, Tigers Tubingen, ALBA Berlin, 7.40, 1.06
+TAB, Cerrado Iesplan, Esporte Clube Uniao Corinthians, 2.30, 1.52
+TAB, Sesi SP/Franca BC, Corinthians, 1.12, 5.30
