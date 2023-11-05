@@ -109,7 +109,7 @@ ladbrokes_tennis_browser.get("https://www.ladbrokes.com.au/sports/tennis")
 #tonybet_browser.get("https://tonybet.com/nz/prematch/basketball")
 
 # Gives time for the browsers to be loaded
-time.sleep(60)
+time.sleep(90)
 
 
 # Method for scraping the odds from the website. @input: url, the websites url; container_name, the name of the container
@@ -249,11 +249,11 @@ def ladbrokes_upload_odds(odds1, odds2, odds3):
 # Start of the program.
 
 i = 0
-while i < 48 :
+while i < 2 :
 
     print("Start of loop")
     # Generate a random time interval between two intervals.
-    interval = random.randint(1200, 1800) # seconds random.randint(60, 120)  
+    interval = random.randint(60, 120) # seconds random.randint(60, 120)  
 
     i += 1
 
