@@ -1,9 +1,1 @@
-Pointsbet, Connecticut Sun, Minnesota Lynx, 1.22, 4.10
-Pointsbet, Brujos Izalco, Santa Ana BC, 1.04, 1.50
-Pointsbet, Dorados de Chihuahua, Soles de Mexicali, 1.24, 4.00
-Pointsbet, Abejas de Leon, Santos de San Luis, 1.25, 3.80
-Pointsbet, Las Vegas Aces, Chicago Sky, 1.06, 9.50
-Pointsbet, Halcones de Xalapa, Libertadores de Queretaro, 1.71, 2.05
-Pointsbet, Fuerza Regia, Plateros de Fresnillo, 1.13, 5.75
-Pointsbet, Mineros de Zacatecas, Correcaminos UAT Victoria, 1.25, 3.80
-Pointsbet, Panteras de Aguascalientes, Astros de Jalisco, 2.30, 1.59
+
