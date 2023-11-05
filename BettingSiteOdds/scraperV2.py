@@ -26,10 +26,10 @@ ladbrokes_service3 = Service(firefox_driver, log_output=None)
 #tonybet_service = Service(firefox_driver, log_output= None)
 
 # Create separate service for each TENNIS browser instance
-tab_tennis_service = Service(firefox_driver, log_output=None)
-pointsbet_tennis_service = Service(firefox_driver, log_output=None)
-unibet_tennis_service = Service(firefox_driver, log_output=None)
-ladbrokes_tennis_service = Service(firefox_driver, log_output=None)
+#tab_tennis_service = Service(firefox_driver, log_output=None)
+#pointsbet_tennis_service = Service(firefox_driver, log_output=None)
+#unibet_tennis_service = Service(firefox_driver, log_output=None)
+#ladbrokes_tennis_service = Service(firefox_driver, log_output=None)
 
 
 # Set the settings 
@@ -48,10 +48,10 @@ ladbrokes_browser3 = webdriver.Firefox(service=ladbrokes_service3, options=firef
 #tonybet_browser = webdriver.Firefox(service=tonybet_service, options=firefox_options)
 
 # Create separate browsers for each TENNIS website needing to be accessed
-tab_tennis_browser = webdriver.Firefox(service=tab_tennis_service, options=firefox_options)
-pointsbet_tennis_browser = webdriver.Firefox(service=pointsbet_tennis_service, options=firefox_options)
-unibet_tennis_browser = webdriver.Firefox(service=unibet_tennis_service, options=firefox_options)
-ladbrokes_tennis_browser = webdriver.Firefox(service=ladbrokes_tennis_service, options=firefox_options)
+#tab_tennis_browser = webdriver.Firefox(service=tab_tennis_service, options=firefox_options)
+#pointsbet_tennis_browser = webdriver.Firefox(service=pointsbet_tennis_service, options=firefox_options)
+#unibet_tennis_browser = webdriver.Firefox(service=unibet_tennis_service, options=firefox_options)
+#ladbrokes_tennis_browser = webdriver.Firefox(service=ladbrokes_tennis_service, options=firefox_options)
 
 
 # Set up paths for the TxtFiles for BASKETBALL
@@ -66,22 +66,22 @@ tennis_txt_files_folder = os.path.join(script_dir, "TxtFilesTennis")
 # Set up paths for the Tab
 tab_file_name = "tabResults.txt"
 tab_file_path = os.path.join(txt_files_folder, tab_file_name)
-tab_tennis_file_path = os.path.join(tennis_txt_files_folder, tab_file_name)
+#tab_tennis_file_path = os.path.join(tennis_txt_files_folder, tab_file_name)
 
 # Set up path for Pointsbet
 pointsbet_file_name = "pointsbetResults.txt"
 pointsbet_file_path = os.path.join(txt_files_folder, pointsbet_file_name)
-pointsbet_tennis_file_path = os.path.join(tennis_txt_files_folder, pointsbet_file_name)
+#pointsbet_tennis_file_path = os.path.join(tennis_txt_files_folder, pointsbet_file_name)
 
 # Set up path for Unibet
 unibet_file_name = "unibetResults.txt"
 unibet_file_path = os.path.join(txt_files_folder, unibet_file_name)
-unibet_tennis_file_path = os.path.join(tennis_txt_files_folder, unibet_file_name)
+#unibet_tennis_file_path = os.path.join(tennis_txt_files_folder, unibet_file_name)
 
 # Set up path for Ladbrokes
 ladbrokes_file_name = "ladbrokesResults.txt"
 ladbrokes_file_path = os.path.join(txt_files_folder, ladbrokes_file_name)
-ladbrokes_tennis_file_path = os.path.join(tennis_txt_files_folder, ladbrokes_file_name)
+#ladbrokes_tennis_file_path = os.path.join(tennis_txt_files_folder, ladbrokes_file_name)
 
 # Set up path for Tonybets
 tonybet_file_name = "tonybetResults.txt"
@@ -89,21 +89,21 @@ tonybet_file_path = os.path.join(txt_files_folder, tonybet_file_name)
 
 # Load TAB website
 tab_browser.get("https://www.tab.co.nz/sport/8/basketball/matches")
-tab_tennis_browser.get("https://www.tab.co.nz/sport/37/tennis/matches")
+#tab_tennis_browser.get("https://www.tab.co.nz/sport/37/tennis/matches")
 
 # Load PointsBet website
 pointsbet_browser.get("https://pointsbet.com.au/sports/basketball")
-pointsbet_tennis_browser.get("https://pointsbet.com.au/sports/tennis")
+#pointsbet_tennis_browser.get("https://pointsbet.com.au/sports/tennis")
 
 # Load Unibet website
 unibet_browser.get("https://www.unibet.com/betting/sports/filter/basketball/all/matches")
-unibet_tennis_browser.get("https://www.unibet.com/betting/sports/filter/tennis/all/matches")
+#unibet_tennis_browser.get("https://www.unibet.com/betting/sports/filter/tennis/all/matches")
 
 # Load Labrokes website
 ladbrokes_browser1.get("https://www.ladbrokes.com.au/sports/basketball/usa")
 ladbrokes_browser2.get("https://www.ladbrokes.com.au/sports/basketball/international")
 ladbrokes_browser3.get("https://www.ladbrokes.com.au/sports/basketball/australia")
-ladbrokes_tennis_browser.get("https://www.ladbrokes.com.au/sports/tennis")
+#ladbrokes_tennis_browser.get("https://www.ladbrokes.com.au/sports/tennis")
 
 # Load TonyBet website
 #tonybet_browser.get("https://tonybet.com/nz/prematch/basketball")
@@ -144,7 +144,7 @@ def perform_task():
     global choice
     
     if choice == True:
-        choice = False
+        #choice = False
 
         # Gets odds for basketball scores from the TAB
         tab_odds = get_odds("https://www.tab.co.nz/sport/8/basketball/matches", "event-list event-list--vertical", tab_browser)
