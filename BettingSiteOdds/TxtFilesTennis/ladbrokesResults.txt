@@ -1,79 +1,82 @@
- R. Bopanna/M. Ebden    1.67     S. Gonzalez/E. Roger-Vasselin    2.10     
+ N. Melichar-Martinez/E. Perez    2.10     L. Siegemund/V. Zvonareva    1.67     
           vs
         
- Novak Djokovic    1.29     Grigor Dimitrov    3.40     
+ Jessica Pegula    3.40     Iga Swiatek    1.30     
           vs
         
- G. Dabrowski/E. Routliffe    1.62     N. Melichar-Martinez/E. Perez    2.20     
+ Nicolas Moreno de Alboran    2.00     Billy Harris    1.75     
           vs
         
- Nicolas Moreno de Alboran    1.14     Alexander Donski    5.25     
+ S. Bolelli/M. Middelkoop    1.15     A. Donski/A. Lazarov    5.00     
           vs
         
- Vitaliy Sachko    1.50     Nerman Fatic    2.50     
+ J. Cash/N. Mektic    1.20     N. Cacic/P. Oswald    4.33     
           vs
         
- Terence Atmane    1.62     Illya Marchenko    2.20     
-          vs
-        
- Marc-Andrea Huesler    1.48     Francesco Passaro    2.50     
+ A. Golubev/D. Molchanov    3.10     N. Lammons/J. Withrow    1.33     
           vs
         
  Roberto Carballes Baena    1.70     Albert Ramos-Vinolas    2.05     
           vs
         
- Jana Fett    3.30     Anna Kalinskaya    1.29     
-          vs
-        
- Harold Mayot    2.00     Tom Paris    1.75     
-          vs
-        
- Gijs Brouwer    1.50     Abdullah Shelbayh    2.45     
-          vs
-        
- Pierre-Hugues Herbert    2.40     Arthur Cazaux    1.53     
-          vs
-        
- Gregoire Barrere    1.60     Yannick Hanfmann    2.20     
-          vs
-        
  R. Galloway/A. Olivetti    2.60     L. Glasspool/J. Peers    1.44     
           vs
         
- Jack Draper    1.36     David Goffin    3.00     
+ F. Fognini/P.-H. Herbert    1.65     M. Demoliner/R. Matos    2.10     
           vs
         
- Gustavo Heide    1.57     Kilian Feldbausch    2.30     
+ Alexander Shevchenko    1.53     Mathias Bourgue    2.40     
           vs
         
- Alex Barrena    2.15     Alvaro Guillen Meza    1.65     
+ Marcos Giron    2.00     Lorenzo Sonego    1.75     
           vs
         
- Joao Lucas Reis da Silva    1.05     Alberto Odiseo Alvarado Berrospi    11.00     
+ Constant Lestienne    1.40     Calvin Hemery    2.88     
           vs
         
- Gerard Campana Lee    1.75     Nicolas Mejia    2.00     
+ Dennis Novak    1.14     Skander Mansouri    5.00     
           vs
         
- Daniel Dutra Da Silva    2.45     Gastao Elias    1.50     
+ Stefano Travaglia    1.91     Oleksii Krutykh    1.80     
           vs
         
- Aidan Mayo    2.00     Beibit Zhukayev    1.73     
+ Mikhail Kukushkin    2.00     Alibek Kachmazov    1.70     
           vs
         
- Mats Rosenkranz    1.22     Adit Sinha    3.90     
+ Gauthier Onclin    1.40     Maximilian Neuchrist    2.70     
           vs
         
- Stefan Kozlov    1.65     Dmitry Popko    2.15     
+ Andrea Vavassori    2.38     Arthur Rinderknech    1.53     
           vs
         
- Keegan Smith    2.88     Christian Harrison    1.36     
+ Juncheng Shang    1.55     Alexander Ritschard    2.30     
           vs
         
- Thai-Son Kwiatkowski    1.33     Chris Rodesch    3.20     
+ Michael Mmoh    1.44     Martin Damm    2.63     
           vs
         
- Alex Rybakov    1.25     Nathan Ponwith    3.60     
+ Brandon Holt    2.60     Aleksandar Kovacevic    1.44     
+          vs
+        
+ Bernard Tomic    2.63     Alex Michelsen    1.44     
+          vs
+        
+ Zachary Svajda    1.36     Aidan Mayo    3.00     
+          vs
+        
+ Alessandro Giannessi    2.25     Oriol Roca Batalla    1.57     
+          vs
+        
+ Elias Ymer    1.75     Franco Agamenone    1.95     
+          vs
+        
+ Francisco Comesana    1.15     Rodrigo Pacheco Mendez    5.25     
+          vs
+        
+ Juan Manuel Cerundolo    1.80     Guido Andreozzi    1.91     
+          vs
+        
+ Mariano Navone    1.80     Federico Coria    1.91     
           vs
         
  Seongchan Hong    2.60     Luca Nardi    1.44     
@@ -82,90 +85,117 @@
  Frederico Ferreira Silva    1.91     James McCabe    1.80     
           vs
         
+ Blake Ellis    2.70     Rio Noguchi    1.40     
+          vs
+        
+ Ernesto Escobedo    1.35     James Trotter    3.00     
+          vs
+        
  Bu Yunchaokete    1.06     Menelaos Efstathiou    8.50     
           vs
         
- Moez Echargui    1.57     Arthur Weber    2.25     
+ Bence Toth    11.00     Mert Alkaya    1.03     
           vs
         
- Jason Jung    1.85     Yuta Shimizu    1.85     
+ Mircea-Alexandru Jecan    1.06     Dmitrii Vasilev    8.00     
           vs
         
- Alejandro Tabilo    2.00     Daniel Elahi Galan    1.73     
+ AJ Catanzariti    1.50     Josip Simundza    2.30     
           vs
         
- Gauthier Onclin    1.08     Markus Molder    7.00     
+ Vlad Andrei Dumitru    3.10     Radovan Michalik    1.30     
           vs
         
- Leevi Saatela    9.00     Oleksii Krutykh    1.05     
+ Bora Sengul    2.05     Elio Jose Ribeiro Lago    1.65     
           vs
         
- Francesco Maestrelli    1.50     Petr Nouza    2.45     
+ Luke Saville    2.00     Tristan Schoolkate    1.73     
           vs
         
- Denis Yevseyev    1.03     Otso Martikainen    12.00     
+ Kimmer Coppejans    1.91     Liam Draxl    1.85     
           vs
         
- Luke Johnson    2.45     Stefanos Sakellaridis    1.50     
+ Clement Chidekh    1.62     Michael Vrbensky    2.15     
           vs
         
- Emilien Voisin    3.50     Maxime Janvier    1.25     
+ Dominik Koepfer    1.29     Charles Broom    3.40     
           vs
         
- Maximilian Marterer    1.30     Antoine Bellier    3.25     
+ Benjamin Lock    5.50     Zizou Bergs    1.13     
           vs
         
- Alexandra Borcich    1.85     Mia Saveljic    1.85     
+ Linghao Zhang    1.15     Cade Birrell    4.80     
           vs
         
- Rachael Phelan    1.65     Isabelle May    2.10     
+ Michael Agwi    1.18     Credit Chaiyarin    4.40     
           vs
         
- Aleksandra Simeva    1.33     Chloe Henderson    3.00     
+ Zhao Zhao    1.40     Daksh Prasad    2.70     
           vs
         
- Deniza Marcinkevica    5.50     Ariana Anazagasty-Pursoo    1.13     
+ Zongbing Yu    1.29     Natthasith Kunsuwan    3.40     
           vs
         
- Kristyna Hranacova    1.85     Katerina Shabashkevich    1.85     
+ Freek Van Donselaar    3.40     Matteo Lavizzari    1.29     
           vs
         
- Tomas Lanik    2.70     Petr Nesterov    1.40     
+ Eric Jr. Olivarez    2.60     Karim El Feky    1.44     
           vs
         
- Justin Boulais    2.10     Giles Hussey    1.67     
+ Mykhailo Mossur    1.57     Karim Ibrahim    2.25     
           vs
         
- Savanna Ly-Nguyen    1.22     Ana Grubor    3.90     
+ Yusuf Khamis    1.08     Theertha Shashank Macherla    6.50     
           vs
         
- Ellie Daniels    1.83     Mana Ayukawa    1.85     
+ Tai Sach    1.50     Zekai Li    2.40     
           vs
         
- Louise Kwong    2.50     Chelsea Fontenel    1.48     
+ Ruslan Tiukaev    1.40     Nicolas Ifi    2.70     
           vs
         
- Teah Chavez    1.83     Weronika Baszak    1.85     
+ Leo Deflandre    1.57     Joan Busoms Puig    2.25     
           vs
         
- Hibah Shaikh    2.15     Isabelle Boulais    1.62     
+ Philip Henning    1.03     Saba George Nanobashvili    12.00     
           vs
         
- Andre Lukosiute    1.70     Daria Lopatetska    2.00     
+ Stijn Slump    1.30     Felipe Virgili Berini    3.25     
           vs
         
- Arina Rodionova    1.57     Lesley Pattinama Kerkhove    2.25     
+ Paul Ender    1.83     Enzo Lima    1.85     
           vs
         
- Alexander Blockx    1.60     Tibo Colson    2.15     
+ Patrick Schoen    1.22     Giuseppe Tresca    3.90     
           vs
         
- Valentina Ryser    1.75     Elena Malygina    2.00     
+ Martina Peretti    3.20     Hanna Vinahradava    1.30     
           vs
         
- Derek Pham    2.88     Garrett Johns    1.36     
+ Ida Clement    1.65     Saoirse Breen    2.05     
           vs
         
- Ashton Bowers    4.00     Lucia Peyre    1.20     
+ Vanessa Ioana Georgiana Popa Teiusanu    1.36     Luise Reisel    2.80     
+          vs
+        
+ Carlotta Moccia    1.22     Aaddi Gupta    3.90     
+          vs
+        
+ Marie Vogt    2.38     Carson Branstine    1.50     
+          vs
+        
+ Arianna Zucchini    1.73     Bojana Klincov    2.00     
+          vs
+        
+ Pemra Ozgen    1.22     Virginia Ferrara    4.00     
+          vs
+        
+ Beatrice Ricci    1.18     Carolina Troiano    4.50     
+          vs
+        
+ Greta Greco lucchina    1.70     Samira De Stefano    2.05     
+          vs
+        
+ Emilie Lindh    1.15     Federica Sacco    4.80     
           vs
         

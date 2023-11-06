@@ -1,5 +1,2 @@
-Unibet, Detroit Pistons, Phoenix Suns, 3.00, 1.42
-Unibet, San Antonio Spurs, Toronto Raptors, 2.30, 1.65
-Unibet, Cleveland Cavaliers, Golden State Warriors, 1.85, 2.02
-Unibet, Dallas Mavericks, Charlotte Hornets, 1.15, 6.00
-Unibet, Portland Trail Blazers, Memphis Grizzlies, 2.18, 1.73
+Unibet, Dallas Mavericks, Charlotte Hornets, 0.0, 0.0
+Unibet, Portland Trail Blazers, Memphis Grizzlies, 2.35, 1.64
