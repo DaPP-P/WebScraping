@@ -1,0 +1,67 @@
+LadBrokes, Perez, Zvonareva, 2.10, 1.67
+LadBrokes, Jessica Pegula, Iga Swiatek, 3.40, 1.30
+LadBrokes, Nicolas Moreno de Alboran, Billy Harris, 2.00, 1.75
+LadBrokes, Middelkoop, Lazarov, 1.15, 5.00
+LadBrokes, Mektic, Oswald, 1.20, 4.33
+LadBrokes, Molchanov, Withrow, 3.10, 1.33
+LadBrokes, Roberto Carballes Baena, Vinolas, 1.70, 2.05
+LadBrokes, Olivetti, Peers, 2.60, 1.44
+LadBrokes, Herbert, Matos, 1.65, 2.10
+LadBrokes, Alexander Shevchenko, Mathias Bourgue, 1.53, 2.40
+LadBrokes, Marcos Giron, Lorenzo Sonego, 2.00, 1.75
+LadBrokes, Constant Lestienne, Calvin Hemery, 1.40, 2.88
+LadBrokes, Dennis Novak, Skander Mansouri, 1.14, 5.00
+LadBrokes, Stefano Travaglia, Oleksii Krutykh, 1.91, 1.80
+LadBrokes, Mikhail Kukushkin, Alibek Kachmazov, 2.00, 1.70
+LadBrokes, Gauthier Onclin, Maximilian Neuchrist, 1.40, 2.70
+LadBrokes, Andrea Vavassori, Arthur Rinderknech, 2.38, 1.53
+LadBrokes, Juncheng Shang, Alexander Ritschard, 1.55, 2.30
+LadBrokes, Michael Mmoh, Martin Damm, 1.44, 2.63
+LadBrokes, Brandon Holt, Aleksandar Kovacevic, 2.60, 1.44
+LadBrokes, Bernard Tomic, Alex Michelsen, 2.63, 1.44
+LadBrokes, Zachary Svajda, Aidan Mayo, 1.36, 3.00
+LadBrokes, Alessandro Giannessi, Oriol Roca Batalla, 2.25, 1.57
+LadBrokes, Elias Ymer, Franco Agamenone, 1.75, 1.95
+LadBrokes, Francisco Comesana, Rodrigo Pacheco Mendez, 1.15, 5.25
+LadBrokes, Juan Manuel Cerundolo, Guido Andreozzi, 1.80, 1.91
+LadBrokes, Mariano Navone, Federico Coria, 1.80, 1.91
+LadBrokes, Seongchan Hong, Luca Nardi, 2.60, 1.44
+LadBrokes, Frederico Ferreira Silva, James McCabe, 1.91, 1.80
+LadBrokes, Blake Ellis, Rio Noguchi, 2.70, 1.40
+LadBrokes, Ernesto Escobedo, James Trotter, 1.35, 3.00
+LadBrokes, Bu Yunchaokete, Menelaos Efstathiou, 1.06, 8.50
+LadBrokes, Bence Toth, Mert Alkaya, 11.00, 1.03
+LadBrokes, Alexandru Jecan, Dmitrii Vasilev, 1.06, 8.00
+LadBrokes, AJ Catanzariti, Josip Simundza, 1.50, 2.30
+LadBrokes, Vlad Andrei Dumitru, Radovan Michalik, 3.10, 1.30
+LadBrokes, Bora Sengul, Elio Jose Ribeiro Lago, 2.05, 1.65
+LadBrokes, Luke Saville, Tristan Schoolkate, 2.00, 1.73
+LadBrokes, Kimmer Coppejans, Liam Draxl, 1.91, 1.85
+LadBrokes, Clement Chidekh, Michael Vrbensky, 1.62, 2.15
+LadBrokes, Dominik Koepfer, Charles Broom, 1.29, 3.40
+LadBrokes, Benjamin Lock, Zizou Bergs, 5.50, 1.13
+LadBrokes, Linghao Zhang, Cade Birrell, 1.15, 4.80
+LadBrokes, Michael Agwi, Credit Chaiyarin, 1.18, 4.40
+LadBrokes, Zhao Zhao, Daksh Prasad, 1.40, 2.70
+LadBrokes, Zongbing Yu, Natthasith Kunsuwan, 1.29, 3.40
+LadBrokes, Freek Van Donselaar, Matteo Lavizzari, 3.40, 1.29
+LadBrokes, Olivarez, Karim El Feky, 2.60, 1.44
+LadBrokes, Mykhailo Mossur, Karim Ibrahim, 1.57, 2.25
+LadBrokes, Yusuf Khamis, Theertha Shashank Macherla, 1.08, 6.50
+LadBrokes, Tai Sach, Zekai Li, 1.50, 2.40
+LadBrokes, Ruslan Tiukaev, Nicolas Ifi, 1.40, 2.70
+LadBrokes, Leo Deflandre, Joan Busoms Puig, 1.57, 2.25
+LadBrokes, Philip Henning, Saba George Nanobashvili, 1.03, 12.00
+LadBrokes, Stijn Slump, Felipe Virgili Berini, 1.30, 3.25
+LadBrokes, Paul Ender, Enzo Lima, 1.83, 1.85
+LadBrokes, Patrick Schoen, Giuseppe Tresca, 1.22, 3.90
+LadBrokes, Martina Peretti, Hanna Vinahradava, 3.20, 1.30
+LadBrokes, Ida Clement, Saoirse Breen, 1.65, 2.05
+LadBrokes, Vanessa Ioana Georgiana Popa Teiusanu, Luise Reisel, 1.36, 2.80
+LadBrokes, Carlotta Moccia, Aaddi Gupta, 1.22, 3.90
+LadBrokes, Marie Vogt, Carson Branstine, 2.38, 1.50
+LadBrokes, Arianna Zucchini, Bojana Klincov, 1.73, 2.00
+LadBrokes, Pemra Ozgen, Virginia Ferrara, 1.22, 4.00
+LadBrokes, Beatrice Ricci, Carolina Troiano, 1.18, 4.50
+LadBrokes, Greta Greco lucchina, Samira De Stefano, 1.70, 2.05
+LadBrokes, Emilie Lindh, Federica Sacco, 1.15, 4.80

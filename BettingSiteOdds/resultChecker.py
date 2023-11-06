@@ -1,45 +1,86 @@
 import re
 
 # Upload Master Team List. This is needed for Unibet, Tonybets and Pinnacle
+# For basketball
 master_team_list_file = open("masterTeamList.txt", "r")
 masterTeamListIn = master_team_list_file.read()
 master_team_list = masterTeamListIn.split("\n")
 master_team_list_file.close()
+# For tennis
+tennis_master_team_list_file = open("tennisMasterTeamList.txt", "r")
+tennisMasterTeamListIn = tennis_master_team_list_file.read()
+tennis_master_team_list = tennisMasterTeamListIn.split("\n")
+tennis_master_team_list_file.close()
 
-# Upload TAB Odds
+# Open TAB odds
+# For basketball
 tab_file_path = "TxtFiles/tabResults.txt"
 tab_file = open(tab_file_path,"r")
 tabFileIn = tab_file.read()
 tabResults = tabFileIn.split("\n")
 tab_file.close()
+#For tennis
+tennis_tab_file_path = "TxtFilesTennis/tabResults.txt"
+tennis_tab_file = open(tennis_tab_file_path,"r")
+tennis_tabFileIn = tennis_tab_file.read()
+tennis_tabResults = tennis_tabFileIn.split("\n")
+tennis_tab_file.close()
 
 # Upload PointsBet Odds
+# For basketball
 pointsbet_file_path = "TxtFiles/pointsbetResults.txt"
 pointsbet_file = open(pointsbet_file_path,"r")
 pointsbetFileIn = pointsbet_file.read()
 pointsbetResults = pointsbetFileIn.split("\n")
 pointsbet_file.close()
+# For tennis
+tennis_pointsbet_file_path = "TxtFilesTennis/pointsbetResults.txt"
+tennis_pointsbet_file = open(tennis_pointsbet_file_path,"r")
+tennis_pointsbetFileIn = tennis_pointsbet_file.read()
+tennis_pointsbetResults = tennis_pointsbetFileIn.split("\n")
+tennis_pointsbet_file.close()
 
 # Upload LadBrokes Odds
+# For basketball
 ladbrokes_file_path = "TxtFiles/ladbrokesResults.txt"
 ladbrokes_file = open(ladbrokes_file_path, "r")
 ladbrokesFileIn = ladbrokes_file.read()
 ladbrokesResults = ladbrokesFileIn.split("\n")
 ladbrokes_file.close()
+# For tennis
+tennis_ladbrokes_file_path = "TxtFilesTennis/ladbrokesResults.txt"
+tennis_ladbrokes_file = open(tennis_ladbrokes_file_path, "r")
+tennis_ladbrokesFileIn = tennis_ladbrokes_file.read()
+tennis_ladbrokesResults = tennis_ladbrokesFileIn.split("\n")
+tennis_ladbrokes_file.close()
 
 # Upload UniBet Odds
+# For basketball
 unibet_file_path = "TxtFiles/unibetResults.txt"
 unibet_file = open(unibet_file_path, "r")
 unibetFileIn = unibet_file.read()
 unibetResults = unibetFileIn.split("\n")
 unibet_file.close()
+# For tennis
+tennis_unibet_file_path = "TxtFilesTennis/unibetResults.txt"
+tennis_unibet_file = open(tennis_unibet_file_path, "r")
+tennis_unibetFileIn = tennis_unibet_file.read()
+tennis_unibetResults = tennis_unibetFileIn.split("\n")
+tennis_unibet_file.close()
 
 # Upload Tonybet Odds
+# For basketball
 tonybet_file_path = "TxtFiles/tonybetResults.txt"
 tonybet_file = open(tonybet_file_path, "r", encoding="iso-8859-1")
 tonybetFileIn = tonybet_file.read()
 tonybetResults = tonybetFileIn.split("\n")
 tonybet_file.close()
+# For tennis
+tennis_tonybet_file_path = "TxtFilesTennis/tonybetResults.txt"
+tennis_tonybet_file = open(tennis_tonybet_file_path, "r", encoding="iso-8859-1")
+tennis_tonybetFileIn = tennis_tonybet_file.read()
+tennis_tonybetResults = tennis_tonybetFileIn.split("\n")
+tennis_tonybet_file.close()
 
 # Method for a clean upload
 def clean_upload(file, odds):
@@ -211,9 +252,14 @@ def tidy_odds(results, site_name, wordToSplit):
 
 
 # Upload clean values for the TAB
+# For basketball
 tab_file_path = "TxtFiles/tabResultsCleaned.txt"
 tab_file = open(tab_file_path, "w")
 tab_file.truncate(0)
+# for tennis
+tennis_tab_file_path = "TxtFilesTennis/tabResultsCleaned.txt"
+tennis_tab_file = open(tennis_tab_file_path, "w")
+tennis_tab_file.truncate(0)
 
 # The phrase used for splitting
 target = "HandicapTotal"
@@ -254,13 +300,19 @@ print("Pointsbet odds uploaded")
 print("_________________")
 
 
-# # Upload clean values for ladbrokes
+# Upload clean values for ladbrokes
+# For basketball
 ladbrokes_file_path = "TxtFiles/ladbrokesResultsCleaned.txt"
 ladbrokes_file = open(ladbrokes_file_path, "w")
+ladbrokes_file.truncate(0)
+# For tennis
+tennis_ladbrokes_file_path = "TxtFilesTennis/ladbrokesResultsCleaned.txt"
+tennis_ladbrokes_file = open(tennis_ladbrokes_file_path, "w")
+tennis_ladbrokes_file.truncate(0)
 
-# # The phrase used for splitting
+# The phrase used for splitting
 
-# # Remove Line and total
+# Remove Line and total
 
 target = "NOSPLIT"
 
@@ -270,9 +322,15 @@ all_results = []
 for result in ladbrokesResults:
     odds = tidy_odds(result, "LadBrokes", target)
     clean_upload(ladbrokes_file, odds)
-
 ladbrokes_file.close()
-print("ladbrokes odds uploaded")
+print("Ladbrokes basketball odds uploaded")
+
+for result in tennis_ladbrokesResults:
+    odds = tidy_odds(result, "LadBrokes", target)
+    clean_upload(tennis_ladbrokes_file, odds)
+tennis_ladbrokes_file.close()
+
+print("Ladbrokes odds uploaded")
 print("_________________")
 
 # For tonybet, unibet and pinnacle I could save the info and check if those things are in a already saved team.
