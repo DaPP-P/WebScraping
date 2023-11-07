@@ -1,80 +1,34 @@
 import re
 
+def readFile(path):
+    file = open(path, "r")
+    fileIn = file.read()
+    list = fileIn.split("\n")
+    file.close()
+    return list
+
 # Upload Master Team List. This is needed for Unibet, Tonybets and Pinnacle
-master_team_list_file = open("masterTeamList.txt", "r")
-masterTeamListIn = master_team_list_file.read()
-master_team_list = masterTeamListIn.split("\n")
-master_team_list_file.close()
+master_team_list = readFile("masterTeamList.txt")
 
 # Open TAB odds
-# For basketball
-tab_file_path = "TxtFiles/tabResults.txt"
-tab_file = open(tab_file_path,"r")
-tabFileIn = tab_file.read()
-tabResults = tabFileIn.split("\n")
-tab_file.close()
-#For tennis
-tennis_tab_file_path = "TxtFilesTennis/tabResults.txt"
-tennis_tab_file = open(tennis_tab_file_path,"r")
-tennis_tabFileIn = tennis_tab_file.read()
-tennis_tabResults = tennis_tabFileIn.split("\n")
-tennis_tab_file.close()
+tabResults = readFile("TxtFiles/tabResults.txt")
+tennis_tabResults = readFile("TxtFilesTennis/tabResults.txt")
 
 # Upload PointsBet Odds
-# For basketball
-pointsbet_file_path = "TxtFiles/pointsbetResults.txt"
-pointsbet_file = open(pointsbet_file_path,"r")
-pointsbetFileIn = pointsbet_file.read()
-pointsbetResults = pointsbetFileIn.split("\n")
-pointsbet_file.close()
-# For tennis
-tennis_pointsbet_file_path = "TxtFilesTennis/pointsbetResults.txt"
-tennis_pointsbet_file = open(tennis_pointsbet_file_path,"r")
-tennis_pointsbetFileIn = tennis_pointsbet_file.read()
-tennis_pointsbetResults = tennis_pointsbetFileIn.split("\n")
-tennis_pointsbet_file.close()
+pointsbetResults = readFile("TxtFiles/pointsbetResults.txt")
+tennis_pointsbetResults = readFile("TxtFilesTennis/pointsbetResults.txt")
 
 # Upload LadBrokes Odds
-# For basketball
-ladbrokes_file_path = "TxtFiles/ladbrokesResults.txt"
-ladbrokes_file = open(ladbrokes_file_path, "r")
-ladbrokesFileIn = ladbrokes_file.read()
-ladbrokesResults = ladbrokesFileIn.split("\n")
-ladbrokes_file.close()
-# For tennis
-tennis_ladbrokes_file_path = "TxtFilesTennis/ladbrokesResults.txt"
-tennis_ladbrokes_file = open(tennis_ladbrokes_file_path, "r")
-tennis_ladbrokesFileIn = tennis_ladbrokes_file.read()
-tennis_ladbrokesResults = tennis_ladbrokesFileIn.split("\n")
-tennis_ladbrokes_file.close()
+ladbrokesResults = readFile("TxtFiles/ladbrokesResults.txt")
+tennis_ladbrokesResults = readFile("TxtFilesTennis/ladbrokesResults.txt")
 
 # Upload UniBet Odds
-# For basketball
-unibet_file_path = "TxtFiles/unibetResults.txt"
-unibet_file = open(unibet_file_path, "r")
-unibetFileIn = unibet_file.read()
-unibetResults = unibetFileIn.split("\n")
-unibet_file.close()
-# For tennis
-tennis_unibet_file_path = "TxtFilesTennis/unibetResults.txt"
-tennis_unibet_file = open(tennis_unibet_file_path, "r")
-tennis_unibetFileIn = tennis_unibet_file.read()
-tennis_unibetResults = tennis_unibetFileIn.split("\n")
-tennis_unibet_file.close()
+unibetResults = readFile("TxtFiles/unibetResults.txt")
+tennis_unibetResults = readFile("TxtFilesTennis/unibetResults.txt")
 
 # Upload Tonybet Odds
-# For basketball
-tonybet_file_path = "TxtFiles/tonybetResults.txt"
-tonybet_file = open(tonybet_file_path, "r", encoding="iso-8859-1")
-tonybetFileIn = tonybet_file.read()
-tonybetResults = tonybetFileIn.split("\n")
-tonybet_file.close()
-# For tennis
-tennis_tonybet_file_path = "TxtFilesTennis/tonybetResults.txt"
-tennis_tonybet_file = open(tennis_tonybet_file_path, "r", encoding="iso-8859-1")
-tennis_tonybetFileIn = tennis_tonybet_file.read()
-tennis_tonybetResults = tennis_tonybetFileIn.split("\n")
-tennis_tonybet_file.close()
+tonybetResults = readFile("TxtFiles/tonybetResults.txt")
+tennis_tonybetResults = readFile("TxtFilesTennis/tonybetResults.txt")
 
 # Method for a clean upload
 def clean_upload(file, odds):

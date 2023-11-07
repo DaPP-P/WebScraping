@@ -25,19 +25,16 @@ ladbrokes_service1 = Service(firefox_driver, log_output=None)
 #ladbrokes_service2 = Service(firefox_driver, log_output=None)
 ladbrokes_service3 = Service(firefox_driver, log_output=None)
 #tonybet_service = Service(firefox_driver, log_output= None)
-
 # Create separate service for each TENNIS browser instance
 tab_tennis_service = Service(firefox_driver, log_output=None)
 pointsbet_tennis_service = Service(firefox_driver, log_output=None)
 unibet_tennis_service = Service(firefox_driver, log_output=None)
 ladbrokes_tennis_service = Service(firefox_driver, log_output=None)
 
-
 # Set the settings 
 firefox_options = Options()
 firefox_options.set_preference('general.useragent.override', user_agent)
 firefox_options.add_argument('-headless')
-
 
 # Create separate browsers for each BASKETBALL website needing to be accessed
 tab_browser = webdriver.Firefox(service=tab_service, options=firefox_options)
@@ -131,7 +128,6 @@ except TimeoutError:
 unibet_browser.get("https://www.unibet.com/betting/sports/filter/basketball/all/matches")
 unibet_tennis_browser.get("https://www.unibet.com/betting/sports/filter/tennis/all/matches")
 print("Loaded Unibet")
-
 
 
 # Load TonyBet website
