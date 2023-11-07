@@ -1,16 +1,10 @@
 import re
 
 # Upload Master Team List. This is needed for Unibet, Tonybets and Pinnacle
-# For basketball
 master_team_list_file = open("masterTeamList.txt", "r")
 masterTeamListIn = master_team_list_file.read()
 master_team_list = masterTeamListIn.split("\n")
 master_team_list_file.close()
-# For tennis
-tennis_master_team_list_file = open("tennisMasterTeamList.txt", "r")
-tennisMasterTeamListIn = tennis_master_team_list_file.read()
-tennis_master_team_list = tennisMasterTeamListIn.split("\n")
-tennis_master_team_list_file.close()
 
 # Open TAB odds
 # For basketball
@@ -329,16 +323,22 @@ for result in tennis_ladbrokesResults:
     odds = tidy_odds(result, "LadBrokes", target)
     clean_upload(tennis_ladbrokes_file, odds)
 tennis_ladbrokes_file.close()
+print("Ladbrokes tennis odds uploaded")
 
-print("Ladbrokes odds uploaded")
+print("All Ladbrokes odds uploaded")
 print("_________________")
 
 # For tonybet, unibet and pinnacle I could save the info and check if those things are in a already saved team.
 
 # Upload clean values for unibet
+# For basketball
 unibet_file_path = "TxtFiles/unibetResultsCleaned.txt"
 unibet_file = open(unibet_file_path, "w")
 unibet_file.truncate(0)
+# For tennis
+tennis_unibet_file_path = "TxtFilesTennis/unibetResultsCleaned.txt"
+tennis_unibet_file = open(tennis_unibet_file_path, "w")
+tennis_unibet_file.truncate(0)
 
 target = ":"
 all_results = []
@@ -346,9 +346,16 @@ all_results = []
 for result in unibetResults:
     odds = tidy_odds(result, "Unibet", target)
     clean_upload(unibet_file, odds)
-
 unibet_file.close()
-print("Unibet odds uploaded")
+print("Unibet basketball odds uploaded")
+
+for result in tennis_unibetResults:
+    odds = tidy_odds(result, "Unibet", target)
+    clean_upload(tennis_unibet_file, odds)
+tennis_unibet_file.close()
+print("Unibet tennis odds uploaded")
+
+print("All Unibet odds uploaded")
 print("_________________")
 
 # Upload clean values for tonybet

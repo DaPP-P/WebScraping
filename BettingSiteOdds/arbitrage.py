@@ -1,5 +1,5 @@
 import datetime
-import git
+#import git
 import platform
 import os
 
@@ -7,61 +7,44 @@ system_name = platform.system()
 current_dir = os.path.abspath(os.path.dirname(__file__))
 repo_path = '/home/daniel/WebScraping'
 
+def readFile(path):
+    file = open(path, "r")
+    fileIn = file.read()
+    list = fileIn.split("\n")
+    file.close()
+    return list
+
 # Master team name list
-master_team_list_file_path = "masterTeamList.txt"
-master_team_list_file = open(master_team_list_file_path, "r")
-master_team_listFileIn = master_team_list_file.read()
-master_team_list = master_team_listFileIn.split("\n")
-master_team_list_file.close()
+master_team_list = readFile("masterTeamList.txt")
 
 # TAB cleaned odds
-tab_file_path = "TxtFiles/tabResultsCleaned.txt"
-tab_file = open(tab_file_path,"r")
-tabFileIn = tab_file.read()
-tabResults = tabFileIn.split("\n")
-tab_file.close()
+tabResults = readFile("TxtFiles/tabResultsCleaned.txt")
+tennis_tabResults = readFile("TxtFilesTennis/tabResultsCleaned.txt")
 
 # Bet365 cleaned odds
-bet365_file_path = "TxtFiles/bet365ResultsCleaned.txt"
-bet365_file = open(bet365_file_path,"r")
-bet365FileIn = bet365_file.read()
-bet365Results = bet365FileIn.split("\n")
-bet365_file.close()
+bet365Results = readFile("TxtFiles/bet365ResultsCleaned.txt")
+tennis_bet365Results = readFile("TxtFilesTennis/bet365ResultsCleaned.txt")
 
 # Pinnacle cleaned odds
-pinnacle_file_path = "TxtFiles/pinnacleResultsCleaned.txt"
-pinnacle_file = open(pinnacle_file_path,"r")
-pinnacleFileIn = pinnacle_file.read()
-pinnacleResults = pinnacleFileIn.split("\n")
-pinnacle_file.close()
+pinnacleResults = readFile("TxtFiles/pinnacleResultsCleaned.txt")
+tennis_pinnacleResults = readFile("TxtFilesTennis/pinnacleResultsCleaned.txt")
 
 # PointsBet cleaned odds
-pointsbet_file_path = "TxtFiles/pointsbetResultsCleaned.txt"
-pointsbet_file = open(pointsbet_file_path,"r")
-pointsbetFileIn = pointsbet_file.read()
-pointsbetResults = pointsbetFileIn.split("\n")
-pointsbet_file.close()
+pointsbetResults = readFile("TxtFiles/pointsbetResultsCleaned.txt")
+tennis_pointbetResults = readFile("TxtFilesTennis/pointsbetResultsCleaned.txt")
 
 # LabBrokes cleaned odds
-ladbrokes_file_path = "TxtFiles/ladbrokesResultsCleaned.txt"
-ladbrokes_file = open(ladbrokes_file_path,"r")
-ladbrokesFileIn = ladbrokes_file.read()
-ladbrokesResults = ladbrokesFileIn.split("\n")
-ladbrokes_file.close()
+# For basketball
+ladbrokesResults = readFile("TxtFiles/ladbrokesResultsCleaned.txt")
+tennis_ladbrokesResults = readFile("TxtFilesTennis/ladbrokesResultsCleaned.txt")
 
 # Unibet cleaned odds
-unibet_file_path = "TxtFiles/unibetResultsCleaned.txt"
-unibet_file = open(unibet_file_path,"r")
-unibetFileIn = unibet_file.read()
-unibetResults = unibetFileIn.split("\n")
-unibet_file.close()
+unibetResults = readFile("TxtFiles/unibetResultsCleaned.txt")
+tennis_unibetResults = readFile("TxtFilesTennis/unibetResultsCleaned.txt")
 
 # Tonybet cleaned odds
-tonybet_file_path = "TxtFiles/tonybetResultsCleaned.txt"
-tonybet_file = open(tonybet_file_path,"r")
-tonybetFileIn = tonybet_file.read()
-tonybetResults = tonybetFileIn.split("\n")
-tonybet_file.close()
+tonybetResults = readFile("TxtFiles/tonybetResultsCleaned.txt")
+tennis_tonybetResults = readFile("TxtFilesTennis/tonybetResultsCleaned.txt")
 
 # Method for removing empty lists in a list of lists
 def remove_empty_lists(list_of_lists):
@@ -142,6 +125,9 @@ def arbitrage(list):
 
 # Combining lists together
 all_results = tabResults + bet365Results + pinnacleResults + pointsbetResults + ladbrokesResults + unibetResults + tonybetResults
+tennis_all_results = tennis_tabResults + tennis_bet365Results + tennis_pinnacleResults + tennis_pointbetResults + tennis_ladbrokesResults + tennis_unibetResults + tennis_tonybetResults
+
+all_results = all_results + tennis_all_results
 
 #Splits via ","
 new_all_results = []
@@ -159,7 +145,7 @@ for team in all_results:
 
 # This updates the master team lists so that I can save all teams that are ever on
 # Tab, pointsbet or Ladbrokes.
-master_team_list_file = open(master_team_list_file_path, "a")
+master_team_list_file = open("masterTeamList.txt", "a")
 if list_of_all_teams:
     for team in list_of_all_teams:
         if team not in master_team_list:
