@@ -17,7 +17,10 @@ The aim of these programs is to create an automatic arbitrage opportunity finder
 4. For Pointsbet make it switch to next up.
 5. For unibet make it open all of the games.
 
-# Checklist
+### Checklist
+1. Tab
+     * Basketball - [ ]
+     * Tennis
 
 ## 1. Scraping the Data
 
