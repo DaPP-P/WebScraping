@@ -19,8 +19,17 @@ The aim of these programs is to create an automatic arbitrage opportunity finder
 
 ### Checklist
 1. Tab
-     * Basketball - [ ] 
-     * Tennis
+     * Basketball - [ ]
+     * Tennis - []
+2. PointsBet
+   * Baketball - []
+   * Tennis - []
+4. UniBet
+   * Basketball - [ ]
+   * Tennis - []
+6. LadBrokes
+   * Basketball - [ ]
+   * Tennis - []
 
 ## 1. Scraping the Data
 
