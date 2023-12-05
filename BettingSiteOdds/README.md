@@ -17,6 +17,8 @@ The aim of these programs is to create an automatic arbitrage opportunity finder
 4. For Pointsbet make it switch to next up.
 5. For unibet make it open all of the games.
 
+# Checklist
+
 ## 1. Scraping the Data
 
 done using the file **scraperV2.py**
