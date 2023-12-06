@@ -1,26 +1,37 @@
-TAB, Dallas Mavericks, Charlotte Hornets, 1.75, 2.00
-TAB, Comunicaciones, Union de Formosa, 2.10, 1.62
-TAB, Sportivo Suardi, Club Atletico Deportivo Norte, 1.01, 12.00
-TAB, Independiente Santiago, Centro Deportivo Rivadavia de Mendoza, 3.75, 1.22
-TAB, Caribbean Storm Islands, Titanes de Barranquilla, 6.00, 1.08
-TAB, Indeportes Antioquia Women, Club Malvin Women, 1.24, 3.60
-TAB, Portland Trail Blazers, Memphis Grizzlies, 2.22, 1.64
-TAB, Melbourne United, Perth Wildcats, 1.41, 2.75
-TAB, Indeportes Antioquia Women, Club Malvin Women, 1.24, 3.60
-TAB, Detroit Pistons, Golden State Warriors, 2.90, 1.39
-TAB, Indiana Pacers, San Antonio Spurs, 1.34, 3.15
-TAB, Orlando Magic, Dallas Mavericks, 1.83, 1.92
-TAB, Philadelphia 76ers, Washington Wizards, 1.13, 5.80
-TAB, Brooklyn Nets, Milwaukee Bucks, 2.75, 1.43
-TAB, Miami Heat, Los Angeles Lakers, 1.79, 1.97
-TAB, New York Knicks, Los Angeles Clippers, 1.97, 1.80
-TAB, Igokea, KK FMP, 1.41, 2.60
-TAB, CA Paulistano, Unifacisa, 2.23, 1.56
-TAB, Sao Jose Basketball, Pato, 1.38, 2.75
-TAB, Sao Paulo, Fortaleza Basquete Cearense, 1.15, 4.60
-TAB, Club Atletico Riachuelo de La Rioja, Independiente de Oliva, 1.50, 2.35
-TAB, Cerrado Iesplan, Esporte Clube Uniao Corinthians, 2.30, 1.52
-TAB, Sesi SP/Franca BC, Corinthians, 1.12, 5.30
-TAB, Vrlse BBK, Randers Cimbria, 5.10, 1.13
-TAB, Ferro Carril Oeste, Asosiacion Atletica Quimsa, 3.45, 1.25
-TAB, San Martin de Corrientes, San Lorenzo de Almagro, 1.26, 3.45
+TAB, Union de Formosa, Ferro Carril Oeste, 1.45, 2.50
+TAB, Kansas, UMKC, 1.001, 51.00
+TAB, Syracuse, Cornell, 1.14, 5.00
+TAB, Butler, Buffalo, 1.001, 51.00
+TAB, Tulsa, Loyola Chicago, 1.04, 9.00
+TAB, Baylor, Seton Hall, 1.01, 12.00
+TAB, Fresno State, Idaho State, 1.18, 4.30
+TAB, Saint Marys, Cleveland State, 1.01, 11.00
+TAB, Los Angeles Lakers, Phoenix Suns, 1.79, 1.97
+TAB, Los Angeles Lakers, Phoenix Suns, 1.79, 1.97
+TAB, Adelaide Lightning Women, Sydney Uni Flames Women, 1.62, 2.13
+TAB, Chiba Jets, Ibaraki Robots, 1.17, 4.30
+TAB, Fighting Eagles Nagoya, Sun Rockers Shibuya, 1.76, 1.92
+TAB, Hiroshima Dragonflies, Kyoto Hannaryz, 1.14, 4.75
+TAB, Levanga Hokkaido, Sendai 89ERS, 2.30, 1.54
+TAB, Osaka Evessa, Okinawa Ryukyu Golden Kings, 3.65, 1.23
+TAB, SAN-EN NeoPhoenix, Kawasaki Brave Thunders, 1.70, 2.00
+TAB, Saga Ballooners, Nagasaki, 1.77, 1.92
+TAB, Cleveland Cavaliers, Orlando Magic, 1.51, 2.50
+TAB, Detroit Pistons, Memphis Grizzlies, 1.95, 1.80
+TAB, Washington Wizards, Philadelphia 76ers, 4.35, 1.20
+TAB, Minnesota Timberwolves, San Antonio Spurs, 1.12, 5.85
+TAB, Atlanta Hawks, Brooklyn Nets, 1.53, 2.45
+TAB, Toronto Raptors, Miami Heat, 1.66, 2.18
+TAB, Cairns Taipans, Sydney Kings, 2.23, 1.61
+TAB, Hapoel Atsmon Playgrounds Holon, , 1.83, 1.85
+TAB, Bursaspor, Rio Breogan, 1.62, 2.13
+TAB, Peristeri BC, Le Mans Sarthe Basket, 1.46, 2.50
+TAB, Wilki Morskie Szczecin, MHP RIESEN Ludwigsburg, 2.23, 1.56
+TAB, Unicaja Baloncesto, Falco Szombathely, 1.03, 8.90
+TAB, Milwaukee Bucks, Indiana Pacers, 1.54, 2.40
+TAB, Illawarra Hawks, Perth Wildcats, 3.00, 1.35
+TAB, Cibona, KK Split, 1.95, 1.74
+TAB, New Zealand Breakers, Tasmania JackJumpers, 2.05, 1.71
+TAB, London Lions, Plymouth City Patriots, 1.03, 9.00
+TAB, Newcastle Eagles, Bristol Flyers, 1.40, 2.65
+TAB, Melbourne United, Brisbane Bullets, 1.35, 3.00

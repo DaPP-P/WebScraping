@@ -26,7 +26,7 @@ test_website = "tab"
 test_file = "tabResults.txt"
 test_url = "https://www.tab.co.nz/sport/8/basketball/matches"
 test_container_name = "event-list event-list--vertical"
-test_sport = "basketball"
+test_sport = "Basketball"
 
 # Set the settings 
 firefox_options = Options()
@@ -73,10 +73,6 @@ if container:
 else:
     print("Container not found")
     upload_test_odds = ""
-
-
-
-
 
 
 # Method for importing the scraped odds to the desired txt file.
