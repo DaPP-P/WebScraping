@@ -19,15 +19,22 @@ The aim of these programs is to create an automatic arbitrage opportunity finder
 
 ### Checklist
 1. Tab
-     * Basketball - [ ]
+container_name for both: "event-list event-list--vertical"
+     * Basketball [x]
+       * Only note: one repeat; should check for double ups.
      * Tennis - []
+       * Scrapes right, but does not process right.
 2. PointsBet
-   * Baketball - []
+container_name for basketball: "fdz3fpy f1yn18fe f93i66z", container_name for tennis: "faxe22p"
+   * Baketball - [x]
+     * Only note: Messes up with 76ers.
    * Tennis - []
-4. UniBet
+1. UniBet
+   container_name for basketball: "_28843"
    * Basketball - [ ]
+     * Having issues opening up more drop boxes but have the cookie button working.
    * Tennis - []
-6. LadBrokes
+2. LadBrokes
    * Basketball - [ ]
    * Tennis - []
 

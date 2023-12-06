@@ -231,7 +231,7 @@ pointsbet_file.truncate(0)
 
 # Remove Line and total
 
-target = "MarketsHead To Head"
+target = "H2HLinetotal"
 
 all_results = []
 

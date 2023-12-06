@@ -22,10 +22,10 @@ firefox_driver = os.path.join(os.getcwd(), 'Drivers', 'geckodriver.exe')
 test_service = Service(firefox_driver, log_output = None)
 
 # TEST THINGS
-test_website = "tab"
-test_file = "tabResults.txt"
-test_url = "https://www.tab.co.nz/sport/8/basketball/matches"
-test_container_name = "event-list event-list--vertical"
+test_website = "unibet"
+test_file = "unibetResults.txt"
+test_url = "https://www.unibet.com/betting/sports/filter/basketball/all/matches"
+test_container_name = "_28843"
 test_sport = "Basketball"
 
 # Set the settings 
@@ -51,7 +51,27 @@ test_tennis_file_path = os.path.join(tennis_txt_files_folder, test_file_name)
 # Load test website
 print("Opening test url: ", test_url)
 test_browser.get(test_url)
-time.sleep(20)
+time.sleep(10)
+
+# Used to open the tab that contains all the betting odds I want to use.
+if test_website == "pointsbet":
+    button_xpath = '/html/body/div[2]/div/div/div[1]/div/div/div/div/div[2]/div[4]/div[1]/div/div[2]/div/div/div/div[1]/div/div/div/button[3]'
+    button = test_browser.find_element(By.XPATH, button_xpath)
+    button.click()
+    time.sleep(5)
+
+if test_website == "unibet":
+    cookie_button_xpath = '//*[@id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"]'
+    cookie_button = test_browser.find_element(By.XPATH, cookie_button_xpath)
+    cookie_button.click()
+    time.sleep(2)
+
+
+
+    #button = test_browser.find_element(By.XPATH, '//div[@role="button" and @data-test-name="accordionLevel2"]') 
+    #button.click()
+    #time.sleep(5)
+
 
 page_source = test_browser.page_source
 test_browser.quit()
@@ -92,7 +112,7 @@ def upload_odds(website, odds, sport):
     
     # Upload Tennis odds
     if sport == "Tennis":
-        file_path = test_file_path
+        file_path = test_tennis_file_path
         with open(file_path, "a") as file:
             file.truncate(0)
             if odds:

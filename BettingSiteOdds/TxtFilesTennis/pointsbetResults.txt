@@ -1,1 +1,9 @@
-
+H2HLinetotalPhiladelphia 76ers1.22-9.51.90Ov 2391.90Washington Wizards4.50+9.51.90Un 2391.90
+H2HLinetotalPortland Trail Blazers6.00+121.90Ov 225.51.87Golden State Warriors1.13-121.90Un 225.51.95
+H2HLinetotalOrlando Magic2.50+4.51.90Ov 2231.90Cleveland Cavaliers1.56-4.51.90Un 2231.90
+H2HLinetotalSan Antonio Spurs6.00+121.90Ov 226.51.90Minnesota Timberwolves1.13-121.90Un 226.51.90
+H2HLinetotalUtah Jazz4.00+8.51.90Ov 2281.90Dallas Mavericks1.27-8.51.90Un 2281.90
+H2HLinetotalCairns Taipans2.25+2.51.90Ov 180.51.90Sydney Kings1.64-2.51.90Un 180.51.90
+H2HLinetotalIllawarra Hawks3.15+6.51.90Ov 175.51.90Perth Wildcats1.36-6.51.90Un 175.51.90
+H2HLinetotalNew Zealand Breakers2.10+1.51.90Ov 176.51.90Tasmania JackJumpers1.73-1.51.90Un 176.51.90
+H2HLinetotalMelbourne United1.35-6.51.90Ov 173.51.90Brisbane Bullets3.20+6.51.90Un 173.51.90
