@@ -3,6 +3,7 @@ import subprocess
 import time
 import random
 import selenium.webdriver as webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 from bs4 import BeautifulSoup
@@ -143,6 +144,34 @@ def get_odds(url, container_name, browser):
     
     # Opens and close the browser
     print("Opening", url)
+    time.sleep(5)
+
+    # Opens up the tab that contains all of the betting odds by clicking the button.
+    if browser == pointsbet_browser:
+        button_xpath = '/html/body/div[2]/div/div/div[1]/div/div/div/div/div[2]/div[4]/div[1]/div/div[2]/div/div/div/div[1]/div/div/div/button[3]'
+        button = pointsbet_browser.find_element(By.XPATH, button_xpath)
+        button.click()
+        time.sleep(5)
+
+    # First accepts the cookies button and then opens up the drop down tables for more betting leagues.
+    if browser == unibet_browser:
+        cookie_button_xpath = '//*[@id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"]'
+        cookie_button = unibet_browser.find_element(By.XPATH, cookie_button_xpath)
+        cookie_button.click()
+        time.sleep(2)
+
+        buttons_level_one = unibet_browser.find_elements(By.XPATH, '//div[@role="button" and @data-test-name="accordionLevel1"]') 
+        for index, button in enumerate(buttons_level_one):
+            if index > 0:
+                time.sleep(1)
+                button.click()
+
+        buttons_level_two = unibet_browser.find_elements(By.XPATH, '//div[@role="button" and @data-test-name="accordionLevel2"]') 
+        for index, button in enumerate(buttons_level_two):
+            if index > 0:
+                time.sleep(1)
+                button.click()
+
     page_source = browser.page_source # Update so only gets the needs page_source.
     print("Closing", url)
 
