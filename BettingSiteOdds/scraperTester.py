@@ -22,10 +22,10 @@ firefox_driver = os.path.join(os.getcwd(), 'Drivers', 'geckodriver.exe')
 test_service = Service(firefox_driver, log_output = None)
 
 # TEST THINGS
-test_website = "unibet"
-test_file = "unibetResults.txt"
-test_url = "https://www.unibet.com/betting/sports/filter/basketball/all/matches"
-test_container_name = "_28843"
+test_website = "ladbrokes"
+test_file = "ladbrokesResults.txt"
+test_url = "https://www.ladbrokes.com.au/sports/basketball/usa"
+test_container_name = "sports-market-primary__prices-inner"
 test_sport = "Basketball"
 
 # Set the settings 
@@ -60,17 +60,24 @@ if test_website == "pointsbet":
     button.click()
     time.sleep(5)
 
+# Used to open the drop tables that contains all the betting odds I want to use.
 if test_website == "unibet":
     cookie_button_xpath = '//*[@id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"]'
     cookie_button = test_browser.find_element(By.XPATH, cookie_button_xpath)
     cookie_button.click()
     time.sleep(2)
 
+    buttons_level_one = test_browser.find_elements(By.XPATH, '//div[@role="button" and @data-test-name="accordionLevel1"]') 
+    for index, button in enumerate(buttons_level_one):
+        if index > 0:
+            time.sleep(1)
+            button.click()
 
-
-    #button = test_browser.find_element(By.XPATH, '//div[@role="button" and @data-test-name="accordionLevel2"]') 
-    #button.click()
-    #time.sleep(5)
+    buttons_level_two = test_browser.find_elements(By.XPATH, '//div[@role="button" and @data-test-name="accordionLevel2"]') 
+    for index, button in enumerate(buttons_level_two):
+        if index > 0:
+            time.sleep(1)
+            button.click()
 
 
 page_source = test_browser.page_source

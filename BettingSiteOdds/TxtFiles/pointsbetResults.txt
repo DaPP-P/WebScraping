@@ -1,46 +1,57 @@
-H2HLinetotalPhiladelphia 76ers1.22-9.51.90Ov 2391.90Washington Wizards4.50+9.51.90Un 2391.90
+H2HLinetotalPhiladelphia 76ers1.22-9.51.90Ov 239.51.90Washington Wizards4.50+9.51.90Un 239.51.90
 H2HLinetotalPortland Trail Blazers6.00+121.90Ov 225.51.90Golden State Warriors1.13-121.90Un 225.51.90
 H2HLinetotalOrlando Magic2.50+4.51.90Ov 2231.90Cleveland Cavaliers1.56-4.51.90Un 2231.90
-H2HLinetotalSan Antonio Spurs6.00+121.90Ov 226.51.90Minnesota Timberwolves1.13-121.90Un 226.51.90
+H2HLinetotalSan Antonio Spurs6.00+12.51.90Ov 2271.90Minnesota Timberwolves1.13-12.51.90Un 2271.90
 H2HLinetotalUtah Jazz4.00+8.51.90Ov 227.51.90Dallas Mavericks1.27-8.51.90Un 227.51.90
 H2HLinetotalCairns Taipans2.25+2.51.90Ov 180.51.90Sydney Kings1.64-2.51.90Un 180.51.90
-H2HLinetotalIllawarra Hawks3.15+6.51.90Ov 175.51.90Perth Wildcats1.36-6.51.90Un 175.51.90
-H2HLinetotalNew Zealand Breakers2.10+1.51.90Ov 176.51.90Tasmania JackJumpers1.73-1.51.90Un 176.51.90
-H2HLinetotalMelbourne United1.35-6.51.90Ov 173.51.90Brisbane Bullets3.20+6.51.90Un 173.51.90
-H2HLinetotalAdelaide Lightning Women1.63-2.51.87Ov 145.51.87Sydney Uni Flames Women2.15+2.51.83Un 145.51.83
-H2HLinetotalConverge Fiberxers2.10+2.51.87Ov 211.51.87Batang Pier1.69-2.51.87Un 211.51.87
-H2HLinetotalSAN-EN NeoPhoenix1.70-1.51.80Ov 161.51.85Kawasaki Brave Thunders2.02+1.51.90Un 161.51.85
-H2HLinetotalSaga Ballooners1.80-1.51.90Ov 157.51.87Nagasaki1.90+1.51.80Un 157.51.83
-H2HLinetotalChiba Jets1.18-9.51.90Ov 164.51.85Ibaraki Robots4.25+9.51.80Un 164.51.85
-H2HLinetotalToyama Grouses2.85+5.51.90Ov 158.51.83Yokohama B-Corsairs1.37-5.51.80Un 158.51.87
-H2HLinetotalShimane Susanoo Magic1.85-1.51.90Ov 161.51.83Nagoya Diamond Dolphins1.85+1.51.80Un 161.51.87
-H2HLinetotalFighting Eagles Nagoya1.77-1.51.80Ov 152.51.83Sun Rockers Shibuya1.95+1.51.90Un 152.51.87
-H2HLinetotalOsaka Evessa3.75+8.51.90Ov 158.51.85Okinawa Ryukyu Golden Kings1.23-8.51.80Un 158.51.85
-H2HLinetotalLevanga Hokkaido2.35+3.51.85Ov 159.51.87Sendai 89ERS1.53-3.51.85Un 159.51.83
-H2HLinetotalHiroshima Dragonflies1.15-11.51.90Ov 158.51.87Kyoto Hannaryz4.75+11.51.80Un 158.51.83
-H2HLinetotalSichuan Blue Whales8.00+14.51.87Ov 212.51.87Xinjiang Flying Tigers1.08-14.51.87Un 212.51.87
+H2HLinetotalIllawarra Hawks3.10+5.51.90Ov 175.51.90Perth Wildcats1.36-5.51.90Un 175.51.90
+H2HLinetotalNew Zealand Breakers2.10+1.51.90Ov 174.51.90Tasmania JackJumpers1.73-1.51.90Un 174.51.90
+H2HLinetotalMelbourne United1.36-6.51.90Ov 173.51.90Brisbane Bullets3.10+6.51.90Un 173.51.90
+H2HLinetotalBucheon Hana 1Q1.44-5.51.87Ov 135.51.87Incheon Shinhan Bank S-Birds2.65+5.51.87Un 135.51.87
+H2HLinetotalSAN-EN NeoPhoenix1.65-2.51.85Ov 164.51.87Kawasaki Brave Thunders2.10+2.51.85Un 164.51.83
+H2HLinetotalSaga Ballooners1.97+1.51.83Ov 157.51.83Nagasaki1.75-1.51.87Un 157.51.87
+H2HLinetotalChiba Jets1.18-9.51.90Ov 165.51.85Ibaraki Robots4.25+9.51.80Un 165.51.85
+H2HLinetotalToyama Grouses3.05+6.51.85Ov 159.51.83Yokohama B-Corsairs1.33-6.51.85Un 159.51.87
+H2HLinetotalShimane Susanoo Magic1.75-1.51.87Ov 162.51.87Nagoya Diamond Dolphins1.97+1.51.83Un 162.51.83
+H2HLinetotalFighting Eagles Nagoya1.75-1.51.83Ov 151.51.87Sun Rockers Shibuya1.97+1.51.87Un 151.51.83
+H2HLinetotalOsaka Evessa3.75+8.51.90Ov 158.51.83Okinawa Ryukyu Golden Kings1.23-8.51.80Un 158.51.87
+H2HLinetotalLevanga Hokkaido2.50+4.51.80Ov 159.51.87Sendai 89ERS1.47-4.51.90Un 159.51.83
+H2HLinetotalHiroshima Dragonflies1.14-11.51.90Ov 156.51.83Kyoto Hannaryz5.00+11.51.80Un 156.51.87
+H2HLinetotalUtsunomiya Brex1.14-11.51.87Ov 144.51.87Akita Northern Happinets5.00+11.51.83Un 144.51.83
+H2HLinetotalNagano Shinshu Brave Warriors3.55+8.51.85Ov 157.51.85Mikawa Sea Horses1.25-8.51.85Un 157.51.85
+H2HLinetotalAlvark Tokyo1.07-14.51.80Ov 148.51.83Gunma Crane Thunders7.00+14.51.90Un 148.51.87
+H2HLinetotalJiangsu Phoenix1.38-6.51.87Ov 151.51.87Shanxi Xing Rui Flame2.90+6.51.87Un 151.51.87
+H2HLinetotalShandong Hi-Speed Kirin8.00+14.51.87Ov 157.51.87Inner Mongolia BC1.08-14.51.87Un 157.51.87
+H2HLinetotalDaqing Rural Commercial Bank8.00+12.51.87Ov 143.51.87Hebei1.08-12.51.87Un 143.51.87
+H2HLinetotalLiaoning Flying Eagles1.95+1.51.87Ov 144.51.91Shaanxi Tianze1.80-1.51.87Un 144.51.83
+H2HLinetotalSichuan Blue Whales9.50+15.51.87Ov 214.51.87Xinjiang Flying Tigers1.06-15.51.87Un 214.51.87
 H2HLinetotalGuangzhou Loong Lions1.08-14.51.87Ov 195.51.87Ningbo Rockets7.50+14.51.87Un 195.51.87
-H2HLinetotalBeijing Royal Fighters2.45+4.51.87Ov 216.51.87Guangdong Southern Tigers1.53-4.51.87Un 216.51.87
-H2HLinetotalZhejiang Guangsha Lions2.90+5.51.91Ov 195.51.87Liaoning Flying Leopards1.38-5.51.83Un 195.51.87
-H2HLinetotalNanjing Monkey Kings1.48-5.51.91Ov 198.51.87Tianjin Pioneers2.60+5.51.83Un 198.51.87
-H2HLinetotalBesiktas JK1.50-4.51.87Ov 158.51.87Club Joventut Badalona2.50+4.51.87Un 158.51.87
+H2HLinetotalBeijing Royal Fighters2.45+4.51.87Ov 217.51.87Guangdong Southern Tigers1.53-4.51.87Un 217.51.87
+H2HLinetotalZhejiang Guangsha Lions2.65+4.51.95Ov 195.51.87Liaoning Flying Leopards1.44-4.51.80Un 195.51.87
+H2HLinetotalNanjing Monkey Kings1.53-4.51.83Ov 198.51.87Tianjin Pioneers2.45+4.51.91Un 198.51.87
+H2HLinetotalBlackwater Bossing6.50+12.51.91Ov 193.51.87Hotshots Pambansang1.10-12.51.83Un 193.51.87
+H2HLinetotalKobrat Lapua1.71-1.51.83Ov 165.51.87Kataja Basket Joensuu2.05+1.51.91Un 165.51.87
+H2HLinetotalSouth Alabama2.30+2.51.90Ov 132.51.90Mercer1.67-2.51.90Un 132.51.90
+H2HLinetotalBesiktas JK1.48-4.51.87Ov 156.51.91Club Joventut Badalona2.60+4.51.87Un 156.51.83
 H2HLinetotalBC Lietkabelis Panevezys1.48-4.51.87Ov 163.51.87KK Buducnost Voli2.60+4.51.87Un 163.51.87
-H2HLinetotalBC Wolves2.50+4.51.87Ov 168.51.87Paris Basketball1.50-4.51.87Un 168.51.87
-H2HLinetotalKK Cedevita Olimpija Ljubljana3.20+6.51.91Ov 176.51.83Hapoel Tel-Aviv1.33-6.51.83Un 176.51.91
+H2HLinetotalBC Wolves2.50+4.51.87Ov 167.51.87Paris Basketball1.50-4.51.87Un 167.51.87
+H2HLinetotalKK Cedevita Olimpija Ljubljana3.30+7.51.87Ov 176.51.83Hapoel Tel-Aviv1.31-7.51.87Un 176.51.91
 H2HLinetotalAquila Basket Trento2.00+1.51.87Ov 169.51.87Ulm Basketball1.77-1.51.87Un 169.51.87
 H2HLinetotalASVEL Lyon Villeurbanne2.00+1.51.87Ov 168.51.87Maccabi Tel-Aviv1.77-1.51.87Un 168.51.87
 H2HLinetotalVirtus Bologna2.15+2.51.87Ov 164.51.91FC Barcelona1.67-2.51.87Un 164.51.83
 H2HLinetotalBaskonia Vitoria-Gasteiz1.69-1.51.80Ov 164.51.87Fenerbahce Istanbul2.10+1.51.95Un 164.51.87
-H2HLinetotalValencia Basket1.71-1.51.83Ov 156.51.87KK Crvena zvezda Belgrade2.05+1.51.91Un 156.51.87
+H2HLinetotalValencia Basket1.71-2.51.91Ov 156.51.87KK Crvena zvezda Belgrade2.05+2.51.83Un 156.51.87
 H2HLinetotalCB Gran Canaria1.06-15.51.87Ov 157.51.87BC Aris Thessaloniki9.50+15.51.87Un 157.51.87
-H2HLinetotalPhiladelphia 76ers1.22-9.51.90Ov 2391.90Washington Wizards4.50+9.51.90Un 2391.90
-H2HLinetotalMemphis Grizzlies1.87-11.90Ov 218.51.90Detroit Pistons1.95+11.90Un 218.51.90
+H2HLinetotalPhiladelphia 76ers1.22-9.51.90Ov 239.51.90Washington Wizards4.50+9.51.90Un 239.51.90
+H2HLinetotalMemphis Grizzlies1.83-1.51.90Ov 219.51.90Detroit Pistons2.00+1.51.90Un 219.51.90
 H2HLinetotalOrlando Magic2.50+4.51.90Ov 2231.90Cleveland Cavaliers1.56-4.51.90Un 2231.90
-H2HLinetotalMiami Heat2.20+31.90Ov 217.51.90Toronto Raptors1.71-31.90Un 217.51.90
-H2HLinetotalBrooklyn Nets2.50+41.90Ov 2411.90Atlanta Hawks1.56-41.90Un 2411.90
-H2HLinetotalSan Antonio Spurs6.00+121.90Ov 226.51.90Minnesota Timberwolves1.13-121.90Un 226.51.90
-H2HLinetotalCharlotte Hornets2.50+4.51.90Ov 2201.90Chicago Bulls1.56-4.51.90Un 2201.90
-H2HLinetotalOklahoma City Thunder1.74-21.90Ov 225.51.90Houston Rockets2.15+21.90Un 225.51.90
+H2HLinetotalMiami Heat2.25+31.90Ov 218.51.90Toronto Raptors1.69-31.90Un 218.51.90
+H2HLinetotalBrooklyn Nets2.50+41.90Ov 241.51.90Atlanta Hawks1.56-41.90Un 241.51.90
+H2HLinetotalSan Antonio Spurs6.00+12.51.90Ov 2271.90Minnesota Timberwolves1.13-12.51.90Un 2271.90
+H2HLinetotalCharlotte Hornets2.60+4.51.90Ov 220.51.90Chicago Bulls1.53-4.51.90Un 220.51.90
+H2HLinetotalOklahoma City Thunder1.74-2.51.90Ov 227.51.90Houston Rockets2.15+2.51.90Un 227.51.90
 H2HLinetotalUtah Jazz4.00+8.51.90Ov 227.51.90Dallas Mavericks1.27-8.51.90Un 227.51.90
 H2HLinetotalPortland Trail Blazers6.00+121.90Ov 225.51.90Golden State Warriors1.13-121.90Un 225.51.90
+H2HLinetotalDenver Nuggets1.95+11.90Ov 224.51.90Los Angeles Clippers1.87-11.90Un 224.51.90
 H2HLinetotalCairns Taipans2.25+2.51.90Ov 180.51.90Sydney Kings1.64-2.51.90Un 180.51.90
+H2HLinetotalIllawarra Hawks3.10+5.51.90Ov 175.51.90Perth Wildcats1.36-5.51.90Un 175.51.90

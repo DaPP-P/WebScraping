@@ -1,33 +1,30 @@
-   Portland Trail Blazers    2.35       Memphis Grizzlies    1.62     
+   Detroit Pistons    1.95        Memphis Grizzlies    1.87      
           vs
         
-   Philadelphia 76ers    1.16       Washington Wizards    5.50     
+   Cleveland Cavaliers    1.53        Orlando Magic    2.55      
           vs
         
-   Brooklyn Nets    2.80       Milwaukee Bucks    1.45     
+   Washington Wizards    4.50        Philadelphia 76ers    1.22      
           vs
         
-   Miami Heat    1.83       Los Angeles Lakers    2.00     
+   Atlanta Hawks    1.55        Brooklyn Nets    2.50      
           vs
         
-   Chicago Bulls    1.55       Utah Jazz    2.50     
+   Toronto Raptors    1.64        Miami Heat    2.30      
           vs
         
- Oregon (-5)   1.90     Georgia (+5)   1.90     
+ Mercer (-2.5)   1.90      South Alabama (+2.5)   1.90      
           vs
         
- Tennessee (-28)   1.90     Tennessee Tech (+28)   1.90     
+ Wake Forest (-3.5)   1.90      Rutgers (+3.5)   1.90      
           vs
         
- Connecticut (-25.5)   1.90     Northern Arizona (+25.5)   1.90     
+ Oakland (-1.5)   1.98      Toledo (+1.5)   1.82      
           vs
         
- Purdue (-19.5)   1.90     Samford (+19.5)   1.90     
+ Yale (-16.5)   1.90      Fairfield (+16.5)   1.90      
           vs
         
- Duquesne (-9.5)   1.87     Cleveland State (+9.5)   1.94     
-          vs
-        
-   Melbourne United    1.45       Perth Wildcats    2.70     
+ Central Michigan (-3.5)   1.82      Valparaiso (+3.5)   1.98      
           vs
         
