@@ -7,3 +7,7 @@
 [' Cleveland Cavaliers', ' Orlando Magic', 'LadBrokes', 'TAB', 1.48, 9.0, 67.57, 11.11, 78.68, 'YES', 21.32, '13:59']
 [' Washington Wizards', ' Philadelphia 76ers', 'LadBrokes', 'TAB', 5.75, 1.22, 17.39, 81.97, 99.36, 'YES', 0.64, '13:59']
 [' Stony Brook', ' Stonehill', 'LadBrokes', 'TAB', 1.15, 51.0, 86.96, 1.96, 88.92, 'YES', 11.08, '13:59']
+[' New Zealand Breakers', ' Tasmania JackJumpers', 'Pointsbet', 'LadBrokes', 1.9, 2.15, 52.63, 46.51, 99.14, 'YES', 0.86, '14:28']
+[' Detroit Pistons', ' Memphis Grizzlies', 'LadBrokes', 'TAB', 2.1, 2.5, 47.62, 40.0, 87.62, 'YES', 12.38, '14:28']
+[' Cleveland Cavaliers', ' Orlando Magic', 'LadBrokes', 'TAB', 1.48, 6.0, 67.57, 16.67, 84.23, 'YES', 15.77, '14:28']
+[' Washington Wizards', ' Philadelphia 76ers', 'LadBrokes', 'TAB', 5.75, 1.25, 17.39, 80.0, 97.39, 'YES', 2.61, '14:28']
