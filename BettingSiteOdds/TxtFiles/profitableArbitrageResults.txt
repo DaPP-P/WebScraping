@@ -1,2 +1,4 @@
 [' team_one',' team_two', ' site_one', ' site_two', ' amount_on_site_one', ' amount_one_site_two', 'cost', 'is_profitable']
 [' New Zealand Breakers', ' Tasmania JackJumpers', 'LadBrokes', 'TAB', 2.1, 2.1, 47.62, 47.62, 95.24, 'YES', 4.76, '12:51']
+[' New Zealand Breakers', ' Tasmania JackJumpers', 'Pointsbet', 'LadBrokes', 1.9, 2.15, 52.63, 46.51, 99.14, 'YES', 0.86, '13:23']
+[' Stony Brook', ' Stonehill', 'LadBrokes', 'TAB', 1.15, 16.0, 86.96, 6.25, 93.21, 'YES', 6.79, '13:23']
