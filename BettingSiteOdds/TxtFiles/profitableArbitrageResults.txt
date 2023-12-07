@@ -16,3 +16,4 @@
 [' Washington Wizards', ' Philadelphia 76ers', 'TAB', 'LadBrokes', 8.0, 1.15, 12.5, 86.96, 99.46, 'YES', 0.54, '15:02']
 [' New Zealand Breakers', ' Tasmania JackJumpers', 'Pointsbet', 'LadBrokes', 1.9, 2.15, 52.63, 46.51, 99.14, 'YES', 0.86, '15:39']
 [' Atlanta Hawks', ' Brooklyn Nets', 'TAB', 'LadBrokes', 1.8, 2.45, 55.56, 40.82, 96.37, 'YES', 3.63, '15:39']
+[' New Zealand Breakers', ' Tasmania JackJumpers', 'Pointsbet', 'LadBrokes', 1.9, 2.15, 52.63, 46.51, 99.14, 'YES', 0.86, '16:07']
