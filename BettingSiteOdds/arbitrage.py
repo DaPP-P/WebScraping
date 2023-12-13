@@ -163,6 +163,7 @@ arbitrageResults_file = open(arbitrageResults, "a")
 profitableArbitrageResults = "TxtFiles/profitableArbitrageResults.txt"
 profitableArbitrageResults_file = open(profitableArbitrageResults, "a")
 
+profitable_odds = []
 has_profitable_result = False
 
 results = arbitrage(list_to_arbitrage)
@@ -176,6 +177,7 @@ for result in results:
         profitableArbitrageResults_file.write(str(result) + '\n')
         if system_name == "Linux":
             has_profitable_result = True
+            profitable_odds.append(result)
         
         print(result)
 
@@ -183,7 +185,10 @@ if has_profitable_result and system_name == "Linux":
     repo = git.Repo(repo_path)
     profitable_file_path = 'BettingSiteOdds/TxtFiles/profitableArbitrageResults.txt'
     repo.index.add([profitable_file_path])
-    repo.index.commit("AUTOMATIC: Profitable Arbitrage Found")
+    
+    commit_message = "AUTOMATIC: Profitable Arbitrage Found\nProfitable Odds: {}".format(profitable_odds)
+    repo.index.commit(commit_message)
+    
     origin = repo.remote('origin')
     origin.push()
     
