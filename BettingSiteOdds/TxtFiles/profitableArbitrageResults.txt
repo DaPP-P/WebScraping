@@ -1,1 +1,2 @@
 [' Bowling Green', ' Hampton', 'TAB', 'LadBrokes', 1.4, 6.4, 71.43, 15.62, 87.05, 'YES', 12.95, '05:39']
+[' Valparaiso', ' Samford', 'TAB', 'LadBrokes', 6.0, 1.24, 16.67, 80.65, 97.31, 'YES', 2.69, '08:35']
