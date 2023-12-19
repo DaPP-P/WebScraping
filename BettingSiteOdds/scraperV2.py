@@ -305,8 +305,7 @@ def ladbrokes_upload_odds(odds1, odds2, odds3):
 i = 0
 while i < 24 :
 
-    print("Start of
-           loop")
+    print("Start of loop")
     # Generate a random time interval between two intervals.
     interval = random.randint(1200, 2400) # seconds random.randint(60, 120)  
     print("Wait", interval/60,"minutes")
