@@ -194,7 +194,6 @@ if has_profitable_result and system_name == "Linux":
     
     origin = repo.remote('origin')
     origin.push()
-    
     has_profitable_result = False
 
 arbitrageResults_file.close()
