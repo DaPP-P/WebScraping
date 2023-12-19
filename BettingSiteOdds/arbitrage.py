@@ -164,6 +164,7 @@ arbitrageResults_file = open(arbitrageResults, "a")
 profitableArbitrageResults = "TxtFiles/profitableArbitrageResults.txt"
 profitableArbitrageResults_file = open(profitableArbitrageResults, "a")
 
+profitable_odds = []
 has_profitable_result = False
 profitable_odds = []
 
