@@ -1,2 +1,3 @@
 [' Bowling Green', ' Hampton', 'TAB', 'LadBrokes', 1.4, 6.4, 71.43, 15.62, 87.05, 'YES', 12.95, '05:39']
 [' Valparaiso', ' Samford', 'TAB', 'LadBrokes', 6.0, 1.24, 16.67, 80.65, 97.31, 'YES', 2.69, '08:35']
+[' Golden State Warriors', ' Boston Celtics', 'TAB', 'LadBrokes', 2.9, 2.0, 34.48, 50.0, 84.48, 'YES', 15.52, '11:47']
