@@ -1,30 +1,36 @@
-   Detroit Pistons    1.95        Memphis Grizzlies    1.87      
+   New Orleans Pelicans    1.33        Memphis Grizzlies    3.35      
           vs
         
-   Cleveland Cavaliers    1.53        Orlando Magic    2.55      
+   Milwaukee Bucks    1.05        San Antonio Spurs    10.00      
           vs
         
-   Washington Wizards    4.50        Philadelphia 76ers    1.22      
+   Golden State Warriors    2.90        Boston Celtics    1.42      
           vs
         
-   Atlanta Hawks    1.55        Brooklyn Nets    2.50      
+   Portland Trail Blazers    3.35        Phoenix Suns    1.33      
           vs
         
-   Toronto Raptors    1.64        Miami Heat    2.30      
+ Bowling Green    1.11      Hampton    6.40      
           vs
         
- Mercer (-2.5)   1.90      South Alabama (+2.5)   1.90      
+ Valparaiso    4.00      Samford    1.24      
           vs
         
- Wake Forest (-3.5)   1.90      Rutgers (+3.5)   1.90      
+ Georgia Southern    2.30      Florida Gulf Coast    1.60      
           vs
         
- Oakland (-1.5)   1.98      Toledo (+1.5)   1.82      
+ Notre Dame    1.22      The Citadel    4.25      
           vs
         
- Yale (-16.5)   1.90      Fairfield (+16.5)   1.90      
+ Binghamton    1.40      Niagara    2.95      
           vs
         
- Central Michigan (-3.5)   1.82      Valparaiso (+3.5)   1.98      
+ Melbourne Boomers    1.29      Sydney Uni Flames    3.25      
+          vs
+        
+ UC Capitals    2.05      Adelaide Lightning    1.67      
+          vs
+        
+ Perth Lynx    1.65      Southside Flyers    2.05      
           vs
         

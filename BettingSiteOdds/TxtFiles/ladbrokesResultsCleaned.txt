@@ -1,5 +1,12 @@
-LadBrokes, Detroit Pistons, Memphis Grizzlies, 1.95, 1.87
-LadBrokes, Cleveland Cavaliers, Orlando Magic, 1.53, 2.55
-LadBrokes, Washington Wizards, Philadelphia 76ers, 4.50, 1.22
-LadBrokes, Atlanta Hawks, Brooklyn Nets, 1.55, 2.50
-LadBrokes, Toronto Raptors, Miami Heat, 1.64, 2.30
+LadBrokes, New Orleans Pelicans, Memphis Grizzlies, 1.33, 3.35
+LadBrokes, Milwaukee Bucks, San Antonio Spurs, 1.05, 10.00
+LadBrokes, Golden State Warriors, Boston Celtics, 2.90, 2.00
+LadBrokes, Portland Trail Blazers, Phoenix Suns, 3.35, 1.33
+LadBrokes, Bowling Green, Hampton, 1.11, 6.40
+LadBrokes, Valparaiso, Samford, 4.00, 1.24
+LadBrokes, Georgia Southern, Florida Gulf Coast, 2.30, 1.60
+LadBrokes, Notre Dame, The Citadel, 1.22, 4.25
+LadBrokes, Binghamton, Niagara, 1.40, 2.95
+LadBrokes, Melbourne Boomers, Sydney Uni Flames, 1.29, 3.25
+LadBrokes, UC Capitals, Adelaide Lightning, 2.05, 1.67
+LadBrokes, Perth Lynx, Southside Flyers, 1.65, 2.05

@@ -733,3 +733,311 @@ Fenerbahce Istanbul
 KK Crvena zvezda Belgrade
 BC Aris Thessaloniki
 ers
+Daqing Anruida Women
+Shijiazhuang Yingli Women
+Jiangsu Wutaishan Women
+Shanxi Zhuyeqing Wine Women
+Liaoning Flying Eagles Women
+Shaanxi Tianze Women
+Shandong Women
+Inner Mongolia Women
+Legia Warszawa
+Sporting Cp
+Hapoel Holon BC
+Baskets Bonn
+Valmiera Glass VIA
+TalTech Basketball
+Ningbo Fubon Rocket
+Nanjing Tongxi Monkey King
+Tianjin Ronggang Pioneers
+Sichuan Jinqiang
+Xinjiang Guanghui Flying Tigers
+Peristeri Athens
+King BC Szczecin
+Riesen Ludwigsburg
+UMBC
+Morgan State
+Magnolia Chicken Timplados Hotshots
+TBS Slask Wroclaw II
+Energa Kotwica Kolobrzeg
+AJP Gorzow Wielkopolski Women
+SKK Polonia Warszawa Women
+Bilbao Basket
+Rutgers
+Wake Forest
+Loyola Maryland
+La Salle
+Stonehill
+Stony Brook
+Massachusetts
+Towson
+Bonaventure
+Niagara
+Bryant
+Siena
+American
+s
+Hofstra
+Iona
+Penn State
+Maryland
+Wofford
+Webb
+Youngstown State
+Ohio
+Ball State
+Detroit Mercy
+Old Dominion
+Mary
+Memphis
+VCU
+Valparaiso
+Central Michigan
+Campbell
+Davidson
+M
+Presbyterian
+Robert Morris
+Canisius
+NJIT
+Fordham
+LIU
+Miami Florida
+Fairfield
+Yale
+Jacksonville
+Central Florida
+Duquesne
+Marshall
+Wagner
+Coppin State
+Brown
+Rhode Island
+Sacred Heart
+s
+Maryland Eastern Shore
+NC State
+Vermont
+Northeastern
+New Hampshire
+Dartmouth
+Maine
+Boston University
+Miami Ohio
+Ohio State
+Sokol Hradec Kralove
+SBS Ostrava
+CB Malaga
+Falco KC Szombathely
+Lipscomb
+Belmont
+Rice
+Houston
+San Francisco
+Vanderbilt
+Saint Louis
+Drake
+MD Baltimore
+KK Dinamo Zagreb
+Sluneta Usti nad Labem
+Uni Gyor
+Ascq
+ACS Sepsi Sic
+Basket Zaragoza
+DVTK Miskolc
+Asvel Feminin
+BC Polkowice
+Virtus Pallacanestro Bologna
+Basket Landes
+ZVVZ USK Praha
+UCC Piacenza
+APU Udine
+Fortitudo Agrigento
+Urania Milano
+Blu Basket
+Pallacanestro Cantu
+Legnano Knights
+Pallacanestro Fiorenzuola
+Basket Mestre
+Fabriano Basket
+Pallacanestro Vicenza
+Lions Basket Bisceglie
+CB Avenida Salamanca
+CBK Mersin
+Trieste
+San Giobbe Chiusi
+Cestistica Citta Di San Severo
+Pallacanestro Roseto
+Ueb Cividale
+Agribertocchi Orzinuovi
+Psa Sant Antimo
+Herons Basket
+Basket Torino
+Real Sebastiani Rieti
+Libertas Livorno
+Bakery Basket Piacenza
+NFB Ozzano Basket
+Chieti Basket
+Nuova Pallacanestro Vigevano
+Luiss Roma
+KK Atletas
+BC Vienna
+Bc Kolin
+Fulgor Omegna Basket
+Asd Del Fes Avellino
+Virtus Arechi Salerno
+Pielle Livorno
+Montecatiniterme Basketball
+Virtus Cassino
+Pallacanestro Crema
+Aurora Desio
+Basket Golfo Piombino
+Juvecaserta
+nis Clube
+Hapoel Atsmon Playgrounds Holon
+Sporting CP
+BC Juventus Utena
+Rio Breogan
+AC LB SNV Spisski Rytieri
+Rucker Sanve San Vendemiano
+Virtus Lumezzane
+Raggisolaris Faenza
+Talos Ruvo Di Puglia
+Caxias do Sul
+Perth Lynx
+Melbourne Boomers
+Peristeri BC
+Wilki Morskie Szczecin
+Hapoel Shlomo Tel Aviv
+Racing Club de Avellaneda
+Virtus Imola
+Basket Jesi Academy
+Niners Chemnitz
+Toledo
+Oakland
+Ratiopharm Ulm
+Junior Casale Monferrato
+Pallacanestro Trapani
+Juvi Cremona
+ASD Latina Basket
+Benedetto Xiv Cento
+Scaligera Basket Verona
+Unicaja Baloncesto
+Falco Szombathely
+South Carolina
+Clemson
+Omaha
+Texas Tech
+Purdue Fort Wayne
+Southern Indiana
+UT Rio Grande Valley
+Corpus Christi
+Texas
+Marquette
+Northern Arizona
+Abilene Christian
+Green Bay
+SIU Edwardsville
+Richmond
+Northern Iowa
+Milwaukee
+Thomas
+Northern Kentucky
+Illinois State
+n de Corrientes
+Denver
+Colorado State
+UC Santa Barbara
+New Mexico
+Nebraska
+Minnesota
+UNLV
+Dayton
+Pittsburgh
+West Virginia
+DePaul
+UC Davis
+Nevada
+San Diego
+Utah State
+CS Fullerton
+Pepperdine
+UC Riverside
+Washington State
+Minas Tenis Clube
+Utah Tech
+California Baptist
+SMU
+Arizona State
+Beijing Ducks
+Shanxi Loongs
+Loyola (MD)
+Fujian Sturgeons
+Qingdao Eagles
+Shandong Kirin
+Jiangsu Dragons
+Alba Berlin
+Anadolu Efes SK
+Panathinaikos BC
+KK Partizan Nis Belgrade
+Perth Lynx Women
+Melbourne Boomers Women
+N.J.I.T
+Gardner Webb
+UW Green Bay
+T A&M Corpus Christi
+Changwon LG Sakers
+Busan KCC Egis
+Ulsan Hyundai Mobis Phoebus
+Seoul SK Knights
+Cheongju KB Stars
+Busan BNK Sum
+LG Sakers
+KCC Egis
+Mobis Phoebus
+Terrafirma Dyip
+Melbourne Phoenix
+Norfolk St
+Charleston Southern
+North Alabama
+Sydney Uni Flames
+Krka
+KK Mornar Bar
+Brasilia Basquete
+BC Pasvalio
+KK SC Derby
+Botafogo
+Mogi das Cruzes
+Bauru Basket
+Southside Flyers
+Townsville Fire
+Rytas Vilnius
+Suwon KT Sonicboom
+Lenovo Tenerife
+VEF Riga
+Promitheas Patras BC
+FILOU Oostend
+Club Atletico Penarol
+Hapoel Bank Yahav Jerusalem
+Benfica Basket
+Derthona Basket
+UCAM Murcia
+PAOK Thessaloniki BC
+Galatasaray SK
+Dinamo Sassari
+Flamengo Rio De Janeiro
+Bowling Green
+Hampton
+Samford
+Georgia Southern
+Florida Gulf Coast
+Notre Dame
+The Citadel
+Binghamton
+Beijing Shougang Ducks
+UC Capitals
+Marijampole Suduva
+Lahti Basketball
+Kauhajoki Karhu
+Dziki Warszawa
+Czarni Slupsk

@@ -154,23 +154,23 @@ def get_odds(url, container_name, browser):
         time.sleep(5)
 
     # First accepts the cookies button and then opens up the drop down tables for more betting leagues.
-    if browser == unibet_browser:
-        cookie_button_xpath = '//*[@id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"]'
-        cookie_button = unibet_browser.find_element(By.XPATH, cookie_button_xpath)
-        cookie_button.click()
-        time.sleep(2)
+    #if browser == unibet_browser:
+    #    cookie_button_xpath = '//*[@id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"]'
+    #    cookie_button = unibet_browser.find_element(By.XPATH, cookie_button_xpath)
+    #    cookie_button.click()
+    #    time.sleep(2)
 
-        buttons_level_one = unibet_browser.find_elements(By.XPATH, '//div[@role="button" and @data-test-name="accordionLevel1"]') 
-        for index, button in enumerate(buttons_level_one):
-            if index > 0:
-                time.sleep(1)
-                button.click()
+    #    buttons_level_one = unibet_browser.find_elements(By.XPATH, '//div[@role="button" and @data-test-name="accordionLevel1"]') 
+    #    for index, button in enumerate(buttons_level_one):
+    #        if index > 0:
+    #            time.sleep(1)
+    #            button.click()
 
-        buttons_level_two = unibet_browser.find_elements(By.XPATH, '//div[@role="button" and @data-test-name="accordionLevel2"]') 
-        for index, button in enumerate(buttons_level_two):
-            if index > 0:
-                time.sleep(1)
-                button.click()
+    #    buttons_level_two = unibet_browser.find_elements(By.XPATH, '//div[@role="button" and @data-test-name="accordionLevel2"]') 
+    #    for index, button in enumerate(buttons_level_two):
+    #        if index > 0:
+    #            time.sleep(1)
+    #             button.click()
 
     page_source = browser.page_source # Update so only gets the needs page_source.
     print("Closing", url)
@@ -198,7 +198,7 @@ def perform_task():
     global choice
     
     if choice == True:
-        choice = False
+        choice = True
 
         # Gets odds for basketball scores from the TAB
         tab_odds = get_odds("https://www.tab.co.nz/sport/8/basketball/matches", "event-list event-list--vertical", tab_browser)
@@ -207,7 +207,7 @@ def perform_task():
         print("---------")
 
         # Gets odds for basketball scores from Pointsbet
-        pointsbet_odds = get_odds("https://pointsbet.com.au/sports/basketball", "f3wis39", pointsbet_browser)
+        pointsbet_odds = get_odds("https://pointsbet.com.au/sports/basketball", "fdz3fpy f1yn18fe f93i66z", pointsbet_browser)
         print(pointsbet_odds)
         upload_odds("pointsbet", pointsbet_odds, "Basketball")
         print("---------")
@@ -303,11 +303,13 @@ def ladbrokes_upload_odds(odds1, odds2, odds3):
 # Start of the program.
 
 i = 0
-while i < 2 :
+while i < 24 :
 
-    print("Start of loop")
+    print("Start of
+           loop")
     # Generate a random time interval between two intervals.
-    interval = random.randint(60, 120) # seconds random.randint(60, 120)  
+    interval = random.randint(1200, 2400) # seconds random.randint(60, 120)  
+    print("Wait", interval/60,"minutes")
 
     i += 1
 

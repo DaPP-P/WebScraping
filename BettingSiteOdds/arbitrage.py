@@ -1,5 +1,5 @@
 import datetime
-#import git
+import git
 import platform
 import os
 
@@ -110,8 +110,9 @@ def arbitrage(list):
     current_time = current_time.strftime("%H:%M")
     output_results = []
     for line in list:
-        team_one_arbitrage = 100/float(line[4])
-        team_two_arbitrage = 100/float(line[5])
+        if line[4] != 0 and line[5] != 0:
+            team_one_arbitrage = 100/float(line[4])
+            team_two_arbitrage = 100/float(line[5])
         cost = (team_one_arbitrage + team_two_arbitrage)
         if cost < 100:
             profitable = "YES"
@@ -164,6 +165,7 @@ profitableArbitrageResults = "TxtFiles/profitableArbitrageResults.txt"
 profitableArbitrageResults_file = open(profitableArbitrageResults, "a")
 
 has_profitable_result = False
+profitable_odds = []
 
 results = arbitrage(list_to_arbitrage)
 for result in results:
@@ -174,8 +176,9 @@ print("Profitable: ")
 for result in results:
     if result[9] == "YES":
         profitableArbitrageResults_file.write(str(result) + '\n')
-        if system_name == "Linux":
-            has_profitable_result = True
+        #if system_name == "Linux":
+        has_profitable_result = True
+        profitable_odds.append(result)
         
         print(result)
 
@@ -183,11 +186,15 @@ if has_profitable_result and system_name == "Linux":
     repo = git.Repo(repo_path)
     profitable_file_path = 'BettingSiteOdds/TxtFiles/profitableArbitrageResults.txt'
     repo.index.add([profitable_file_path])
-    repo.index.commit("AUTOMATIC: Profitable Arbitrage Found")
+    
+    commit_message = "AUTOMATIC: Arbitrage Found\nOdds:{}".format(profitable_odds)
+    print(commit_message)
+    repo.index.commit(commit_message)
+    
     origin = repo.remote('origin')
     origin.push()
     
-    has_profitable_result == False
+    has_profitable_result = False
 
 arbitrageResults_file.close()
 profitableArbitrageResults_file.close()

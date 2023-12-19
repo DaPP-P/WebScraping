@@ -1,32 +1,32 @@
-TAB, Adelaide Lightning Women, Sydney Uni Flames Women, 2.05, 1.65
-TAB, Converge Fiberxers, NorthPort Batang Pier, 2.05, 1.67
-TAB, Chiba Jets, Ibaraki Robots, 1.17, 4.30
-TAB, Fighting Eagles Nagoya, Sun Rockers Shibuya, 1.74, 1.95
-TAB, Hiroshima Dragonflies, Kyoto Hannaryz, 1.14, 4.75
-TAB, Levanga Hokkaido, Sendai 89ERS, 2.40, 1.49
-TAB, Osaka Evessa, Okinawa Ryukyu Golden Kings, 3.65, 1.23
-TAB, SAN-EN NeoPhoenix, Kawasaki Brave Thunders, 1.68, 2.03
-TAB, Saga Ballooners, Nagasaki, 1.92, 1.75
-TAB, Cleveland Cavaliers, Orlando Magic, 1.51, 2.50
-TAB, Detroit Pistons, Memphis Grizzlies, 1.92, 1.83
-TAB, Washington Wizards, Philadelphia 76ers, 4.15, 1.22
-TAB, Minnesota Timberwolves, San Antonio Spurs, 1.13, 5.70
-TAB, Atlanta Hawks, Brooklyn Nets, 1.53, 2.45
-TAB, Toronto Raptors, Miami Heat, 1.64, 2.20
-TAB, Cairns Taipans, Sydney Kings, 2.23, 1.61
-TAB, Donar Groningen, LWD Basket, 1.11, 5.50
-TAB, Milwaukee Bucks, Indiana Pacers, 1.53, 2.40
-TAB, Los Angeles Lakers, New Orleans Pelicans, 1.73, 2.05
-TAB, Illawarra Hawks, Perth Wildcats, 3.00, 1.35
-TAB, Cibona, KK Split, 1.95, 1.74
-TAB, New Zealand Breakers, Tasmania JackJumpers, 2.05, 1.71
-TAB, Club Atletico Argentino de Junin, , 1.87, 1.80
-TAB, Comunicaciones, Union De Santa Fe, 1.36, 2.85
-TAB, London Lions, Plymouth City Patriots, 1.03, 9.00
-TAB, Newcastle Eagles, Bristol Flyers, 1.40, 2.65
-TAB, Melbourne United, Brisbane Bullets, 1.33, 3.15
-TAB, Buducnost VOLI, KK FMP, 1.11, 5.45
-TAB, Atletico Boca Juniors, Asosiacion Atletica Quimsa, 1.54, 2.28
-TAB, Neptunas Klaipeda, BC Jonava, 1.31, 3.10
-TAB, BC Zalgiris, Kedainiai Nevezis, 1.02, 9.00
-TAB, BC Gargzdai, BC Siauliai, 2.05, 1.67
+TAB, FILOU Oostend, Pinar Karsiyaka, 4.00, 1.19
+TAB, SIG Strasbourg, EWE Baskets Oldenburg, 1.06, 6.50
+TAB, Peristeri BC, Unicaja Baloncesto, 2.10, 1.62
+TAB, CB Gran Canaria, Aquila Basket Trento, 1.13, 5.00
+TAB, ALBA Berlin, FC Barcelona, 2.60, 1.42
+TAB, Maccabi Playtika Tel Aviv, Cazoo Baskonia Vitoria Gasteiz, 1.67, 2.05
+TAB, Virtus Bologna, Olympiacos BC, 3.25, 1.28
+TAB, Valencia Basket, , 1.90, 1.77
+TAB, New Orleans Pelicans, Memphis Grizzlies, 1.34, 3.15
+TAB, Milwaukee Bucks, San Antonio Spurs, 1.06, 8.80
+TAB, Golden State Warriors, Boston Celtics, 2.90, 1.39
+TAB, Portland Trail Blazers, Phoenix Suns, 3.20, 1.33
+TAB, Club Atletico Argentino de Junin, San Martin de Corrientes, 3.05, 1.31
+TAB, Obera T.C, , .1, .56
+TAB, Melbourne Boomers Women, Sydney Uni Flames Women, 1.22, 3.75
+TAB, Club Atletico Penarol, Comunicaciones, 1.40, 2.70
+TAB, Hapoel Bank Yahav Jerusalem, Benfica Basket, 1.07, 6.60
+TAB, Igokea, Derthona Basket, 2.75, 1.38
+TAB, Tofas SK, UCAM Murcia, 2.75, 1.38
+TAB, PAOK Thessaloniki BC, Galatasaray SK, 1.76, 1.92
+TAB, Hapoel Atsmon Playgrounds Holon, Bursaspor, 1.35, 2.90
+TAB, Rio Breogan, Telekom Baskets Bonn, 1.74, 1.95
+TAB, Dinamo Sassari, Wilki Morskie Szczecin, 1.31, 3.10
+TAB, Minas Tenis Clube, Brasilia Basquete, 1.03, 9.00
+TAB, Sao Jose Basketball, Bauru Basket, 1.48, 2.40
+TAB, Botafogo, Unifacisa, 2.85, 1.36
+TAB, Cerrado Iesplan, Sao Paulo, 3.05, 1.32
+TAB, Mogi das Cruzes, Sesi SP/Franca BC, 6.00, 1.09
+TAB, Flamengo Rio De Janeiro, Fortaleza Basquete Cearense, 1.13, 5.00
+TAB, Zastal BC Zielona Gora, Spojnia Stargard, 2.03, 1.68
+TAB, KK Cedevita Olimpija Ljubljana, Cibona, 1.37, 2.80
+TAB, Dziki Warszawa, Czarni Slupsk, 1.74, 1.95
