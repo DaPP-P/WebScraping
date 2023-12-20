@@ -8,3 +8,4 @@
 [' Butler', ' Georgetown', 'LadBrokes', 'TAB', 1.16, 11.0, 86.21, 9.09, 95.3, 'YES', 4.7, '13:19']
 [' New Orleans Pelicans', ' Memphis Grizzlies', 'TAB', 'LadBrokes', 1.37, 3.9, 72.99, 25.64, 98.63, 'YES', 1.37, '14:19']
 [' Butler', ' Georgetown', 'LadBrokes', 'TAB', 1.16, 26.0, 86.21, 3.85, 90.05, 'YES', 9.95, '14:19']
+[' New Orleans Pelicans', ' Memphis Grizzlies', 'LadBrokes', 'TAB', 1.26, 9.0, 79.37, 11.11, 90.48, 'YES', 9.52, '15:28']
