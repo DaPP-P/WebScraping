@@ -9,3 +9,5 @@
 [' New Orleans Pelicans', ' Memphis Grizzlies', 'TAB', 'LadBrokes', 1.37, 3.9, 72.99, 25.64, 98.63, 'YES', 1.37, '14:19']
 [' Butler', ' Georgetown', 'LadBrokes', 'TAB', 1.16, 26.0, 86.21, 3.85, 90.05, 'YES', 9.95, '14:19']
 [' New Orleans Pelicans', ' Memphis Grizzlies', 'LadBrokes', 'TAB', 1.26, 9.0, 79.37, 11.11, 90.48, 'YES', 9.52, '15:28']
+[' Golden State Warriors', ' Boston Celtics', 'TAB', 'LadBrokes', 4.25, 1.53, 23.53, 65.36, 88.89, 'YES', 11.11, '16:44']
+[' Portland Trail Blazers', ' Phoenix Suns', 'TAB', 'LadBrokes', 8.0, 1.33, 12.5, 75.19, 87.69, 'YES', 12.31, '16:44']
