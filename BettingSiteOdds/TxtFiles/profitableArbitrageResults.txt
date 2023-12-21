@@ -12,3 +12,5 @@
 [' Golden State Warriors', ' Boston Celtics', 'TAB', 'LadBrokes', 4.25, 1.53, 23.53, 65.36, 88.89, 'YES', 11.11, '16:44']
 [' Portland Trail Blazers', ' Phoenix Suns', 'TAB', 'LadBrokes', 8.0, 1.33, 12.5, 75.19, 87.69, 'YES', 12.31, '16:44']
 [' Golden State Warriors', ' Boston Celtics', 'TAB', 'LadBrokes', 7.5, 1.53, 13.33, 65.36, 78.69, 'YES', 21.31, '17:35']
+[' Golden State Warriors', ' Boston Celtics', 'TAB', 'LadBrokes', 5.0, 1.53, 20.0, 65.36, 85.36, 'YES', 14.64, '17:59']
+[' Portland Trail Blazers', ' Phoenix Suns', 'LadBrokes', 'TAB', 3.4, 1.95, 29.41, 51.28, 80.69, 'YES', 19.31, '17:59']
